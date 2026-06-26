@@ -11,6 +11,8 @@ docs/
   04-authoring-skills.md
   05-skillctl-reference.md
   06-contributing.md
+  07-introducing-agent-skills.md   ← repo overview & contribution story (article)
+  articles/                      ← Dev.to / LinkedIn short post + social copy
   architecture/
     README.md
     01-brd.md
@@ -42,6 +44,8 @@ Read in order:
 | 4 | [Authoring skills](04-authoring-skills.md) | Create, edit, promote, activate skills |
 | 5 | [CLI reference](05-skillctl-reference.md) | All `skillctl` and `make` commands |
 | 6 | [Contributing](06-contributing.md) | PR workflow, CI, what to commit |
+| — | [Introducing agent-skills](07-introducing-agent-skills.md) | Overview article: what it is, how to use & contribute |
+| — | [Dev.to / My Tech Profile article](articles/introducing-agent-skills-devto.md) | Narrative intro (same voice as [Definition of Done insight](https://my-tech-profile.dev/insights/ai-broke-your-definition-of-done)) + [social copy](articles/social-excerpt.md) |
 
 ## Generated catalog reports
 

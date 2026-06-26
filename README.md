@@ -38,6 +38,7 @@ cd agent-skills
 | Cursor, Codex, Copilot, teams | [Install guide](docs/02-install.md) |
 | Which pack fits your stack | [Choosing packs](docs/03-choosing-packs.md) |
 | Browse every skill | [dist/catalog/active-skills.md](dist/catalog/active-skills.md) or `make list-catalog` |
+| Read the overview article | [Introducing agent-skills](docs/07-introducing-agent-skills.md) |
 
 List pack IDs: `./tools/skillctl list --packs`
 
@@ -82,5 +83,7 @@ tools/skillforge/ skillctl CLI
 scripts/          install-from-clone.sh, git hooks
 docs/             Numbered guides (01–06) + architecture/
 ```
+
+- [07 Introducing agent-skills](docs/07-introducing-agent-skills.md) — overview & contribution story
 
 Full doc index: **[docs/README.md](docs/README.md)**
