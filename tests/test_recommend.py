@@ -9,6 +9,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 
+from skillctl_runner import run_skillctl
 from skillforge.catalog import load_repository
 from skillforge.recommend import (
     analyze_project,
@@ -192,26 +193,17 @@ class RecommendTests(unittest.TestCase):
             self.assertIn("install-from-clone.sh", rendered)
 
     def test_cli_recommend_json(self) -> None:
-        import subprocess
-
         with tempfile.TemporaryDirectory() as tmp:
             project = Path(tmp) / "service"
             project.mkdir()
             (project / "pom.xml").write_text("<project></project>", encoding="utf-8")
 
-            result = subprocess.run(
-                [
-                    str(ROOT / "tools" / "skillctl"),
-                    "recommend",
-                    "--dest",
-                    str(project),
-                    "--format",
-                    "json",
-                ],
-                cwd=ROOT,
-                text=True,
-                capture_output=True,
-                check=False,
+            result = run_skillctl(
+                "recommend",
+                "--dest",
+                str(project),
+                "--format",
+                "json",
             )
             self.assertEqual(result.returncode, 0, result.stderr)
             payload = json.loads(result.stdout)
