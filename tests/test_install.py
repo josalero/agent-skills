@@ -24,6 +24,15 @@ class InstallTests(unittest.TestCase):
             self.assertTrue((dest / ".cursor/rules/java-core-engineering.mdc").exists())
             self.assertEqual(result.skipped_draft, [])
 
+    def test_install_java_backend_pack_claude_active_only(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            dest = Path(tmp) / "project"
+            dest.mkdir()
+            result = install_pack(ROOT, "java-backend-pack", "claude", dest, active_only=True)
+            self.assertIn("java-core-engineering", result.installed)
+            self.assertTrue((dest / ".claude/skills/java-core-engineering/SKILL.md").exists())
+            self.assertFalse((dest / ".claude/rules").exists())
+
     def test_install_planning_mode_filter(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             dest = Path(tmp) / "project"

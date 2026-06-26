@@ -81,7 +81,7 @@ def render_draft_skill_yaml(entry: dict[str, Any]) -> str:
         "tags": tags,
         "collections": entry.get("collections") or [entry["domain"]],
         "packs": entry.get("packs") or [],
-        "targets": {"codex": True, "cursor": True, "copilot": True},
+        "targets": {"codex": True, "cursor": True, "copilot": True, "claude": True},
         "owners": ["josalero"],
         "stability": "experimental",
     }

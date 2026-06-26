@@ -7,7 +7,7 @@
 - Kind: `ai-engineering`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Safe and effective use of AI coding agents in engineering workflows.
 
@@ -18,7 +18,7 @@ Safe and effective use of AI coding agents in engineering workflows.
 - Kind: `review`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Accessible Angular forms, overlays, keyboard support, and CDK patterns.
 
@@ -29,7 +29,7 @@ Accessible Angular forms, overlays, keyboard support, and CDK patterns.
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Standalone components, services, routing, forms, and maintainable Angular structure.
 
@@ -40,7 +40,7 @@ Standalone components, services, routing, forms, and maintainable Angular struct
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan and execute Angular, CLI, and ecosystem version migrations.
 
@@ -51,7 +51,7 @@ Plan and execute Angular, CLI, and ecosystem version migrations.
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Angular change detection, lazy loading, lists, and bundle performance.
 
@@ -62,7 +62,7 @@ Angular change detection, lazy loading, lists, and bundle performance.
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Define and enforce Angular CI quality gates — ng build, ESLint, Prettier, strict templates, Karma or Jest tests, and coverage thresholds.
 
@@ -73,7 +73,7 @@ Define and enforce Angular CI quality gates — ng build, ESLint, Prettier, stri
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 RxJS operators, subscription lifecycle, and stream patterns in Angular.
 
@@ -84,7 +84,7 @@ RxJS operators, subscription lifecycle, and stream patterns in Angular.
 - Kind: `security`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 XSS prevention, sanitization, interceptors, CSRF, and SPA auth hygiene in Angular.
 
@@ -95,7 +95,7 @@ XSS prevention, sanitization, interceptors, CSRF, and SPA auth hygiene in Angula
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Signals, services, router state, and NgRx patterns for Angular apps.
 
@@ -106,7 +106,7 @@ Signals, services, router state, and NgRx patterns for Angular apps.
 - Kind: `testing`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Angular TestBed, HTTP testing, and component verification patterns.
 
@@ -117,7 +117,7 @@ Angular TestBed, HTTP testing, and component verification patterns.
 - Kind: `review`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review REST and HTTP API contracts, errors, pagination, versioning, and compatibility.
 
@@ -128,7 +128,7 @@ Review REST and HTTP API contracts, errors, pagination, versioning, and compatib
 - Kind: `delivery`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Cross-stack delivery architecture for environments, CI/CD, promotion, and platform standards.
 
@@ -139,7 +139,7 @@ Cross-stack delivery architecture for environments, CI/CD, promotion, and platfo
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build and review ASP.NET Core APIs, DI, validation, auth, and service tests.
 
@@ -150,7 +150,7 @@ Build and review ASP.NET Core APIs, DI, validation, auth, and service tests.
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Containerized .NET delivery, CI/CD, and deployment verification.
 
@@ -161,7 +161,7 @@ Containerized .NET delivery, CI/CD, and deployment verification.
 - Kind: `general`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Idiomatic C# engineering, nullable types, async discipline, and maintainability.
 
@@ -172,7 +172,7 @@ Idiomatic C# engineering, nullable types, async discipline, and maintainability.
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 EF Core modeling, queries, migrations, and persistence performance.
 
@@ -183,7 +183,7 @@ EF Core modeling, queries, migrations, and persistence performance.
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan and execute .NET version and toolchain migrations with verification.
 
@@ -194,7 +194,7 @@ Plan and execute .NET version and toolchain migrations with verification.
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Define and enforce .NET CI quality gates — dotnet build/test, analyzers, format, nullable reference types, and Coverlet coverage thresholds.
 
@@ -205,7 +205,7 @@ Define and enforce .NET CI quality gates — dotnet build/test, analyzers, forma
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Production debugging for .NET services, memory, threads, and latency.
 
@@ -216,7 +216,7 @@ Production debugging for .NET services, memory, threads, and latency.
 - Kind: `security`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Secure implementation and review patterns for .NET applications.
 
@@ -227,7 +227,7 @@ Secure implementation and review patterns for .NET applications.
 - Kind: `testing`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Design, add, review, and improve .NET test coverage and verification.
 
@@ -238,7 +238,7 @@ Design, add, review, and improve .NET test coverage and verification.
 - Kind: `version`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.
 
@@ -249,7 +249,7 @@ Adopt Java 21 LTS features and migrate toolchains safely, including virtual thre
 - Kind: `version`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.
 
@@ -260,7 +260,7 @@ Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized
 - Kind: `ai-engineering`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.
 
@@ -271,7 +271,7 @@ Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Containerize and deliver Java services with health probes, JVM tuning, config, and CI/CD.
 
@@ -282,7 +282,7 @@ Containerize and deliver Java services with health probes, JVM tuning, config, a
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Thread pools, async work, locking, timeouts, and reliability patterns for Java services.
 
@@ -293,7 +293,7 @@ Thread pools, async work, locking, timeouts, and reliability patterns for Java s
 - Kind: `general`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Apply modern Java engineering practices for idiomatic implementation, maintainability, correctness, and code review.
 
@@ -304,7 +304,7 @@ Apply modern Java engineering practices for idiomatic implementation, maintainab
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues.
 
@@ -315,7 +315,7 @@ Diagnose JVM runtime behavior, memory, latency, thread, and production performan
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan and execute Java version migrations with build, dependency, test, and runtime verification.
 
@@ -326,7 +326,7 @@ Plan and execute Java version migrations with build, dependency, test, and runti
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Diagnose and improve JPA, Hibernate, JDBC, transactions, N+1 queries, and connection pool performance.
 
@@ -337,7 +337,7 @@ Diagnose and improve JPA, Hibernate, JDBC, transactions, N+1 queries, and connec
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Define and enforce Java CI quality gates with Gradle or Maven — tests, Checkstyle, SpotBugs, PMD, JaCoCo, Spotless, and enforcer rules.
 
@@ -348,7 +348,7 @@ Define and enforce Java CI quality gates with Gradle or Maven — tests, Checkst
 - Kind: `security`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Secure implementation and review patterns for Java and Spring Boot applications.
 
@@ -359,7 +359,7 @@ Secure implementation and review patterns for Java and Spring Boot applications.
 - Kind: `version`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Upgrade to or build on Spring Boot 3.5 (final 3.x line) with Spring Framework 6.2, operational polish, and 3.4-to-3.5 breaking-change awareness.
 
@@ -370,7 +370,7 @@ Upgrade to or build on Spring Boot 3.5 (final 3.x line) with Spring Framework 6.
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Migrate from Spring Boot 3.5 to 4.0 on Spring Framework 7, Jakarta EE 11, Jackson 3, JSpecify nullness, and updated test and security stacks.
 
@@ -381,7 +381,7 @@ Migrate from Spring Boot 3.5 to 4.0 on Spring Framework 7, Jakarta EE 11, Jackso
 - Kind: `version`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.
 
@@ -392,7 +392,7 @@ Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Secu
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build, review, refactor, and test production-grade Spring Boot services.
 
@@ -403,7 +403,7 @@ Build, review, refactor, and test production-grade Spring Boot services.
 - Kind: `testing`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Design, add, review, and improve Java test coverage and verification.
 
@@ -414,7 +414,7 @@ Design, add, review, and improve Java test coverage and verification.
 - Kind: `migration`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan cross-stack modernizations with sequencing, risk management, and verification.
 
@@ -425,7 +425,7 @@ Plan cross-stack modernizations with sequencing, risk management, and verificati
 - Kind: `review`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review logs, metrics, traces, SLOs, dashboards, and alert quality.
 
@@ -436,7 +436,7 @@ Review logs, metrics, traces, SLOs, dashboards, and alert quality.
 - Kind: `general`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.
 
@@ -447,7 +447,7 @@ Apply modern PHP engineering practices for idiomatic implementation, maintainabi
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Deliver PHP services with containers, runtime tuning, health checks, and CI/CD operations.
 
@@ -458,7 +458,7 @@ Deliver PHP services with containers, runtime tuning, health checks, and CI/CD o
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build, review, refactor, and test production-grade Laravel services.
 
@@ -469,7 +469,7 @@ Build, review, refactor, and test production-grade Laravel services.
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan and execute PHP version and toolchain migrations with verification.
 
@@ -480,7 +480,7 @@ Plan and execute PHP version and toolchain migrations with verification.
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Diagnose and improve ORM, query, transaction, and database performance for PHP applications.
 
@@ -491,7 +491,7 @@ Diagnose and improve ORM, query, transaction, and database performance for PHP a
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Define and enforce PHP CI quality gates — PHPUnit, PHPStan, Psalm, PHP-CS-Fixer, Rector, and Composer script pipelines for Laravel and Symfony projects.
 
@@ -502,7 +502,7 @@ Define and enforce PHP CI quality gates — PHPUnit, PHPStan, Psalm, PHP-CS-Fixe
 - Kind: `security`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Secure implementation and review patterns for PHP, Laravel, and Symfony applications.
 
@@ -513,7 +513,7 @@ Secure implementation and review patterns for PHP, Laravel, and Symfony applicat
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build, review, refactor, and test production-grade Symfony services.
 
@@ -524,7 +524,7 @@ Build, review, refactor, and test production-grade Symfony services.
 - Kind: `testing`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Design, add, review, and improve PHP test coverage and verification workflows.
 
@@ -535,7 +535,7 @@ Design, add, review, and improve PHP test coverage and verification workflows.
 - Kind: `review`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review release readiness, operability, rollback, and launch verification.
 
@@ -546,7 +546,7 @@ Review release readiness, operability, rollback, and launch verification.
 - Kind: `ai-engineering`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review RAG indexing, retrieval, grounding, evaluation, and operational design.
 
@@ -557,7 +557,7 @@ Review RAG indexing, retrieval, grounding, evaluation, and operational design.
 - Kind: `review`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Accessible React patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.
 
@@ -568,7 +568,7 @@ Accessible React patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI
 - Kind: `ai-engineering`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Build React chat and streaming AI UX with citations, safety, and accessibility.
 
@@ -579,7 +579,7 @@ Build React chat and streaming AI UX with citations, safety, and accessibility.
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Component boundaries, props, composition, state ownership, and maintainable rendering.
 
@@ -590,7 +590,7 @@ Component boundaries, props, composition, state ownership, and maintainable rend
 - Kind: `migration`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan and execute React, router, bundler, and ecosystem version migrations.
 
@@ -601,7 +601,7 @@ Plan and execute React, router, bundler, and ecosystem version migrations.
 - Kind: `diagnostic`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Diagnose and improve React rendering, bundles, lists, and interaction performance.
 
@@ -612,7 +612,7 @@ Diagnose and improve React rendering, bundles, lists, and interaction performanc
 - Kind: `delivery`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Define and enforce React CI quality gates — ESLint, Prettier, TypeScript noEmit, Vitest or Jest tests, and coverage thresholds in Vite or CRA projects.
 
@@ -623,7 +623,7 @@ Define and enforce React CI quality gates — ESLint, Prettier, TypeScript noEmi
 - Kind: `security`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
 
@@ -634,7 +634,7 @@ Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
 - Kind: `framework`
 - Modes: `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Local, URL, server, context, and store patterns for React applications.
 
@@ -645,7 +645,7 @@ Local, URL, server, context, and store patterns for React applications.
 - Kind: `testing`
 - Modes: `planning`, `coding`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 User-centric React tests with Testing Library, Vitest/Jest, and MSW.
 
@@ -656,7 +656,7 @@ User-centric React tests with Testing Library, Vitest/Jest, and MSW.
 - Kind: `review`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Cross-stack security review for auth, data handling, dependencies, and deployment.
 
@@ -667,7 +667,7 @@ Cross-stack security review for auth, data handling, dependencies, and deploymen
 - Kind: `architecture`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.
 
@@ -678,7 +678,7 @@ Analyze requirements, problem structure, design options, and quality attributes 
 - Kind: `architecture`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review system boundaries, tradeoffs, scalability, operability, and migration risk.
 
@@ -689,7 +689,7 @@ Review system boundaries, tradeoffs, scalability, operability, and migration ris
 - Kind: `general`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.
 
@@ -700,7 +700,7 @@ Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, format
 - Kind: `testing`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Plan test layers, CI quality gates, and risk-based verification across stacks.
 
@@ -711,6 +711,6 @@ Plan test layers, CI quality gates, and risk-based verification across stacks.
 - Kind: `ai-engineering`
 - Modes: `planning`
 - Status: `active`
-- Targets: codex, copilot, cursor
+- Targets: claude, codex, copilot, cursor
 
 Review agent tool schemas, safety, authorization, idempotency, and observability.

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 
-SUPPORTED_TARGETS = {"codex", "cursor", "copilot"}
+SUPPORTED_TARGETS = {"codex", "cursor", "copilot", "claude"}
 SUPPORTED_DOMAINS = {
     "java",
     "dotnet",

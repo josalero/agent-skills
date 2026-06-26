@@ -2,12 +2,13 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from .adapters import codex, copilot, cursor
+from .adapters import claude, codex, copilot, cursor
 from .catalog import write_catalog
 from .models import Repository
 
 
 TARGET_BUILDERS = {
+    "claude": claude.build,
     "codex": codex.build,
     "cursor": cursor.build,
     "copilot": copilot.build,

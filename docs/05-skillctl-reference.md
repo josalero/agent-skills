@@ -36,6 +36,7 @@ Defaults to current directory.
 ./tools/skillctl build --target cursor
 ./tools/skillctl build --target copilot
 ./tools/skillctl build --target codex
+./tools/skillctl build --target claude
 ```
 
 Build runs validation first; fails if skills are invalid.
@@ -58,7 +59,7 @@ make list-catalog    # summaries + dist/catalog/ file paths
   --dest /path/to/project
 
 # Options:
-#   --target cursor|copilot|codex   (default: cursor)
+#   --target cursor|copilot|codex|claude   (default: cursor)
 #   --include-draft                 include draft skills
 #   --modes planning coding         filter by modes (subset match)
 ```
@@ -123,6 +124,7 @@ make help
 | `make build-cursor` | Build Cursor output only |
 | `make build-copilot` | Build Copilot output only |
 | `make build-codex` | Build Codex output only |
+| `make build-claude` | Build Claude Code output only |
 | `make test` | Run unit tests |
 | `make list-skills` | Active skill IDs only |
 | `make list-catalog` | All active skills with summaries + `dist/catalog/` paths |

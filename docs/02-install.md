@@ -2,7 +2,7 @@
 
 Install generated skills from a local **agent-skills** clone into your project or user config.
 
-> **Important:** Cursor and Codex do not pull skills from a GitHub URL at runtime. You copy local files from `dist/` (or use `skillctl` / the install script).
+> **Important:** Cursor, Codex, Copilot, and Claude Code do not pull skills from a GitHub URL at runtime. You copy local files from `dist/` (or use `skillctl` / the install script).
 
 ## Prerequisites
 
@@ -22,6 +22,7 @@ If `dist/` is missing (e.g. you are on a dev branch), run `make build` or pass `
 | **Cursor** | `.cursor/skills/<id>/` and `.cursor/rules/<id>.mdc` |
 | **Codex** | `skills/<id>/` and optional `AGENTS.md` |
 | **Copilot** | `.github/skills/<id>/` and `.github/instructions/<id>.instructions.md` |
+| **Claude Code** | `.claude/skills/<id>/` and optional `CLAUDE.md` |
 
 The skill **bundle** (`SKILL.md` + `references/`) is the source of truth. Cursor rules and Copilot instruction files are thin routers that point to the bundle.
 
@@ -41,6 +42,9 @@ The skill **bundle** (`SKILL.md` + `references/`) is the source of truth. Cursor
 
 # All skills → Copilot layout
 ./scripts/install-from-clone.sh --dest /path/to/project --target copilot
+
+# All skills → Claude Code layout
+./scripts/install-from-clone.sh --dest /path/to/project --target claude
 
 # Planning skills only (skips coding-only skills in the pack)
 ./scripts/install-from-clone.sh --dest /path/to/project --pack java-backend-pack --modes planning
@@ -134,6 +138,30 @@ cp -R dist/copilot/.github /path/to/project/.github
 
 ---
 
+## Claude Code
+
+```bash
+./scripts/install-from-clone.sh --dest /path/to/project --target claude
+```
+
+Manual copy:
+
+```bash
+cp -R dist/claude/.claude /path/to/project/.claude
+cp dist/claude/CLAUDE.md /path/to/project/CLAUDE.md   # optional index
+```
+
+Personal install (all projects on this machine):
+
+```bash
+mkdir -p ~/.claude/skills
+cp -R dist/claude/.claude/skills/* ~/.claude/skills/
+```
+
+Claude discovers skills from [project or user `.claude/skills/`](https://code.claude.com/docs/en/skills). No thin routing files — bundles are used directly (same content as Codex).
+
+---
+
 ## Teams
 
 Install once, commit with the application repo:
@@ -144,6 +172,7 @@ cd /path/to/your-project
 git add .cursor/              # Cursor
 # git add skills/ AGENTS.md   # Codex
 # git add .github/            # Copilot
+# git add .claude/            # Claude Code
 git commit -m "chore: add agent skills from agent-skills"
 ```
 

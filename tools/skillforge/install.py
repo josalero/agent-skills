@@ -54,7 +54,10 @@ def _dist_paths(root: Path, target: str, skill_id: str) -> tuple[Path, Path | No
     if target == "codex":
         base = root / "dist" / "codex" / "skills"
         return base / skill_id, None
-    raise ValueError(f"Unsupported target '{target}'. Use cursor, copilot, or codex.")
+    if target == "claude":
+        base = root / "dist" / "claude" / ".claude"
+        return base / "skills" / skill_id, None
+    raise ValueError(f"Unsupported target '{target}'. Use cursor, copilot, codex, or claude.")
 
 
 def _dest_paths(dest_root: Path, target: str, skill_id: str) -> tuple[Path, Path | None]:
@@ -67,7 +70,10 @@ def _dest_paths(dest_root: Path, target: str, skill_id: str) -> tuple[Path, Path
         return base / "skills" / skill_id, base / "instructions" / f"{skill_id}.instructions.md"
     if target == "codex":
         return dest_root / "skills" / skill_id, None
-    raise ValueError(f"Unsupported target '{target}'. Use cursor, copilot, or codex.")
+    if target == "claude":
+        base = dest_root / ".claude"
+        return base / "skills" / skill_id, None
+    raise ValueError(f"Unsupported target '{target}'. Use cursor, copilot, codex, or claude.")
 
 
 def _copy_tree(source: Path, destination: Path) -> None:

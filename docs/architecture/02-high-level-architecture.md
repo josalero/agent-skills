@@ -80,6 +80,7 @@ agent-skills/
 │   ├── taxonomy.yaml
 │   └── waves.yaml
 ├── dist/                    # Generated vendor + catalog output
+│   ├── claude/
 │   ├── codex/
 │   ├── cursor/
 │   ├── copilot/
@@ -163,7 +164,7 @@ flowchart TD
   C -->|No| D[Fix errors]
   D --> B
   C -->|Yes| E[skillctl build --target all]
-  E --> F[dist/codex cursor copilot catalog]
+  E --> F[dist/claude codex cursor copilot catalog]
   F --> G[git diff dist/]
   G --> H[Commit source + dist]
   H --> I[Consumer install]
@@ -185,6 +186,7 @@ Checks include:
 
 | Target | Output layout |
 | --- | --- |
+| **Claude Code** | `dist/claude/.claude/skills/<id>/` (SKILL.md + references/scripts/assets), `dist/claude/CLAUDE.md` |
 | **Codex** | `dist/codex/skills/<id>/` (SKILL.md + references/scripts/assets), `dist/codex/AGENTS.md` |
 | **Cursor** | `dist/cursor/.cursor/skills/<id>/` + thin `dist/cursor/.cursor/rules/<id>.mdc` + `AGENTS.md` |
 | **Copilot** | `dist/copilot/.github/skills/<id>/`, `.github/instructions/*.instructions.md`, `copilot-instructions.md`, `AGENTS.md` |
@@ -218,6 +220,7 @@ tools/skillforge/
 ├── install.py          # Copy dist → project
 ├── filesystem.py       # Safe write/copy helpers
 └── adapters/
+    ├── claude.py
     ├── codex.py
     ├── cursor.py
     └── copilot.py

@@ -22,6 +22,7 @@ targets:
   codex: true
   cursor: true
   copilot: true
+  claude: true
 owners:
   - josalero
 stability: stable

@@ -38,6 +38,10 @@ class RenderTests(unittest.TestCase):
                     ROOT / "tests" / "golden" / "codex" / "java-core-engineering.SKILL.md",
                 ),
                 (
+                    root / "dist" / "claude" / ".claude" / "skills" / "java-core-engineering" / "SKILL.md",
+                    ROOT / "tests" / "golden" / "codex" / "java-core-engineering.SKILL.md",
+                ),
+                (
                     root / "dist" / "copilot" / ".github" / "instructions" / "java-core-engineering.instructions.md",
                     ROOT / "tests" / "golden" / "copilot" / "java-core-engineering.instructions.md",
                 ),
@@ -74,6 +78,21 @@ class RenderTests(unittest.TestCase):
             self.assertTrue(
                 copilot_reference.exists(),
                 f"missing copilot skill reference bundle: {copilot_reference}",
+            )
+
+            claude_reference = (
+                root
+                / "dist"
+                / "claude"
+                / ".claude"
+                / "skills"
+                / "java-core-engineering"
+                / "references"
+                / "idioms.md"
+            )
+            self.assertTrue(
+                claude_reference.exists(),
+                f"missing claude skill reference bundle: {claude_reference}",
             )
 
             cursor_rule = root / "dist" / "cursor" / ".cursor" / "rules" / "java-core-engineering.mdc"

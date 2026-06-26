@@ -4,6 +4,7 @@
 # Usage:
 #   ./scripts/install-from-clone.sh --dest /path/to/project --pack java-backend-pack
 #   ./scripts/install-from-clone.sh --dest /path/to/project --target codex
+#   ./scripts/install-from-clone.sh --dest /path/to/project --target claude
 #   ./scripts/install-from-clone.sh --user --pack frontend-react-pack
 #   AGENT_SKILLS_ROOT=/other/clone ./scripts/install-from-clone.sh --dest . --pack java-backend-pack
 #
@@ -31,7 +32,7 @@ Required (one of):
 
 Options:
   --pack ID         Pack to install (omit to install all active skills)
-  --target TARGET   cursor (default), copilot, or codex
+  --target TARGET   cursor (default), copilot, codex, or claude
   --modes MODE ...  Filter by modes: planning, coding (pack install only)
   --build           Run make build if dist/ is missing
   -h, --help        Show this help
@@ -40,6 +41,7 @@ Examples:
   git clone git@github.com:josalero/agent-skills.git && cd agent-skills
   ./scripts/install-from-clone.sh --dest ../my-app --pack java-backend-pack
   ./scripts/install-from-clone.sh --dest ../my-app --target codex
+  ./scripts/install-from-clone.sh --dest ../my-app --target claude
   ./scripts/install-from-clone.sh --user
 
 List packs: ./tools/skillctl list --packs
@@ -97,8 +99,8 @@ if [[ -z "$DEST" ]]; then
   exit 1
 fi
 
-if [[ "$TARGET" != "cursor" && "$TARGET" != "copilot" && "$TARGET" != "codex" ]]; then
-  echo "Error: --target must be cursor, copilot, or codex" >&2
+if [[ "$TARGET" != "cursor" && "$TARGET" != "copilot" && "$TARGET" != "codex" && "$TARGET" != "claude" ]]; then
+  echo "Error: --target must be cursor, copilot, codex, or claude" >&2
   exit 1
 fi
 
@@ -110,6 +112,7 @@ ensure_dist() {
     cursor) marker="$REPO_ROOT/dist/cursor/.cursor/skills" ;;
     copilot) marker="$REPO_ROOT/dist/copilot/.github/skills" ;;
     codex) marker="$REPO_ROOT/dist/codex/skills" ;;
+    claude) marker="$REPO_ROOT/dist/claude/.claude/skills" ;;
   esac
 
   if [[ ! -d "$marker" ]]; then
@@ -148,6 +151,13 @@ else
     codex)
       cp -R "$REPO_ROOT/dist/codex/skills" "$DEST/skills"
       cp "$REPO_ROOT/dist/codex/AGENTS.md" "$DEST/AGENTS.md"
+      ;;
+    claude)
+      mkdir -p "$DEST/.claude"
+      cp -R "$REPO_ROOT/dist/claude/.claude/." "$DEST/.claude/"
+      if [[ -f "$REPO_ROOT/dist/claude/CLAUDE.md" ]]; then
+        cp "$REPO_ROOT/dist/claude/CLAUDE.md" "$DEST/CLAUDE.md"
+      fi
       ;;
   esac
   echo "Installed all active skills ($TARGET) to $DEST"

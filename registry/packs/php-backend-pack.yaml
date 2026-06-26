@@ -15,3 +15,4 @@ targets:
   - codex
   - cursor
   - copilot
+  - claude

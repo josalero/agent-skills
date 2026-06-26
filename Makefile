@@ -1,5 +1,5 @@
 .PHONY: help install doctor list-skills list-collections list-packs list-catalog \
-	validate validate-backlog test build build-codex build-cursor build-copilot \
+	validate validate-backlog test build build-claude build-codex build-cursor build-copilot \
 	catalog catalog-build backlog-generate backlog-promote-waves install-pack install-all check clean-dist
 
 SKILLCTL := ./tools/skillctl
@@ -50,8 +50,11 @@ test: ## Run unit tests
 
 build: build-all ## Alias for build-all
 
-build-all: validate ## Build Codex, Cursor, Copilot, and catalog output
+build-all: validate ## Build Claude, Codex, Cursor, Copilot, and catalog output
 	$(SKILLCTL) build --target all
+
+build-claude: validate ## Build dist/claude only
+	$(SKILLCTL) build --target claude
 
 build-codex: validate ## Build dist/codex only
 	$(SKILLCTL) build --target codex
@@ -87,4 +90,4 @@ check: validate validate-backlog test build-all ## Run the same checks as CI
 	git diff --exit-code dist/
 
 clean-dist: ## Remove generated dist output
-	rm -rf dist/codex dist/cursor dist/copilot dist/catalog
+	rm -rf dist/claude dist/codex dist/cursor dist/copilot dist/catalog

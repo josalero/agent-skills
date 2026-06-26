@@ -122,7 +122,7 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 | ID | Requirement |
 | --- | --- |
 | FR-10 | `validate --all` validates skills, collections, packs, and backlog. |
-| FR-11 | `build --target {codex,cursor,copilot,all}` renders vendor output after validation. |
+| FR-11 | `build --target {claude,codex,cursor,copilot,all}` renders vendor output after validation. |
 | FR-12 | `install` copies generated output into a target project (pack, target, optional mode filter). |
 | FR-13 | `backlog list|validate|generate|promote` supports catalog scale workflows. |
 | FR-14 | `catalog build` generates human- and machine-readable reports under `dist/catalog/`. |

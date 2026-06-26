@@ -1,6 +1,6 @@
 # agent-skills
 
-Engineering skills for AI coding agents — **Cursor**, **Codex**, and **GitHub Copilot**.
+Engineering skills for AI coding agents — **Cursor**, **Codex**, **GitHub Copilot**, and **Claude Code**.
 
 Each skill is a focused workflow (Spring Boot services, React performance, security review, migrations, and more) with references and checklists. Install them as files into your project; agents read them locally.
 
@@ -8,7 +8,7 @@ Each skill is a focused workflow (Spring Boot services, React performance, secur
 | --- | --- |
 | **65** active skills | Java, .NET, PHP, React, Angular, architecture, AI engineering |
 | **11** install packs | Stack bundles + quality gates — see [Choosing packs](docs/03-choosing-packs.md) |
-| **3** agent targets | Cursor, Codex, Copilot (generated under `dist/`) |
+| **4** agent targets | Cursor, Codex, Copilot, Claude Code (generated under `dist/`) |
 
 ---
 
@@ -28,6 +28,9 @@ cd agent-skills
 
 # Codex or Copilot instead of Cursor
 ./scripts/install-from-clone.sh --dest /path/to/your-project --pack java-backend-pack --target codex
+
+# Claude Code
+./scripts/install-from-clone.sh --dest /path/to/your-project --pack java-backend-pack --target claude
 ```
 
 **Next steps**
@@ -35,7 +38,7 @@ cd agent-skills
 | Step | Doc |
 | --- | --- |
 | Concepts and glossary | [Getting started](docs/01-getting-started.md) |
-| Cursor, Codex, Copilot, teams | [Install guide](docs/02-install.md) |
+| Cursor, Codex, Copilot, Claude Code, teams | [Install guide](docs/02-install.md) |
 | Which pack fits your stack | [Choosing packs](docs/03-choosing-packs.md) |
 | Browse every skill | [dist/catalog/active-skills.md](dist/catalog/active-skills.md) or `make list-catalog` |
 | Read the overview article | [Introducing agent-skills](docs/07-introducing-agent-skills.md) |

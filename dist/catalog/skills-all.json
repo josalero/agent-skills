@@ -25,6 +25,7 @@
     "status": "active",
     "summary": "Safe and effective use of AI coding agents in engineering workflows.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -54,6 +55,7 @@
     "status": "active",
     "summary": "Accessible Angular forms, overlays, keyboard support, and CDK patterns.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -82,6 +84,7 @@
     "status": "active",
     "summary": "Standalone components, services, routing, forms, and maintainable Angular structure.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -112,6 +115,7 @@
     "status": "active",
     "summary": "Plan and execute Angular, CLI, and ecosystem version migrations.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -141,6 +145,7 @@
     "status": "active",
     "summary": "Angular change detection, lazy loading, lists, and bundle performance.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -174,6 +179,7 @@
     "status": "active",
     "summary": "Define and enforce Angular CI quality gates \u2014 ng build, ESLint, Prettier, strict templates, Karma or Jest tests, and coverage thresholds.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -202,6 +208,7 @@
     "status": "active",
     "summary": "RxJS operators, subscription lifecycle, and stream patterns in Angular.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -232,6 +239,7 @@
     "status": "active",
     "summary": "XSS prevention, sanitization, interceptors, CSRF, and SPA auth hygiene in Angular.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -260,6 +268,7 @@
     "status": "active",
     "summary": "Signals, services, router state, and NgRx patterns for Angular apps.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -290,6 +299,7 @@
     "status": "active",
     "summary": "Angular TestBed, HTTP testing, and component verification patterns.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -320,6 +330,7 @@
     "status": "active",
     "summary": "Review REST and HTTP API contracts, errors, pagination, versioning, and compatibility.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -351,6 +362,7 @@
     "status": "active",
     "summary": "Cross-stack delivery architecture for environments, CI/CD, promotion, and platform standards.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -380,6 +392,7 @@
     "status": "active",
     "summary": "Build and review ASP.NET Core APIs, DI, validation, auth, and service tests.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -410,6 +423,7 @@
     "status": "active",
     "summary": "Containerized .NET delivery, CI/CD, and deployment verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -438,6 +452,7 @@
     "status": "active",
     "summary": "Idiomatic C# engineering, nullable types, async discipline, and maintainability.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -469,6 +484,7 @@
     "status": "active",
     "summary": "EF Core modeling, queries, migrations, and persistence performance.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -498,6 +514,7 @@
     "status": "active",
     "summary": "Plan and execute .NET version and toolchain migrations with verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -531,6 +548,7 @@
     "status": "active",
     "summary": "Define and enforce .NET CI quality gates \u2014 dotnet build/test, analyzers, format, nullable reference types, and Coverlet coverage thresholds.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -562,6 +580,7 @@
     "status": "active",
     "summary": "Production debugging for .NET services, memory, threads, and latency.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -591,6 +610,7 @@
     "status": "active",
     "summary": "Secure implementation and review patterns for .NET applications.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -619,6 +639,7 @@
     "status": "active",
     "summary": "Design, add, review, and improve .NET test coverage and verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -648,6 +669,7 @@
     "status": "active",
     "summary": "Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -677,6 +699,7 @@
     "status": "active",
     "summary": "Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -707,6 +730,7 @@
     "status": "active",
     "summary": "Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -738,6 +762,7 @@
     "status": "active",
     "summary": "Containerize and deliver Java services with health probes, JVM tuning, config, and CI/CD.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -769,6 +794,7 @@
     "status": "active",
     "summary": "Thread pools, async work, locking, timeouts, and reliability patterns for Java services.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -797,6 +823,7 @@
     "status": "active",
     "summary": "Apply modern Java engineering practices for idiomatic implementation, maintainability, correctness, and code review.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -827,6 +854,7 @@
     "status": "active",
     "summary": "Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -860,6 +888,7 @@
     "status": "active",
     "summary": "Plan and execute Java version migrations with build, dependency, test, and runtime verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -891,6 +920,7 @@
     "status": "active",
     "summary": "Diagnose and improve JPA, Hibernate, JDBC, transactions, N+1 queries, and connection pool performance.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -924,6 +954,7 @@
     "status": "active",
     "summary": "Define and enforce Java CI quality gates with Gradle or Maven \u2014 tests, Checkstyle, SpotBugs, PMD, JaCoCo, Spotless, and enforcer rules.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -956,6 +987,7 @@
     "status": "active",
     "summary": "Secure implementation and review patterns for Java and Spring Boot applications.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -987,6 +1019,7 @@
     "status": "active",
     "summary": "Upgrade to or build on Spring Boot 3.5 (final 3.x line) with Spring Framework 6.2, operational polish, and 3.4-to-3.5 breaking-change awareness.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1019,6 +1052,7 @@
     "status": "active",
     "summary": "Migrate from Spring Boot 3.5 to 4.0 on Spring Framework 7, Jakarta EE 11, Jackson 3, JSpecify nullness, and updated test and security stacks.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1049,6 +1083,7 @@
     "status": "active",
     "summary": "Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1080,6 +1115,7 @@
     "status": "active",
     "summary": "Build, review, refactor, and test production-grade Spring Boot services.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1111,6 +1147,7 @@
     "status": "active",
     "summary": "Design, add, review, and improve Java test coverage and verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1141,6 +1178,7 @@
     "status": "active",
     "summary": "Plan cross-stack modernizations with sequencing, risk management, and verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1172,6 +1210,7 @@
     "status": "active",
     "summary": "Review logs, metrics, traces, SLOs, dashboards, and alert quality.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1200,6 +1239,7 @@
     "status": "active",
     "summary": "Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1229,6 +1269,7 @@
     "status": "active",
     "summary": "Deliver PHP services with containers, runtime tuning, health checks, and CI/CD operations.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1260,6 +1301,7 @@
     "status": "active",
     "summary": "Build, review, refactor, and test production-grade Laravel services.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1289,6 +1331,7 @@
     "status": "active",
     "summary": "Plan and execute PHP version and toolchain migrations with verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1320,6 +1363,7 @@
     "status": "active",
     "summary": "Diagnose and improve ORM, query, transaction, and database performance for PHP applications.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1353,6 +1397,7 @@
     "status": "active",
     "summary": "Define and enforce PHP CI quality gates \u2014 PHPUnit, PHPStan, Psalm, PHP-CS-Fixer, Rector, and Composer script pipelines for Laravel and Symfony projects.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1384,6 +1429,7 @@
     "status": "active",
     "summary": "Secure implementation and review patterns for PHP, Laravel, and Symfony applications.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1415,6 +1461,7 @@
     "status": "active",
     "summary": "Build, review, refactor, and test production-grade Symfony services.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1444,6 +1491,7 @@
     "status": "active",
     "summary": "Design, add, review, and improve PHP test coverage and verification workflows.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1475,6 +1523,7 @@
     "status": "active",
     "summary": "Review release readiness, operability, rollback, and launch verification.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1506,6 +1555,7 @@
     "status": "active",
     "summary": "Review RAG indexing, retrieval, grounding, evaluation, and operational design.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1535,6 +1585,7 @@
     "status": "active",
     "summary": "Accessible React patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1565,6 +1616,7 @@
     "status": "active",
     "summary": "Build React chat and streaming AI UX with citations, safety, and accessibility.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1593,6 +1645,7 @@
     "status": "active",
     "summary": "Component boundaries, props, composition, state ownership, and maintainable rendering.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1623,6 +1676,7 @@
     "status": "active",
     "summary": "Plan and execute React, router, bundler, and ecosystem version migrations.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1652,6 +1706,7 @@
     "status": "active",
     "summary": "Diagnose and improve React rendering, bundles, lists, and interaction performance.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1685,6 +1740,7 @@
     "status": "active",
     "summary": "Define and enforce React CI quality gates \u2014 ESLint, Prettier, TypeScript noEmit, Vitest or Jest tests, and coverage thresholds in Vite or CRA projects.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1715,6 +1771,7 @@
     "status": "active",
     "summary": "Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1743,6 +1800,7 @@
     "status": "active",
     "summary": "Local, URL, server, context, and store patterns for React applications.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1773,6 +1831,7 @@
     "status": "active",
     "summary": "User-centric React tests with Testing Library, Vitest/Jest, and MSW.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1804,6 +1863,7 @@
     "status": "active",
     "summary": "Cross-stack security review for auth, data handling, dependencies, and deployment.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1834,6 +1894,7 @@
     "status": "active",
     "summary": "Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1864,6 +1925,7 @@
     "status": "active",
     "summary": "Review system boundaries, tradeoffs, scalability, operability, and migration risk.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1894,6 +1956,7 @@
     "status": "active",
     "summary": "Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1925,6 +1988,7 @@
     "status": "active",
     "summary": "Plan test layers, CI quality gates, and risk-based verification across stacks.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"
@@ -1956,6 +2020,7 @@
     "status": "active",
     "summary": "Review agent tool schemas, safety, authorization, idempotency, and observability.",
     "targets": [
+      "claude",
       "codex",
       "copilot",
       "cursor"

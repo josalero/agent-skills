@@ -23,7 +23,7 @@ def main(argv: list[str] | None = None) -> int:
     validate_parser.add_argument("--all", action="store_true", help="Validate the full repository")
 
     build_parser = subparsers.add_parser("build", help="Build generated vendor output")
-    build_parser.add_argument("--target", choices=["all", "codex", "cursor", "copilot"], required=True)
+    build_parser.add_argument("--target", choices=["all", "claude", "codex", "cursor", "copilot"], required=True)
 
     list_parser = subparsers.add_parser("list", help="List repository objects")
     list_group = list_parser.add_mutually_exclusive_group(required=True)
@@ -58,14 +58,14 @@ def main(argv: list[str] | None = None) -> int:
     install_parser.add_argument("--pack", required=True, help="Pack ID (see skillctl list --packs)")
     install_parser.add_argument(
         "--target",
-        choices=["cursor", "copilot", "codex"],
+        choices=["cursor", "copilot", "codex", "claude"],
         default="cursor",
         help="Vendor target output to install",
     )
     install_parser.add_argument(
         "--dest",
         required=True,
-        help="Destination project root (skills copy into .cursor/, .github/, or skills/)",
+        help="Destination project root (skills copy into .cursor/, .github/, .claude/, or skills/)",
     )
     install_parser.add_argument(
         "--include-draft",

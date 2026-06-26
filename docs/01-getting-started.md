@@ -84,11 +84,12 @@ See [Choosing packs](03-choosing-packs.md) for pack IDs and skill lists.
 | --- | --- |
 | Codex | [Install guide — Codex](02-install.md#codex) |
 | GitHub Copilot | [Install guide — Copilot](02-install.md#copilot) |
+| Claude Code | [Install guide — Claude Code](02-install.md#claude-code) |
 
 ## Team workflow
 
 1. One person installs skills into the app repo.
-2. Commit `.cursor/` (or `skills/` for Codex) with the application code.
+2. Commit `.cursor/` (or `skills/` for Codex, `.claude/` for Claude Code) with the application code.
 3. Teammates get skills when they `git pull` — no separate clone required for daily work.
 
 Details: [Install guide — Teams](02-install.md#teams).

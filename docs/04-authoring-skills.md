@@ -80,7 +80,7 @@ Required fields:
 
 - `id`, `display_name`, `domain`, `kind`, `modes`, `status`, `summary`
 - `areas`, `tags`, `collections`, `packs`
-- `targets` (`codex`, `cursor`, `copilot`)
+- `targets` (`codex`, `cursor`, `copilot`, `claude`)
 - `owners`, `stability`
 
 **modes** — when agents should use the skill:
