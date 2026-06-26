@@ -1,0 +1,20 @@
+id: java
+display_name: Java
+description: Skills for Java language engineering, Spring Boot services, JVM diagnostics, testing, and migrations.
+skills:
+  - java-21-lts
+  - java-25-lts
+  - java-ai-backend-engineering
+  - java-cloud-native-delivery
+  - java-concurrency-reliability
+  - java-core-engineering
+  - java-jvm-debugging
+  - java-migrate-any-version
+  - java-persistence-performance
+  - java-quality-gates
+  - java-security-hardening
+  - java-spring-boot-service
+  - java-spring-boot-35
+  - java-spring-boot-40
+  - java-spring-boot-41
+  - java-testing-verification

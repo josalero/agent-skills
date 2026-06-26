@@ -1,0 +1,28 @@
+id: react-performance
+display_name: React Performance
+domain: react
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose and improve React rendering, bundles, lists, and interaction performance.
+areas:
+  - frontend
+  - performance
+tags:
+  - react
+  - performance
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

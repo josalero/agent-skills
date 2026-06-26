@@ -1,0 +1,28 @@
+id: php-migrate-any-version
+display_name: PHP Migrate Any Version
+domain: php
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute PHP version and toolchain migrations with verification.
+areas:
+  - migrations
+  - versions
+tags:
+  - php
+  - migration
+  - composer
+collections:
+  - php
+  - backend
+packs:
+  - php-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

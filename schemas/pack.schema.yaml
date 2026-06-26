@@ -1,0 +1,8 @@
+id: pack
+required:
+  - id
+  - display_name
+  - description
+  - skills
+  - targets
+

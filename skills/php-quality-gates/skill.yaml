@@ -1,0 +1,35 @@
+id: php-quality-gates
+display_name: PHP Quality Gates
+domain: php
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Define and enforce PHP CI quality gates — PHPUnit, PHPStan, Psalm, PHP-CS-Fixer, Rector, and Composer script pipelines for Laravel and Symfony projects.
+areas:
+  - backend
+  - code-quality
+  - testing
+tags:
+  - php
+  - ci
+  - quality-gates
+  - phpstan
+  - laravel
+  - symfony
+collections:
+  - php
+  - backend
+  - testing
+  - code-quality
+packs:
+  - php-backend-pack
+  - quality-gates-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

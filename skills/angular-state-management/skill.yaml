@@ -1,0 +1,27 @@
+id: angular-state-management
+display_name: Angular State Management
+domain: angular
+kind: framework
+modes:
+  - coding
+status: active
+summary: Signals, services, router state, and NgRx patterns for Angular apps.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - angular
+  - state
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

@@ -1,0 +1,28 @@
+id: react-accessibility
+display_name: React Accessibility
+domain: react
+kind: review
+modes:
+  - planning
+  - coding
+status: active
+summary: Accessible React patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - react
+  - accessibility
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

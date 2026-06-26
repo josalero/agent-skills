@@ -1,0 +1,29 @@
+id: migration-planning
+display_name: Migration Planning
+domain: cross-stack
+kind: migration
+modes:
+  - planning
+status: active
+summary: Plan cross-stack modernizations with sequencing, risk management, and verification.
+areas:
+  - migrations
+  - architecture
+  - versions
+tags:
+  - cross-stack
+  - migration
+  - planning
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

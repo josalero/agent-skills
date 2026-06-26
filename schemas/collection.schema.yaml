@@ -1,0 +1,7 @@
+id: collection
+required:
+  - id
+  - display_name
+  - description
+  - skills
+

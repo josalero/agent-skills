@@ -1,0 +1,29 @@
+id: java-21-lts
+display_name: Java 21 LTS
+domain: java
+kind: version
+modes:
+  - coding
+status: active
+summary: Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.
+areas:
+  - backend
+  - versions
+  - migrations
+tags:
+  - java
+  - "21"
+  - lts
+  - virtual-threads
+collections:
+  - java
+  - backend
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

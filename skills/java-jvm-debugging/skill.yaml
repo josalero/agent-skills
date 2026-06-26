@@ -1,0 +1,30 @@
+id: java-jvm-debugging
+display_name: Java JVM Debugging
+domain: java
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues.
+areas:
+  - backend
+  - observability
+  - performance
+tags:
+  - java
+  - jvm
+  - debugging
+collections:
+  - java
+  - backend
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable
+

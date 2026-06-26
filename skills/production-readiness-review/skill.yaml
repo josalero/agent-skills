@@ -1,0 +1,30 @@
+id: production-readiness-review
+display_name: Production Readiness Review
+domain: cross-stack
+kind: review
+modes:
+  - planning
+status: active
+summary: Review release readiness, operability, rollback, and launch verification.
+areas:
+  - architecture
+  - observability
+  - cloud-delivery
+tags:
+  - cross-stack
+  - production-readiness
+  - review
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+  - production-readiness-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

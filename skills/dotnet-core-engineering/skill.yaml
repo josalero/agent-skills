@@ -1,0 +1,27 @@
+id: dotnet-core-engineering
+display_name: .NET Core Engineering
+domain: dotnet
+kind: general
+modes:
+  - coding
+status: active
+summary: Idiomatic C# engineering, nullable types, async discipline, and maintainability.
+areas:
+  - backend
+  - code-quality
+tags:
+  - dotnet
+  - csharp
+  - core
+collections:
+  - dotnet
+  - backend
+packs:
+  - dotnet-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

@@ -1,0 +1,13 @@
+id: angular
+display_name: Angular
+description: Skills for Angular applications, RxJS, testing, performance, and migrations.
+skills:
+  - angular-accessibility
+  - angular-application-engineering
+  - angular-migrate-any-version
+  - angular-performance
+  - angular-quality-gates
+  - angular-rxjs-patterns
+  - angular-security-hardening
+  - angular-state-management
+  - angular-testing-verification

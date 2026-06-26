@@ -1,0 +1,30 @@
+id: php-symfony-service
+display_name: PHP Symfony Service
+domain: php
+kind: framework
+modes:
+  - coding
+status: active
+summary: Build, review, refactor, and test production-grade Symfony services.
+areas:
+  - backend
+  - api-design
+  - testing
+  - observability
+tags:
+  - php
+  - symfony
+  - rest-api
+collections:
+  - php
+  - backend
+  - testing
+packs:
+  - php-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

@@ -1,0 +1,1964 @@
+[
+  {
+    "areas": [
+      "ai-engineering",
+      "developer-experience",
+      "code-quality"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "AI Assisted Engineering",
+    "domain": "cross-stack",
+    "id": "ai-assisted-engineering",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "ai-engineering-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Safe and effective use of AI coding agents in engineering workflows.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Accessibility",
+    "domain": "angular",
+    "id": "angular-accessibility",
+    "kind": "review",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Accessible Angular forms, overlays, keyboard support, and CDK patterns.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Application Engineering",
+    "domain": "angular",
+    "id": "angular-application-engineering",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Standalone components, services, routing, forms, and maintainable Angular structure.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "migrations",
+      "versions"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Migrate Any Version",
+    "domain": "angular",
+    "id": "angular-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute Angular, CLI, and ecosystem version migrations.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "performance"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Performance",
+    "domain": "angular",
+    "id": "angular-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Angular change detection, lazy loading, lists, and bundle performance.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "angular",
+      "frontend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "Angular Quality Gates",
+    "domain": "angular",
+    "id": "angular-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce Angular CI quality gates \u2014 ng build, ESLint, Prettier, strict templates, Karma or Jest tests, and coverage thresholds.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular RxJS Patterns",
+    "domain": "angular",
+    "id": "angular-rxjs-patterns",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "RxJS operators, subscription lifecycle, and stream patterns in Angular.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "security"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Security Hardening",
+    "domain": "angular",
+    "id": "angular-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "XSS prevention, sanitization, interceptors, CSRF, and SPA auth hygiene in Angular.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular State Management",
+    "domain": "angular",
+    "id": "angular-state-management",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Signals, services, router state, and NgRx patterns for Angular apps.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "testing"
+    ],
+    "collections": [
+      "angular",
+      "frontend"
+    ],
+    "display_name": "Angular Testing Verification",
+    "domain": "angular",
+    "id": "angular-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-angular-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Angular TestBed, HTTP testing, and component verification patterns.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "architecture",
+      "api-design",
+      "backend"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "API Design Review",
+    "domain": "cross-stack",
+    "id": "api-design-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review REST and HTTP API contracts, errors, pagination, versioning, and compatibility.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "cloud-delivery",
+      "architecture",
+      "backend"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Cloud Native Delivery",
+    "domain": "cross-stack",
+    "id": "cloud-native-delivery",
+    "kind": "delivery",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Cross-stack delivery architecture for environments, CI/CD, promotion, and platform standards.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET ASP.NET Service",
+    "domain": "dotnet",
+    "id": "dotnet-aspnet-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build and review ASP.NET Core APIs, DI, validation, auth, and service tests.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "cloud-delivery"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Cloud Native Delivery",
+    "domain": "dotnet",
+    "id": "dotnet-cloud-native-delivery",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Containerized .NET delivery, CI/CD, and deployment verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Core Engineering",
+    "domain": "dotnet",
+    "id": "dotnet-core-engineering",
+    "kind": "general",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Idiomatic C# engineering, nullable types, async discipline, and maintainability.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "data-persistence",
+      "performance"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET EF Core Persistence",
+    "domain": "dotnet",
+    "id": "dotnet-efcore-persistence",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "EF Core modeling, queries, migrations, and persistence performance.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "migrations",
+      "versions"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Migrate Any Version",
+    "domain": "dotnet",
+    "id": "dotnet-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute .NET version and toolchain migrations with verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "dotnet",
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": ".NET Quality Gates",
+    "domain": "dotnet",
+    "id": "dotnet-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce .NET CI quality gates \u2014 dotnet build/test, analyzers, format, nullable reference types, and Coverlet coverage thresholds.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "observability",
+      "performance"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Runtime Diagnostics",
+    "domain": "dotnet",
+    "id": "dotnet-runtime-diagnostics",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Production debugging for .NET services, memory, threads, and latency.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "security",
+      "testing"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Security Hardening",
+    "domain": "dotnet",
+    "id": "dotnet-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Secure implementation and review patterns for .NET applications.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "testing"
+    ],
+    "collections": [
+      "dotnet",
+      "backend"
+    ],
+    "display_name": ".NET Testing Verification",
+    "domain": "dotnet",
+    "id": "dotnet-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "dotnet-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design, add, review, and improve .NET test coverage and verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "versions",
+      "migrations"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java 21 LTS",
+    "domain": "java",
+    "id": "java-21-lts",
+    "kind": "version",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "versions",
+      "migrations"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java 25 LTS",
+    "domain": "java",
+    "id": "java-25-lts",
+    "kind": "version",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "ai-engineering"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java AI Backend Engineering",
+    "domain": "java",
+    "id": "java-ai-backend-engineering",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "ai-engineering-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "cloud-delivery",
+      "observability"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Cloud Native Delivery",
+    "domain": "java",
+    "id": "java-cloud-native-delivery",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Containerize and deliver Java services with health probes, JVM tuning, config, and CI/CD.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "concurrency",
+      "performance"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Concurrency and Reliability",
+    "domain": "java",
+    "id": "java-concurrency-reliability",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Thread pools, async work, locking, timeouts, and reliability patterns for Java services.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Core Engineering",
+    "domain": "java",
+    "id": "java-core-engineering",
+    "kind": "general",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Apply modern Java engineering practices for idiomatic implementation, maintainability, correctness, and code review.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "observability",
+      "performance"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java JVM Debugging",
+    "domain": "java",
+    "id": "java-jvm-debugging",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "migrations",
+      "versions",
+      "testing"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "testing",
+      "migrations"
+    ],
+    "display_name": "Java Migrate Any Version",
+    "domain": "java",
+    "id": "java-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute Java version migrations with build, dependency, test, and runtime verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "data-persistence",
+      "performance"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Persistence Performance",
+    "domain": "java",
+    "id": "java-persistence-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve JPA, Hibernate, JDBC, transactions, N+1 queries, and connection pool performance.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "Java Quality Gates",
+    "domain": "java",
+    "id": "java-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce Java CI quality gates with Gradle or Maven \u2014 tests, Checkstyle, SpotBugs, PMD, JaCoCo, Spotless, and enforcer rules.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "security",
+      "testing"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Security Hardening",
+    "domain": "java",
+    "id": "java-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack",
+      "security-review-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Secure implementation and review patterns for Java and Spring Boot applications.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "versions",
+      "migrations",
+      "observability"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "migrations"
+    ],
+    "display_name": "Java Spring Boot 3.5",
+    "domain": "java",
+    "id": "java-spring-boot-35",
+    "kind": "version",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Upgrade to or build on Spring Boot 3.5 (final 3.x line) with Spring Framework 6.2, operational polish, and 3.4-to-3.5 breaking-change awareness.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "versions",
+      "migrations",
+      "security"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "migrations"
+    ],
+    "display_name": "Java Spring Boot 4.0",
+    "domain": "java",
+    "id": "java-spring-boot-40",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Migrate from Spring Boot 3.5 to 4.0 on Spring Framework 7, Jakarta EE 11, Jackson 3, JSpecify nullness, and updated test and security stacks.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "versions",
+      "observability",
+      "security"
+    ],
+    "collections": [
+      "java",
+      "backend"
+    ],
+    "display_name": "Java Spring Boot 4.1",
+    "domain": "java",
+    "id": "java-spring-boot-41",
+    "kind": "version",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing",
+      "observability"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Java Spring Boot Service",
+    "domain": "java",
+    "id": "java-spring-boot-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build, review, refactor, and test production-grade Spring Boot services.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "collections": [
+      "java",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Java Testing Verification",
+    "domain": "java",
+    "id": "java-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "java-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design, add, review, and improve Java test coverage and verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "migrations",
+      "architecture",
+      "versions"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Migration Planning",
+    "domain": "cross-stack",
+    "id": "migration-planning",
+    "kind": "migration",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan cross-stack modernizations with sequencing, risk management, and verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "observability",
+      "architecture",
+      "performance"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Observability Review",
+    "domain": "cross-stack",
+    "id": "observability-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review logs, metrics, traces, SLOs, dashboards, and alert quality.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality"
+    ],
+    "collections": [
+      "php",
+      "backend"
+    ],
+    "display_name": "PHP Core Engineering",
+    "domain": "php",
+    "id": "php-core-engineering",
+    "kind": "general",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "cloud-delivery"
+    ],
+    "collections": [
+      "php",
+      "backend"
+    ],
+    "display_name": "PHP Delivery Operations",
+    "domain": "php",
+    "id": "php-delivery-operations",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Deliver PHP services with containers, runtime tuning, health checks, and CI/CD operations.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing",
+      "observability"
+    ],
+    "collections": [
+      "php",
+      "backend",
+      "testing"
+    ],
+    "display_name": "PHP Laravel Service",
+    "domain": "php",
+    "id": "php-laravel-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build, review, refactor, and test production-grade Laravel services.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "migrations",
+      "versions"
+    ],
+    "collections": [
+      "php",
+      "backend"
+    ],
+    "display_name": "PHP Migrate Any Version",
+    "domain": "php",
+    "id": "php-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute PHP version and toolchain migrations with verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "data-persistence",
+      "performance"
+    ],
+    "collections": [
+      "php",
+      "backend"
+    ],
+    "display_name": "PHP Persistence Performance",
+    "domain": "php",
+    "id": "php-persistence-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve ORM, query, transaction, and database performance for PHP applications.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "php",
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "PHP Quality Gates",
+    "domain": "php",
+    "id": "php-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce PHP CI quality gates \u2014 PHPUnit, PHPStan, Psalm, PHP-CS-Fixer, Rector, and Composer script pipelines for Laravel and Symfony projects.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "security",
+      "testing"
+    ],
+    "collections": [
+      "php",
+      "backend"
+    ],
+    "display_name": "PHP Security Hardening",
+    "domain": "php",
+    "id": "php-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Secure implementation and review patterns for PHP, Laravel, and Symfony applications.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing",
+      "observability"
+    ],
+    "collections": [
+      "php",
+      "backend",
+      "testing"
+    ],
+    "display_name": "PHP Symfony Service",
+    "domain": "php",
+    "id": "php-symfony-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build, review, refactor, and test production-grade Symfony services.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "testing"
+    ],
+    "collections": [
+      "php",
+      "backend",
+      "testing"
+    ],
+    "display_name": "PHP Testing Verification",
+    "domain": "php",
+    "id": "php-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "php-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design, add, review, and improve PHP test coverage and verification workflows.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "architecture",
+      "observability",
+      "cloud-delivery"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Production Readiness Review",
+    "domain": "cross-stack",
+    "id": "production-readiness-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "production-readiness-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review release readiness, operability, rollback, and launch verification.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "ai-engineering",
+      "architecture",
+      "data-persistence"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "RAG Architecture Review",
+    "domain": "cross-stack",
+    "id": "rag-architecture-review",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "ai-engineering-pack",
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review RAG indexing, retrieval, grounding, evaluation, and operational design.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Accessibility",
+    "domain": "react",
+    "id": "react-accessibility",
+    "kind": "review",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Accessible React patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "ai-engineering"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React AI Product Engineering",
+    "domain": "react",
+    "id": "react-ai-product-engineering",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack",
+      "ai-engineering-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build React chat and streaming AI UX with citations, safety, and accessibility.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Component Engineering",
+    "domain": "react",
+    "id": "react-component-engineering",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Component boundaries, props, composition, state ownership, and maintainable rendering.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "migrations",
+      "versions"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Migrate Any Version",
+    "domain": "react",
+    "id": "react-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute React, router, bundler, and ecosystem version migrations.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "performance"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Performance",
+    "domain": "react",
+    "id": "react-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve React rendering, bundles, lists, and interaction performance.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "react",
+      "frontend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "React Quality Gates",
+    "domain": "react",
+    "id": "react-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce React CI quality gates \u2014 ESLint, Prettier, TypeScript noEmit, Vitest or Jest tests, and coverage thresholds in Vite or CRA projects.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "security"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Security Hardening",
+    "domain": "react",
+    "id": "react-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React State Management",
+    "domain": "react",
+    "id": "react-state-management",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Local, URL, server, context, and store patterns for React applications.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "testing"
+    ],
+    "collections": [
+      "react",
+      "frontend"
+    ],
+    "display_name": "React Testing Verification",
+    "domain": "react",
+    "id": "react-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-react-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "User-centric React tests with Testing Library, Vitest/Jest, and MSW.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "security",
+      "architecture",
+      "backend"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Security Review",
+    "domain": "cross-stack",
+    "id": "security-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Cross-stack security review for auth, data handling, dependencies, and deployment.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "architecture",
+      "code-quality",
+      "developer-experience"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Software Design Analysis",
+    "domain": "cross-stack",
+    "id": "software-design-analysis",
+    "kind": "architecture",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "architecture",
+      "backend",
+      "cloud-delivery"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "System Architecture Review",
+    "domain": "cross-stack",
+    "id": "system-architecture-review",
+    "kind": "architecture",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review system boundaries, tradeoffs, scalability, operability, and migration risk.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "architecture",
+      "developer-experience",
+      "code-quality"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Technical Documentation Authoring",
+    "domain": "cross-stack",
+    "id": "technical-documentation-authoring",
+    "kind": "general",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "testing",
+      "architecture",
+      "backend"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Testing Strategy",
+    "domain": "cross-stack",
+    "id": "testing-strategy",
+    "kind": "testing",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan test layers, CI quality gates, and risk-based verification across stacks.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  },
+  {
+    "areas": [
+      "ai-engineering",
+      "architecture",
+      "api-design"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Tool Calling Design Review",
+    "domain": "cross-stack",
+    "id": "tool-calling-design-review",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "ai-engineering-pack",
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review agent tool schemas, safety, authorization, idempotency, and observability.",
+    "targets": [
+      "codex",
+      "copilot",
+      "cursor"
+    ]
+  }
+]

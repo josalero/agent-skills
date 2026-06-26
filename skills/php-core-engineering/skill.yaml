@@ -1,0 +1,27 @@
+id: php-core-engineering
+display_name: PHP Core Engineering
+domain: php
+kind: general
+modes:
+  - coding
+status: active
+summary: Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+areas:
+  - backend
+  - code-quality
+tags:
+  - php
+  - core-php
+  - refactoring
+collections:
+  - php
+  - backend
+packs:
+  - php-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

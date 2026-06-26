@@ -1,0 +1,30 @@
+id: rag-architecture-review
+display_name: RAG Architecture Review
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+status: active
+summary: Review RAG indexing, retrieval, grounding, evaluation, and operational design.
+areas:
+  - ai-engineering
+  - architecture
+  - data-persistence
+tags:
+  - cross-stack
+  - rag
+  - architecture
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

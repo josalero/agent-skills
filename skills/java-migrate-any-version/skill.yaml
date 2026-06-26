@@ -1,0 +1,33 @@
+id: java-migrate-any-version
+display_name: Java Migrate Any Version
+domain: java
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute Java version migrations with build, dependency, test, and runtime verification.
+areas:
+  - backend
+  - migrations
+  - versions
+  - testing
+tags:
+  - java
+  - migration
+  - upgrade
+collections:
+  - java
+  - backend
+  - testing
+  - migrations
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable
+

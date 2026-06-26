@@ -1,0 +1,31 @@
+id: php-persistence-performance
+display_name: PHP Persistence Performance
+domain: php
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose and improve ORM, query, transaction, and database performance for PHP applications.
+areas:
+  - backend
+  - data-persistence
+  - performance
+tags:
+  - php
+  - doctrine
+  - eloquent
+  - performance
+collections:
+  - php
+  - backend
+packs:
+  - php-backend-pack
+  - production-readiness-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

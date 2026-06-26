@@ -1,0 +1,34 @@
+id: angular-quality-gates
+display_name: Angular Quality Gates
+domain: angular
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Define and enforce Angular CI quality gates — ng build, ESLint, Prettier, strict templates, Karma or Jest tests, and coverage thresholds.
+areas:
+  - frontend
+  - code-quality
+  - testing
+tags:
+  - angular
+  - ci
+  - quality-gates
+  - eslint
+  - typescript
+collections:
+  - angular
+  - frontend
+  - testing
+  - code-quality
+packs:
+  - frontend-angular-pack
+  - quality-gates-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

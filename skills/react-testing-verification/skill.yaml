@@ -1,0 +1,29 @@
+id: react-testing-verification
+display_name: React Testing Verification
+domain: react
+kind: testing
+modes:
+  - planning
+  - coding
+status: active
+summary: User-centric React tests with Testing Library, Vitest/Jest, and MSW.
+areas:
+  - frontend
+  - testing
+tags:
+  - react
+  - testing
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

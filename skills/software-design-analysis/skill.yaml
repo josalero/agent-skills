@@ -1,0 +1,30 @@
+id: software-design-analysis
+display_name: Software Design Analysis
+domain: cross-stack
+kind: architecture
+modes:
+  - planning
+status: active
+summary: Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.
+areas:
+  - architecture
+  - code-quality
+  - developer-experience
+tags:
+  - cross-stack
+  - design
+  - analysis
+  - requirements
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

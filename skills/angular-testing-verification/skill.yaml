@@ -1,0 +1,29 @@
+id: angular-testing-verification
+display_name: Angular Testing Verification
+domain: angular
+kind: testing
+modes:
+  - planning
+  - coding
+status: active
+summary: Angular TestBed, HTTP testing, and component verification patterns.
+areas:
+  - frontend
+  - testing
+tags:
+  - angular
+  - testing
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

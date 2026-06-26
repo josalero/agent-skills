@@ -1,0 +1,13 @@
+id: dotnet
+display_name: .NET
+description: Skills for C#, ASP.NET Core, EF Core, testing, diagnostics, and migrations.
+skills:
+  - dotnet-aspnet-service
+  - dotnet-cloud-native-delivery
+  - dotnet-core-engineering
+  - dotnet-efcore-persistence
+  - dotnet-migrate-any-version
+  - dotnet-quality-gates
+  - dotnet-runtime-diagnostics
+  - dotnet-security-hardening
+  - dotnet-testing-verification

@@ -1,0 +1,13 @@
+id: php
+display_name: PHP
+description: Skills for modern PHP, Laravel, Symfony, testing, and migrations.
+skills:
+  - php-core-engineering
+  - php-delivery-operations
+  - php-laravel-service
+  - php-migrate-any-version
+  - php-persistence-performance
+  - php-quality-gates
+  - php-security-hardening
+  - php-symfony-service
+  - php-testing-verification

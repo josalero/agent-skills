@@ -1,0 +1,30 @@
+id: testing-strategy
+display_name: Testing Strategy
+domain: cross-stack
+kind: testing
+modes:
+  - planning
+status: active
+summary: Plan test layers, CI quality gates, and risk-based verification across stacks.
+areas:
+  - testing
+  - architecture
+  - backend
+tags:
+  - cross-stack
+  - testing
+  - strategy
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

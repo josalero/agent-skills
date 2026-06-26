@@ -1,0 +1,20 @@
+id: production-readiness-pack
+display_name: Production Readiness Pack
+description: Production diagnostics, persistence, delivery, and readiness review skills.
+skills:
+  - cloud-native-delivery
+  - dotnet-cloud-native-delivery
+  - dotnet-efcore-persistence
+  - dotnet-runtime-diagnostics
+  - java-cloud-native-delivery
+  - java-concurrency-reliability
+  - java-jvm-debugging
+  - java-persistence-performance
+  - java-security-hardening
+  - observability-review
+  - php-persistence-performance
+  - production-readiness-review
+targets:
+  - codex
+  - cursor
+  - copilot

@@ -1,0 +1,13 @@
+id: react
+display_name: React
+description: Skills for React components, state, testing, performance, and accessibility.
+skills:
+  - react-accessibility
+  - react-ai-product-engineering
+  - react-component-engineering
+  - react-migrate-any-version
+  - react-performance
+  - react-quality-gates
+  - react-security-hardening
+  - react-state-management
+  - react-testing-verification

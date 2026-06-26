@@ -1,0 +1,27 @@
+id: react-component-engineering
+display_name: React Component Engineering
+domain: react
+kind: framework
+modes:
+  - coding
+status: active
+summary: Component boundaries, props, composition, state ownership, and maintainable rendering.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - react
+  - components
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

@@ -1,0 +1,30 @@
+id: observability-review
+display_name: Observability Review
+domain: cross-stack
+kind: review
+modes:
+  - planning
+status: active
+summary: Review logs, metrics, traces, SLOs, dashboards, and alert quality.
+areas:
+  - observability
+  - architecture
+  - performance
+tags:
+  - cross-stack
+  - observability
+  - review
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+  - production-readiness-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

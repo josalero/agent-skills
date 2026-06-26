@@ -1,0 +1,5 @@
+id: backlog
+required:
+  - version
+  - skills
+

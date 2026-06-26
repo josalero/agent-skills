@@ -1,0 +1,1150 @@
+version: 1
+skills:
+  - id: ai-assisted-engineering
+    display_name: AI Assisted Engineering
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - ai-engineering
+      - developer-experience
+      - code-quality
+    packs:
+      - ai-engineering-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Safe and effective use of AI coding agents in engineering workflows.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-accessibility
+    display_name: Angular Accessibility
+    domain: angular
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Accessibility reviews, fixes, and verification for Angular applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-application-engineering
+    display_name: Angular Application Engineering
+    domain: angular
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Angular modules, components, services, routing, and maintainable app structure.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-migrate-any-version
+    display_name: Angular Migrate Any Version
+    domain: angular
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Plan and execute Angular version and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-performance
+    display_name: Angular Performance
+    domain: angular
+    kind: diagnostic
+    priority: P1
+    status: active
+    areas:
+      - performance
+      - observability
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Diagnose and improve Angular application performance and runtime behavior.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-rxjs-patterns
+    display_name: Angular RxJS Patterns
+    domain: angular
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: RxJS streams, subscriptions, error handling, and async UI behavior in Angular.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-security-hardening
+    display_name: Angular Security Hardening
+    domain: angular
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - security-review-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Secure implementation and review patterns for Angular applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-state-management
+    display_name: Angular State Management
+    domain: angular
+    kind: framework
+    priority: P3
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: State ownership and reactive data flow patterns in Angular applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: angular-testing-verification
+    display_name: Angular Testing Verification
+    domain: angular
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - frontend-angular-pack
+    collections:
+      - angular
+      - frontend
+    rationale: Design, add, review, and improve Angular test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: api-design-review
+    display_name: API Design Review
+    domain: cross-stack
+    kind: review
+    priority: P1
+    status: active
+    areas:
+      - architecture
+      - api-design
+      - backend
+    packs:
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: REST/GraphQL contracts, compatibility, error models, and API evolution.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: cloud-native-delivery
+    display_name: Cloud Native Delivery
+    domain: cross-stack
+    kind: delivery
+    priority: P2
+    status: active
+    areas:
+      - cloud-delivery
+      - architecture
+      - backend
+    packs:
+      - architecture-review-pack
+      - production-readiness-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Deployment architecture, containers, CI/CD, and environment promotion.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-aspnet-service
+    display_name: .NET ASP.NET Service
+    domain: dotnet
+    kind: framework
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - api-design
+      - testing
+    packs:
+      - dotnet-backend-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Build and review ASP.NET Core APIs, DI, validation, auth, and service tests.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-cloud-native-delivery
+    display_name: .NET Cloud Native Delivery
+    domain: dotnet
+    kind: delivery
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - cloud-delivery
+    packs:
+      - dotnet-backend-pack
+      - production-readiness-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Containerized .NET delivery, CI/CD, and deployment verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-core-engineering
+    display_name: .NET Core Engineering
+    domain: dotnet
+    kind: general
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - code-quality
+    packs:
+      - dotnet-backend-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Idiomatic language engineering, maintainability, and code review for .NET code.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-efcore-persistence
+    display_name: .NET EF Core Persistence
+    domain: dotnet
+    kind: diagnostic
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - data-persistence
+      - performance
+    packs:
+      - dotnet-backend-pack
+      - production-readiness-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: EF Core modeling, queries, migrations, and persistence performance.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-migrate-any-version
+    display_name: .NET Migrate Any Version
+    domain: dotnet
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - dotnet-backend-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Plan and execute .NET version and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-runtime-diagnostics
+    display_name: .NET Runtime Diagnostics
+    domain: dotnet
+    kind: diagnostic
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - observability
+      - performance
+    packs:
+      - dotnet-backend-pack
+      - production-readiness-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Production debugging for .NET services, memory, threads, and latency.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-security-hardening
+    display_name: .NET Security Hardening
+    domain: dotnet
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - security-review-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Secure implementation and review patterns for .NET applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: dotnet-testing-verification
+    display_name: .NET Testing Verification
+    domain: dotnet
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - dotnet-backend-pack
+    collections:
+      - dotnet
+      - backend
+    rationale: Design, add, review, and improve .NET test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-21-lts
+    display_name: Java 21 LTS
+    domain: java
+    kind: version
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - versions
+      - migrations
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Java 21 adoption, toolchain alignment, and runtime verification guidance.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-25-lts
+    display_name: Java 25 LTS
+    domain: java
+    kind: version
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - versions
+      - migrations
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Java 25 adoption, toolchain alignment, and runtime verification guidance.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-ai-backend-engineering
+    display_name: Java AI Backend Engineering
+    domain: java
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - ai-engineering
+    packs:
+      - java-backend-pack
+      - ai-engineering-pack
+    collections:
+      - java
+      - backend
+    rationale: AI feature patterns for Java backends including tools, RAG integration, and safety.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-cloud-native-delivery
+    display_name: Java Cloud Native Delivery
+    domain: java
+    kind: delivery
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - cloud-delivery
+      - observability
+    packs:
+      - java-backend-pack
+      - production-readiness-pack
+    collections:
+      - java
+      - backend
+    rationale: Containers, health checks, CI/CD, and cloud deployment for Java services.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-concurrency-reliability
+    display_name: Java Concurrency and Reliability
+    domain: java
+    kind: diagnostic
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - concurrency
+      - performance
+    packs:
+      - java-backend-pack
+      - production-readiness-pack
+    collections:
+      - java
+      - backend
+    rationale: Thread pools, async work, locking, and reliability patterns in Java services.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-core-engineering
+    display_name: Java Core Engineering
+    domain: java
+    kind: general
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - code-quality
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Idiomatic language engineering, maintainability, and code review for Java code.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-jvm-debugging
+    display_name: Java JVM Debugging
+    domain: java
+    kind: diagnostic
+    priority: P0
+    status: active
+    areas:
+      - backend
+      - observability
+      - performance
+    packs:
+      - java-backend-pack
+      - production-readiness-pack
+    collections:
+      - java
+      - backend
+    rationale: Diagnose JVM runtime behavior, memory, latency, threads, and production issues.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-migrate-any-version
+    display_name: Java Migrate Any Version
+    domain: java
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Plan and execute Java version and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-persistence-performance
+    display_name: Java Persistence Performance
+    domain: java
+    kind: diagnostic
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - data-persistence
+      - performance
+    packs:
+      - java-backend-pack
+      - production-readiness-pack
+    collections:
+      - java
+      - backend
+    rationale: SQL, JPA/Hibernate, transactions, N+1 queries, and connection pool tuning.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-security-hardening
+    display_name: Java Security Hardening
+    domain: java
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - security-review-pack
+    collections:
+      - java
+      - backend
+    rationale: Secure implementation and review patterns for Java applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-spring-boot-service
+    display_name: Java Spring Boot Service
+    domain: java
+    kind: framework
+    priority: P0
+    status: active
+    areas:
+      - backend
+      - api-design
+      - testing
+      - observability
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Build, review, refactor, and test production-grade Spring Boot services.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: java-testing-verification
+    display_name: Java Testing Verification
+    domain: java
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - java-backend-pack
+    collections:
+      - java
+      - backend
+    rationale: Design, add, review, and improve Java test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: migration-planning
+    display_name: Migration Planning
+    domain: cross-stack
+    kind: migration
+    priority: P2
+    status: active
+    areas:
+      - migrations
+      - architecture
+      - versions
+    packs:
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Cross-stack modernization planning, sequencing, and risk management.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: observability-review
+    display_name: Observability Review
+    domain: cross-stack
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - observability
+      - architecture
+      - performance
+    packs:
+      - architecture-review-pack
+      - production-readiness-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Logs, metrics, traces, SLOs, and production signal quality.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-core-engineering
+    display_name: PHP Core Engineering
+    domain: php
+    kind: general
+    priority: P1
+    status: active
+    areas:
+      - backend
+      - code-quality
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Idiomatic language engineering, maintainability, and code review for PHP code.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-delivery-operations
+    display_name: PHP Delivery Operations
+    domain: php
+    kind: delivery
+    priority: P3
+    status: active
+    areas:
+      - backend
+      - cloud-delivery
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Deployment, runtime configuration, and operational checks for PHP services.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-laravel-service
+    display_name: PHP Laravel Service
+    domain: php
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - backend
+      - api-design
+      - testing
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Laravel APIs, validation, auth, queues, and service testing workflows.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-migrate-any-version
+    display_name: PHP Migrate Any Version
+    domain: php
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Plan and execute PHP version and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-persistence-performance
+    display_name: PHP Persistence Performance
+    domain: php
+    kind: diagnostic
+    priority: P3
+    status: active
+    areas:
+      - backend
+      - data-persistence
+      - performance
+    packs:
+      - php-backend-pack
+      - production-readiness-pack
+    collections:
+      - php
+      - backend
+    rationale: ORM/query performance, transactions, and database tuning for PHP apps.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-security-hardening
+    display_name: PHP Security Hardening
+    domain: php
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - security-review-pack
+    collections:
+      - php
+      - backend
+    rationale: Secure implementation and review patterns for PHP applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-symfony-service
+    display_name: PHP Symfony Service
+    domain: php
+    kind: framework
+    priority: P3
+    status: active
+    areas:
+      - backend
+      - api-design
+      - testing
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Symfony services, bundles, validation, and API workflows.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: php-testing-verification
+    display_name: PHP Testing Verification
+    domain: php
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - php-backend-pack
+    collections:
+      - php
+      - backend
+    rationale: Design, add, review, and improve PHP test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: production-readiness-review
+    display_name: Production Readiness Review
+    domain: cross-stack
+    kind: review
+    priority: P1
+    status: active
+    areas:
+      - architecture
+      - observability
+      - cloud-delivery
+    packs:
+      - architecture-review-pack
+      - production-readiness-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Release readiness, operability, rollback, and production verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: rag-architecture-review
+    display_name: RAG Architecture Review
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P3
+    status: active
+    areas:
+      - ai-engineering
+      - architecture
+      - data-persistence
+    packs:
+      - ai-engineering-pack
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Retrieval architecture, indexing, evaluation, and operational concerns for RAG systems.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-accessibility
+    display_name: React Accessibility
+    domain: react
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Accessibility reviews, fixes, and verification for React applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-ai-product-engineering
+    display_name: React AI Product Engineering
+    domain: react
+    kind: ai-engineering
+    priority: P3
+    status: active
+    areas:
+      - frontend
+      - ai-engineering
+    packs:
+      - frontend-react-pack
+      - ai-engineering-pack
+    collections:
+      - react
+      - frontend
+    rationale: AI-assisted UX, streaming responses, and safe frontend AI feature patterns.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-component-engineering
+    display_name: React Component Engineering
+    domain: react
+    kind: framework
+    priority: P1
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Component boundaries, props, state ownership, rendering, and maintainability.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-migrate-any-version
+    display_name: React Migrate Any Version
+    domain: react
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Plan and execute React version and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-performance
+    display_name: React Performance
+    domain: react
+    kind: diagnostic
+    priority: P1
+    status: active
+    areas:
+      - performance
+      - observability
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Diagnose and improve React application performance and runtime behavior.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-security-hardening
+    display_name: React Security Hardening
+    domain: react
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - security-review-pack
+    collections:
+      - react
+      - frontend
+    rationale: Secure implementation and review patterns for React applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-state-management
+    display_name: React State Management
+    domain: react
+    kind: framework
+    priority: P1
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Local state, server state, context, and data-fetching ownership in React apps.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: react-testing-verification
+    display_name: React Testing Verification
+    domain: react
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - frontend-react-pack
+    collections:
+      - react
+      - frontend
+    rationale: Design, add, review, and improve React test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: security-review
+    display_name: Security Review
+    domain: cross-stack
+    kind: review
+    priority: P1
+    status: active
+    areas:
+      - security
+      - architecture
+      - backend
+    packs:
+      - architecture-review-pack
+      - security-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Cross-stack security review for services, data handling, and dependencies.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: system-architecture-review
+    display_name: System Architecture Review
+    domain: cross-stack
+    kind: architecture
+    priority: P1
+    status: active
+    areas:
+      - architecture
+      - backend
+      - cloud-delivery
+    packs:
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: System boundaries, tradeoffs, scalability, operability, and migration risk.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: testing-strategy
+    display_name: Testing Strategy
+    domain: cross-stack
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+      - architecture
+      - backend
+    packs:
+      - architecture-review-pack
+      - testing-verification-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Test planning, quality gates, and verification strategy across stacks.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: tool-calling-design-review
+    display_name: Tool Calling Design Review
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P3
+    status: active
+    areas:
+      - ai-engineering
+      - architecture
+      - api-design
+    packs:
+      - ai-engineering-pack
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Tool schemas, safety, observability, and reliability for agent tool calling.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.

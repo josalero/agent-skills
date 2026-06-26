@@ -1,0 +1,27 @@
+id: angular-rxjs-patterns
+display_name: Angular RxJS Patterns
+domain: angular
+kind: framework
+modes:
+  - coding
+status: active
+summary: RxJS operators, subscription lifecycle, and stream patterns in Angular.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - angular
+  - rxjs
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

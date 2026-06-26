@@ -1,0 +1,29 @@
+id: angular-security-hardening
+display_name: Angular Security Hardening
+domain: angular
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: XSS prevention, sanitization, interceptors, CSRF, and SPA auth hygiene in Angular.
+areas:
+  - frontend
+  - security
+tags:
+  - angular
+  - security
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

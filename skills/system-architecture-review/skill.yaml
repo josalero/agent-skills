@@ -1,0 +1,29 @@
+id: system-architecture-review
+display_name: System Architecture Review
+domain: cross-stack
+kind: architecture
+modes:
+  - planning
+status: active
+summary: Review system boundaries, tradeoffs, scalability, operability, and migration risk.
+areas:
+  - architecture
+  - backend
+  - cloud-delivery
+tags:
+  - cross-stack
+  - architecture
+  - review
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

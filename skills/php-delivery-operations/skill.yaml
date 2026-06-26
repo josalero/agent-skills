@@ -1,0 +1,29 @@
+id: php-delivery-operations
+display_name: PHP Delivery Operations
+domain: php
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Deliver PHP services with containers, runtime tuning, health checks, and CI/CD operations.
+areas:
+  - backend
+  - cloud-delivery
+tags:
+  - php
+  - docker
+  - kubernetes
+  - cicd
+collections:
+  - php
+  - backend
+packs:
+  - php-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

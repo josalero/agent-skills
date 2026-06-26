@@ -1,0 +1,30 @@
+id: dotnet-cloud-native-delivery
+display_name: .NET Cloud Native Delivery
+domain: dotnet
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Containerized .NET delivery, CI/CD, and deployment verification.
+areas:
+  - backend
+  - cloud-delivery
+tags:
+  - dotnet
+  - cloud
+  - native
+  - delivery
+collections:
+  - dotnet
+  - backend
+packs:
+  - dotnet-backend-pack
+  - production-readiness-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

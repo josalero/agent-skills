@@ -1,0 +1,27 @@
+id: angular-application-engineering
+display_name: Angular Application Engineering
+domain: angular
+kind: framework
+modes:
+  - coding
+status: active
+summary: Standalone components, services, routing, forms, and maintainable Angular structure.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - angular
+  - application
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

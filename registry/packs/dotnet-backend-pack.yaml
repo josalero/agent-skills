@@ -1,0 +1,17 @@
+id: dotnet-backend-pack
+display_name: .NET Backend Pack
+description: .NET backend engineering bundle for services, testing, diagnostics, and migration.
+skills:
+  - dotnet-aspnet-service
+  - dotnet-cloud-native-delivery
+  - dotnet-core-engineering
+  - dotnet-efcore-persistence
+  - dotnet-migrate-any-version
+  - dotnet-quality-gates
+  - dotnet-runtime-diagnostics
+  - dotnet-security-hardening
+  - dotnet-testing-verification
+targets:
+  - codex
+  - cursor
+  - copilot

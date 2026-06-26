@@ -1,0 +1,24 @@
+id: example-skill
+display_name: Example Skill
+domain: java
+kind: general
+modes:
+  - coding
+status: draft
+summary: Replace this with a concise summary.
+areas:
+  - code-quality
+tags:
+  - example
+collections:
+  - java
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: experimental
+

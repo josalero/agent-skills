@@ -1,0 +1,28 @@
+id: angular-accessibility
+display_name: Angular Accessibility
+domain: angular
+kind: review
+modes:
+  - planning
+  - coding
+status: active
+summary: Accessible Angular forms, overlays, keyboard support, and CDK patterns.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - angular
+  - accessibility
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

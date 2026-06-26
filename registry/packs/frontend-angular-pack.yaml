@@ -1,0 +1,17 @@
+id: frontend-angular-pack
+display_name: Frontend Angular Pack
+description: Angular application, RxJS, testing, and performance skills.
+skills:
+  - angular-accessibility
+  - angular-application-engineering
+  - angular-migrate-any-version
+  - angular-performance
+  - angular-quality-gates
+  - angular-rxjs-patterns
+  - angular-security-hardening
+  - angular-state-management
+  - angular-testing-verification
+targets:
+  - codex
+  - cursor
+  - copilot

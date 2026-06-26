@@ -1,0 +1,27 @@
+id: react-state-management
+display_name: React State Management
+domain: react
+kind: framework
+modes:
+  - coding
+status: active
+summary: Local, URL, server, context, and store patterns for React applications.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - react
+  - state
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

@@ -1,0 +1,14 @@
+id: security-review-pack
+display_name: Security Review Pack
+description: Security hardening and review skills across stacks.
+skills:
+  - angular-security-hardening
+  - dotnet-security-hardening
+  - java-security-hardening
+  - php-security-hardening
+  - react-security-hardening
+  - security-review
+targets:
+  - codex
+  - cursor
+  - copilot

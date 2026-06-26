@@ -1,0 +1,20 @@
+id: architecture-review-pack
+display_name: Architecture Review Pack
+description: Architecture, API design, readiness, and migration planning skills.
+skills:
+  - api-design-review
+  - cloud-native-delivery
+  - migration-planning
+  - observability-review
+  - production-readiness-review
+  - rag-architecture-review
+  - security-review
+  - system-architecture-review
+  - software-design-analysis
+  - technical-documentation-authoring
+  - testing-strategy
+  - tool-calling-design-review
+targets:
+  - codex
+  - cursor
+  - copilot

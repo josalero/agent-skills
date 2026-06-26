@@ -1,0 +1,17 @@
+id: php-backend-pack
+display_name: PHP Backend Pack
+description: PHP backend engineering bundle for Laravel, Symfony, testing, and migration.
+skills:
+  - php-core-engineering
+  - php-delivery-operations
+  - php-laravel-service
+  - php-migrate-any-version
+  - php-persistence-performance
+  - php-quality-gates
+  - php-security-hardening
+  - php-symfony-service
+  - php-testing-verification
+targets:
+  - codex
+  - cursor
+  - copilot

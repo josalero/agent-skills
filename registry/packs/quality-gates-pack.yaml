@@ -1,0 +1,14 @@
+id: quality-gates-pack
+display_name: Quality Gates Pack
+description: Per-stack CI quality gates — static analysis, formatting, tests, and coverage thresholds for Java, .NET, PHP, React, and Angular.
+skills:
+  - angular-quality-gates
+  - dotnet-quality-gates
+  - java-quality-gates
+  - php-quality-gates
+  - react-quality-gates
+  - testing-strategy
+targets:
+  - codex
+  - cursor
+  - copilot

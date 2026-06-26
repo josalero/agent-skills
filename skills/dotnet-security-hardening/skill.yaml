@@ -1,0 +1,28 @@
+id: dotnet-security-hardening
+display_name: .NET Security Hardening
+domain: dotnet
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: Secure implementation and review patterns for .NET applications.
+areas:
+  - security
+  - testing
+tags:
+  - dotnet
+  - security
+  - hardening
+collections:
+  - dotnet
+  - backend
+packs:
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

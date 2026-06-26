@@ -1,0 +1,27 @@
+id: dotnet-migrate-any-version
+display_name: .NET Migrate Any Version
+domain: dotnet
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute .NET version and toolchain migrations with verification.
+areas:
+  - migrations
+  - versions
+tags:
+  - dotnet
+  - migrate
+collections:
+  - dotnet
+  - backend
+packs:
+  - dotnet-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

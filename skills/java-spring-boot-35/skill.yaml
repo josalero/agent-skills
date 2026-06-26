@@ -1,0 +1,31 @@
+id: java-spring-boot-35
+display_name: Java Spring Boot 3.5
+domain: java
+kind: version
+modes:
+  - coding
+status: active
+summary: Upgrade to or build on Spring Boot 3.5 (final 3.x line) with Spring Framework 6.2, operational polish, and 3.4-to-3.5 breaking-change awareness.
+areas:
+  - backend
+  - versions
+  - migrations
+  - observability
+tags:
+  - java
+  - spring-boot
+  - "3.5"
+  - spring-framework-6
+collections:
+  - java
+  - backend
+  - migrations
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

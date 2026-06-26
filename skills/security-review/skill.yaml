@@ -1,0 +1,30 @@
+id: security-review
+display_name: Security Review
+domain: cross-stack
+kind: review
+modes:
+  - planning
+status: active
+summary: Cross-stack security review for auth, data handling, dependencies, and deployment.
+areas:
+  - security
+  - architecture
+  - backend
+tags:
+  - cross-stack
+  - security
+  - review
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

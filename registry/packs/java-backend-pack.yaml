@@ -1,0 +1,24 @@
+id: java-backend-pack
+display_name: Java Backend Pack
+description: Java backend engineering bundle for core Java, Spring Boot services, testing, JVM diagnostics, and migration readiness.
+skills:
+  - java-21-lts
+  - java-25-lts
+  - java-ai-backend-engineering
+  - java-cloud-native-delivery
+  - java-concurrency-reliability
+  - java-core-engineering
+  - java-jvm-debugging
+  - java-migrate-any-version
+  - java-persistence-performance
+  - java-quality-gates
+  - java-security-hardening
+  - java-spring-boot-service
+  - java-spring-boot-35
+  - java-spring-boot-40
+  - java-spring-boot-41
+  - java-testing-verification
+targets:
+  - codex
+  - cursor
+  - copilot

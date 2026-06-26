@@ -1,0 +1,13 @@
+id: ai-engineering-pack
+display_name: AI Engineering Pack
+description: AI-assisted engineering, RAG review, and tool-calling design skills.
+skills:
+  - ai-assisted-engineering
+  - java-ai-backend-engineering
+  - rag-architecture-review
+  - react-ai-product-engineering
+  - tool-calling-design-review
+targets:
+  - codex
+  - cursor
+  - copilot

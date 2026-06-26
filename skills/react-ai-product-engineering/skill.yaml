@@ -1,0 +1,29 @@
+id: react-ai-product-engineering
+display_name: React AI Product Engineering
+domain: react
+kind: ai-engineering
+modes:
+  - planning
+  - coding
+status: active
+summary: Build React chat and streaming AI UX with citations, safety, and accessibility.
+areas:
+  - frontend
+  - ai-engineering
+tags:
+  - react
+  - ai-engineering
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+  - ai-engineering-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

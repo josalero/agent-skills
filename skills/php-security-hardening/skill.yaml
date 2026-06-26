@@ -1,0 +1,30 @@
+id: php-security-hardening
+display_name: PHP Security Hardening
+domain: php
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: Secure implementation and review patterns for PHP, Laravel, and Symfony applications.
+areas:
+  - backend
+  - security
+  - testing
+tags:
+  - php
+  - security
+  - hardening
+collections:
+  - php
+  - backend
+packs:
+  - php-backend-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

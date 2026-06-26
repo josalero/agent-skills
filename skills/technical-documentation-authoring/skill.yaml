@@ -1,0 +1,32 @@
+id: technical-documentation-authoring
+display_name: Technical Documentation Authoring
+domain: cross-stack
+kind: general
+modes:
+  - planning
+status: active
+summary: Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.
+areas:
+  - architecture
+  - developer-experience
+  - code-quality
+tags:
+  - cross-stack
+  - documentation
+  - writing
+  - brd
+  - adr
+  - rfc
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

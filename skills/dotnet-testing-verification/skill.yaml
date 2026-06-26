@@ -1,0 +1,27 @@
+id: dotnet-testing-verification
+display_name: .NET Testing Verification
+domain: dotnet
+kind: testing
+modes:
+  - planning
+  - coding
+status: active
+summary: Design, add, review, and improve .NET test coverage and verification.
+areas:
+  - testing
+tags:
+  - dotnet
+  - testing
+  - verification
+collections:
+  - dotnet
+  - backend
+packs:
+  - dotnet-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

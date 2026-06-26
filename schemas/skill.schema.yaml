@@ -1,0 +1,15 @@
+id: skill
+required:
+  - id
+  - display_name
+  - domain
+  - kind
+  - status
+  - summary
+  - areas
+  - tags
+  - collections
+  - packs
+  - targets
+  - stability
+

@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Local pre-commit hook: run repository checks before each commit.
+# Install: ./scripts/install-git-hooks.sh
+
+set -euo pipefail
+
+REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$REPO_ROOT"
+
+export PYTHONPATH="$REPO_ROOT/tools${PYTHONPATH:+:$PYTHONPATH}"
+
+echo "pre-commit: validating skills and backlog..."
+./tools/skillctl validate --all
+./tools/skillctl backlog validate
+
+if git diff --cached --name-only | grep -q '^skills/'; then
+  echo "pre-commit: skill sources changed — run 'make build' and stage dist/ before committing."
+  if ! git diff --cached --name-only | grep -q '^dist/'; then
+    echo "pre-commit: no staged dist/ changes detected."
+    echo "pre-commit: run 'make build' and 'git add dist/' unless you only changed draft skills."
+  fi
+fi
+
+echo "pre-commit: OK (run 'make check' before pushing for full CI parity)"

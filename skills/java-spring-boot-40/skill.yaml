@@ -1,0 +1,33 @@
+id: java-spring-boot-40
+display_name: Java Spring Boot 4.0
+domain: java
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Migrate from Spring Boot 3.5 to 4.0 on Spring Framework 7, Jakarta EE 11, Jackson 3, JSpecify nullness, and updated test and security stacks.
+areas:
+  - backend
+  - versions
+  - migrations
+  - security
+tags:
+  - java
+  - spring-boot
+  - "4.0"
+  - spring-framework-7
+  - jackson-3
+collections:
+  - java
+  - backend
+  - migrations
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

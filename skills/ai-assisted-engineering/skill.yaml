@@ -1,0 +1,30 @@
+id: ai-assisted-engineering
+display_name: AI Assisted Engineering
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+  - coding
+status: active
+summary: Safe and effective use of AI coding agents in engineering workflows.
+areas:
+  - ai-engineering
+  - developer-experience
+  - code-quality
+tags:
+  - cross-stack
+  - ai-engineering
+  - developer-experience
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

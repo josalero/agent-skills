@@ -1,0 +1,29 @@
+id: react-migrate-any-version
+display_name: React Migrate Any Version
+domain: react
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute React, router, bundler, and ecosystem version migrations.
+areas:
+  - frontend
+  - migrations
+  - versions
+tags:
+  - react
+  - migration
+  - versions
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

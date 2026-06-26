@@ -1,0 +1,30 @@
+id: cloud-native-delivery
+display_name: Cloud Native Delivery
+domain: cross-stack
+kind: delivery
+modes:
+  - planning
+status: active
+summary: Cross-stack delivery architecture for environments, CI/CD, promotion, and platform standards.
+areas:
+  - cloud-delivery
+  - architecture
+  - backend
+tags:
+  - cross-stack
+  - cloud-delivery
+  - delivery
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+  - production-readiness-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

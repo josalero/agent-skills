@@ -1,0 +1,29 @@
+id: angular-migrate-any-version
+display_name: Angular Migrate Any Version
+domain: angular
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute Angular, CLI, and ecosystem version migrations.
+areas:
+  - frontend
+  - migrations
+  - versions
+tags:
+  - angular
+  - migration
+  - versions
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

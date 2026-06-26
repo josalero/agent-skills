@@ -1,0 +1,28 @@
+id: angular-performance
+display_name: Angular Performance
+domain: angular
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Angular change detection, lazy loading, lists, and bundle performance.
+areas:
+  - frontend
+  - performance
+tags:
+  - angular
+  - performance
+  - frontend
+collections:
+  - angular
+  - frontend
+packs:
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

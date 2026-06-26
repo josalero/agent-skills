@@ -1,0 +1,34 @@
+id: react-quality-gates
+display_name: React Quality Gates
+domain: react
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Define and enforce React CI quality gates — ESLint, Prettier, TypeScript noEmit, Vitest or Jest tests, and coverage thresholds in Vite or CRA projects.
+areas:
+  - frontend
+  - code-quality
+  - testing
+tags:
+  - react
+  - ci
+  - quality-gates
+  - eslint
+  - typescript
+collections:
+  - react
+  - frontend
+  - testing
+  - code-quality
+packs:
+  - frontend-react-pack
+  - quality-gates-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

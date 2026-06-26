@@ -1,0 +1,28 @@
+id: java-core-engineering
+display_name: Java Core Engineering
+domain: java
+kind: general
+modes:
+  - coding
+status: active
+summary: Apply modern Java engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+areas:
+  - backend
+  - code-quality
+tags:
+  - java
+  - core-java
+  - refactoring
+collections:
+  - java
+  - backend
+packs:
+  - java-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable
+

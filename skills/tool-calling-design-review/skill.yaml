@@ -1,0 +1,30 @@
+id: tool-calling-design-review
+display_name: Tool Calling Design Review
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+status: active
+summary: Review agent tool schemas, safety, authorization, idempotency, and observability.
+areas:
+  - ai-engineering
+  - architecture
+  - api-design
+tags:
+  - cross-stack
+  - tool-calling
+  - agents
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

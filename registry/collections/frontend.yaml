@@ -1,0 +1,30 @@
+id: frontend
+display_name: Frontend
+description: Cross-framework frontend engineering skills.
+skills:
+  - ai-assisted-engineering
+  - angular-accessibility
+  - angular-application-engineering
+  - angular-migrate-any-version
+  - angular-performance
+  - angular-rxjs-patterns
+  - angular-state-management
+  - angular-testing-verification
+  - api-design-review
+  - cloud-native-delivery
+  - migration-planning
+  - observability-review
+  - production-readiness-review
+  - rag-architecture-review
+  - react-accessibility
+  - react-ai-product-engineering
+  - react-component-engineering
+  - react-migrate-any-version
+  - react-performance
+  - react-security-hardening
+  - react-state-management
+  - react-testing-verification
+  - security-review
+  - system-architecture-review
+  - testing-strategy
+  - tool-calling-design-review

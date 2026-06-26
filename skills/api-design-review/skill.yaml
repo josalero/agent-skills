@@ -1,0 +1,29 @@
+id: api-design-review
+display_name: API Design Review
+domain: cross-stack
+kind: review
+modes:
+  - planning
+status: active
+summary: Review REST and HTTP API contracts, errors, pagination, versioning, and compatibility.
+areas:
+  - architecture
+  - api-design
+  - backend
+tags:
+  - cross-stack
+  - api-design
+  - review
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable

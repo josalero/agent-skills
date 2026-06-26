@@ -1,0 +1,29 @@
+id: react-security-hardening
+display_name: React Security Hardening
+domain: react
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
+areas:
+  - frontend
+  - security
+tags:
+  - react
+  - security
+  - frontend
+collections:
+  - react
+  - frontend
+packs:
+  - frontend-react-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+owners:
+  - josalero
+stability: stable
