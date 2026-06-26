@@ -2,7 +2,9 @@ id: backend
 display_name: Backend Engineering
 description: Skills for API services, runtime behavior, reliability, testing, migrations, and production backend delivery.
 skills:
+  - agent-orchestration-design
   - ai-assisted-engineering
+  - ai-evaluation-architecture
   - api-design-review
   - cloud-native-delivery
   - dotnet-aspnet-service
@@ -28,9 +30,20 @@ skills:
   - java-spring-boot-40
   - java-spring-boot-41
   - java-testing-verification
+  - kotlin-core-engineering
+  - kotlin-coroutines-patterns
+  - kotlin-jvm-debugging
+  - kotlin-migrate-any-version
+  - kotlin-persistence-performance
+  - kotlin-quality-gates
+  - kotlin-security-hardening
+  - kotlin-spring-boot-service
+  - kotlin-testing-verification
+  - llm-application-architecture
   - migration-planning
   - observability-review
   - software-design-analysis
+  - technical-article-authoring
   - technical-documentation-authoring
   - php-core-engineering
   - php-delivery-operations
@@ -42,6 +55,15 @@ skills:
   - php-testing-verification
   - production-readiness-review
   - rag-architecture-review
+  - rust-api-service
+  - rust-async-patterns
+  - rust-core-engineering
+  - rust-migrate-any-version
+  - rust-performance
+  - rust-persistence-patterns
+  - rust-quality-gates
+  - rust-security-hardening
+  - rust-testing-verification
   - security-review
   - system-architecture-review
   - testing-strategy

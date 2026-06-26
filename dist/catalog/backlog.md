@@ -1,5 +1,15 @@
 # Skill Backlog
 
+## Agent Orchestration Design
+
+- ID: `agent-orchestration-design`
+- Domain: `cross-stack`
+- Kind: `ai-engineering`
+- Priority: `P2`
+- Status: `active`
+
+Multi-step agent workflows, routing, state, limits, and human-in-the-loop design.
+
 ## AI Assisted Engineering
 
 - ID: `ai-assisted-engineering`
@@ -9,6 +19,16 @@
 - Status: `active`
 
 Safe and effective use of AI coding agents in engineering workflows.
+
+## AI Evaluation Architecture
+
+- ID: `ai-evaluation-architecture`
+- Domain: `cross-stack`
+- Kind: `ai-engineering`
+- Priority: `P2`
+- Status: `active`
+
+Golden datasets, metrics, CI gates, and production quality signals for LLM and RAG features.
 
 ## Angular Accessibility
 
@@ -190,6 +210,16 @@ Secure implementation and review patterns for .NET applications.
 
 Design, add, review, and improve .NET test coverage and verification.
 
+## Frontend UI Engineering
+
+- ID: `frontend-ui-engineering`
+- Domain: `cross-stack`
+- Kind: `framework`
+- Priority: `P2`
+- Status: `active`
+
+Semantic HTML, Tailwind UI, responsive layouts, and complete component states.
+
 ## Java 21 LTS
 
 - ID: `java-21-lts`
@@ -309,6 +339,16 @@ Build, review, refactor, and test production-grade Spring Boot services.
 - Status: `active`
 
 Design, add, review, and improve Java test coverage and verification.
+
+## LLM Application Architecture
+
+- ID: `llm-application-architecture`
+- Domain: `cross-stack`
+- Kind: `ai-engineering`
+- Priority: `P2`
+- Status: `active`
+
+Pattern selection for RAG, tools, routing, memory, and phased LLM feature rollout.
 
 ## Migration Planning
 
@@ -530,6 +570,16 @@ Cross-stack security review for services, data handling, and dependencies.
 
 System boundaries, tradeoffs, scalability, operability, and migration risk.
 
+## Technical Article Authoring
+
+- ID: `technical-article-authoring`
+- Domain: `cross-stack`
+- Kind: `general`
+- Priority: `P2`
+- Status: `active`
+
+Plan, draft, and revise public technical articles for LinkedIn, blogs, and dev publications.
+
 ## Testing Strategy
 
 - ID: `testing-strategy`
@@ -549,3 +599,123 @@ Test planning, quality gates, and verification strategy across stacks.
 - Status: `active`
 
 Tool schemas, safety, observability, and reliability for agent tool calling.
+
+## UI Design System Review
+
+- ID: `ui-design-system-review`
+- Domain: `cross-stack`
+- Kind: `review`
+- Priority: `P2`
+- Status: `active`
+
+Design tokens, spacing, typography, and component consistency audits.
+
+## UX Design Review
+
+- ID: `ux-design-review`
+- Domain: `cross-stack`
+- Kind: `review`
+- Priority: `P2`
+- Status: `active`
+
+User flows, heuristics, IA, content, and UI state review before implementation.
+
+## Vue Accessibility
+
+- ID: `vue-accessibility`
+- Domain: `vue`
+- Kind: `review`
+- Priority: `P2`
+- Status: `active`
+
+Accessibility reviews, fixes, and verification for Vue applications.
+
+## Vue AI Product Engineering
+
+- ID: `vue-ai-product-engineering`
+- Domain: `vue`
+- Kind: `ai-engineering`
+- Priority: `P3`
+- Status: `active`
+
+AI chat, streaming UI, trust, safety, and accessibility patterns for Vue products.
+
+## Vue Application Engineering
+
+- ID: `vue-application-engineering`
+- Domain: `vue`
+- Kind: `framework`
+- Priority: `P2`
+- Status: `active`
+
+Vue SFCs, script setup, routing, forms, and maintainable application structure.
+
+## Vue Composables Patterns
+
+- ID: `vue-composables-patterns`
+- Domain: `vue`
+- Kind: `framework`
+- Priority: `P2`
+- Status: `active`
+
+Composables, watchers, lifecycle, and reusable async UI behavior in Vue.
+
+## Vue Migrate Any Version
+
+- ID: `vue-migrate-any-version`
+- Domain: `vue`
+- Kind: `migration`
+- Priority: `P1`
+- Status: `active`
+
+Plan and execute Vue version, router, and toolchain migrations with verification.
+
+## Vue Performance
+
+- ID: `vue-performance`
+- Domain: `vue`
+- Kind: `diagnostic`
+- Priority: `P1`
+- Status: `active`
+
+Diagnose and improve Vue application performance, bundles, and render behavior.
+
+## Vue Quality Gates
+
+- ID: `vue-quality-gates`
+- Domain: `vue`
+- Kind: `delivery`
+- Priority: `P1`
+- Status: `active`
+
+ESLint, Prettier, vue-tsc, Vitest, and CI coverage gates for Vue projects.
+
+## Vue Security Hardening
+
+- ID: `vue-security-hardening`
+- Domain: `vue`
+- Kind: `security`
+- Priority: `P1`
+- Status: `active`
+
+Secure implementation and review patterns for Vue applications.
+
+## Vue State Management
+
+- ID: `vue-state-management`
+- Domain: `vue`
+- Kind: `framework`
+- Priority: `P3`
+- Status: `active`
+
+Pinia, composables, URL state, and server cache patterns in Vue applications.
+
+## Vue Testing Verification
+
+- ID: `vue-testing-verification`
+- Domain: `vue`
+- Kind: `testing`
+- Priority: `P1`
+- Status: `active`
+
+Design, add, review, and improve Vue test coverage with Vitest and vue-test-utils.

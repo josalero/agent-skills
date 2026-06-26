@@ -1,0 +1,36 @@
+id: kotlin-quality-gates
+display_name: Kotlin Quality Gates
+domain: kotlin
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Define and enforce Kotlin CI quality gates — build, test, detekt, ktlint, and coverage thresholds.
+areas:
+  - backend
+  - code-quality
+  - testing
+tags:
+  - kotlin
+  - ci
+  - quality-gates
+  - detekt
+  - gradle
+collections:
+  - kotlin
+  - backend
+  - testing
+  - code-quality
+packs:
+  - kotlin-backend-pack
+  - quality-gates-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

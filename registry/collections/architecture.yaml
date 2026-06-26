@@ -2,9 +2,12 @@ id: architecture
 display_name: Architecture
 description: Cross-stack architecture, review, and planning skills.
 skills:
+  - agent-orchestration-design
   - ai-assisted-engineering
+  - ai-evaluation-architecture
   - api-design-review
   - cloud-native-delivery
+  - llm-application-architecture
   - migration-planning
   - observability-review
   - production-readiness-review
@@ -13,5 +16,8 @@ skills:
   - system-architecture-review
   - software-design-analysis
   - technical-documentation-authoring
+  - technical-article-authoring
   - testing-strategy
   - tool-calling-design-review
+  - ui-design-system-review
+  - ux-design-review

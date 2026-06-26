@@ -21,11 +21,13 @@ collections:
   - frontend
 packs:
   - architecture-review-pack
+  - technical-writing-pack
 targets:
   codex: true
   cursor: true
   copilot: true
   claude: true
+  opencode: true
 owners:
   - josalero
 stability: stable

@@ -1,0 +1,34 @@
+id: kotlin-migrate-any-version
+display_name: Kotlin Migrate Any Version
+domain: kotlin
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute Kotlin language, compiler, and toolchain migrations with build and test verification.
+areas:
+  - backend
+  - migrations
+  - versions
+  - testing
+tags:
+  - kotlin
+  - migration
+  - upgrade
+collections:
+  - kotlin
+  - backend
+  - testing
+  - migrations
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

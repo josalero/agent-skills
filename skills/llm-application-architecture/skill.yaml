@@ -1,0 +1,34 @@
+id: llm-application-architecture
+display_name: LLM Application Architecture
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+status: active
+summary: Choose LLM application patterns — RAG, tools, routing, memory, and sync vs async — before implementation.
+areas:
+  - ai-engineering
+  - architecture
+  - api-design
+tags:
+  - cross-stack
+  - llm
+  - architecture
+  - rag
+  - agents
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

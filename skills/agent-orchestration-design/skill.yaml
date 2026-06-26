@@ -1,0 +1,33 @@
+id: agent-orchestration-design
+display_name: Agent Orchestration Design
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+status: active
+summary: Design multi-step agent workflows — routing, state, handoffs, limits, and when not to use an agent loop.
+areas:
+  - ai-engineering
+  - architecture
+  - api-design
+tags:
+  - cross-stack
+  - agents
+  - orchestration
+  - workflow
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+  - architecture-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

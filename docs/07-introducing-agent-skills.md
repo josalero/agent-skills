@@ -4,11 +4,11 @@
 
 ---
 
-If you use Cursor, Codex, or GitHub Copilot, you have probably felt the same friction: every project reinvents how the agent should behave. One repo has a long `AGENTS.md` that nobody maintains. Another copies Spring Boot tips from a chat thread. A third disables rules because they conflict. The agent is capable — but the **instructions** are inconsistent, unreviewed, and trapped in individual codebases.
+If you use Cursor, Codex, GitHub Copilot, or Claude Code, you have probably felt the same friction: every project reinvents how the agent should behave. One repo has a long `AGENTS.md` that nobody maintains. Another copies Spring Boot tips from a chat thread. A third disables rules because they conflict. The agent is capable — but the **instructions** are inconsistent, unreviewed, and trapped in individual codebases.
 
 **agent-skills** is an open catalog that fixes that at the source. It is a version-controlled library of engineering **skills** — structured workflows with references and checklists — that you install into your projects as ordinary files. Agents read them locally. You review them in Git. You improve them once and reuse them everywhere.
 
-Today the catalog ships **65 active skills** across Java, .NET, PHP, React, Angular, architecture review, quality gates, and AI engineering, bundled into **11 install packs** for Cursor, Codex, and Copilot.
+Today the catalog ships **100 active skills** across Java, Kotlin, .NET, PHP, Rust, React, Angular, Vue, architecture review, quality gates, AI engineering, UX/UI, and technical writing, bundled into **16 install packs** for Cursor, Codex, Copilot, Claude Code, and OpenCode.
 
 ---
 
@@ -24,6 +24,10 @@ A skill is not a prompt dump. It is a small, focused package:
 | `eval/prompt.md` | A realistic scenario to sanity-check agent behavior (recommended) |
 
 Example: `java-spring-boot-service` tells an agent how to build or review a REST vertical slice (DTOs, validation, transactions, tests). `java-quality-gates` tells it how to fix CI when Checkstyle or JaCoCo fails. `technical-documentation-authoring` tells it how to structure an RFC or ADR.
+
+**AI architect skills** (planning mode) help before you write code: `llm-application-architecture` (RAG vs tools vs prompt-only, routing, memory), `ai-evaluation-architecture` (golden sets, metrics, CI gates), and `agent-orchestration-design` (multi-step agents, state, limits, human-in-the-loop). They ship in `ai-engineering-pack` and `architecture-review-pack`.
+
+**UX/UI skills** complement framework accessibility skills: `ux-design-review` and `ui-design-system-review` for flows, heuristics, and design tokens; `frontend-ui-engineering` for semantic HTML, Tailwind, and responsive implementation. See `frontend-ux-ui-pack`.
 
 Skills declare **modes**:
 
@@ -41,7 +45,7 @@ The repository separates three concerns:
 ```text
 skills/      ← you author workflows here (source of truth)
 registry/    ← packs, collections, backlog (what lists and bundles skills)
-dist/        ← generated output for Cursor, Copilot, Codex (never edit by hand)
+dist/        ← generated output for Cursor, Copilot, Codex, Claude Code, OpenCode (never edit by hand)
 ```
 
 **skillctl** (the CLI in `tools/`) validates skill structure, builds vendor-specific output, and installs packs into your project. Because **`dist/` is committed**, you can clone and install **without Python** — run the install script and copy files into your app.
@@ -62,7 +66,7 @@ cd agent-skills
   --target codex
 ```
 
-**Packs** are curated bundles: `java-backend-pack`, `frontend-react-pack`, `architecture-review-pack`, `quality-gates-pack`, and others. See [Choosing packs](03-choosing-packs.md) for a stack picker, or browse [active skills](../../dist/catalog/active-skills.md) after `make build`.
+**Packs** are curated bundles: `java-backend-pack`, `frontend-react-pack`, `architecture-review-pack`, `ai-engineering-pack`, `quality-gates-pack`, and others. See [Choosing packs](03-choosing-packs.md) for a stack picker, or run `./tools/skillctl catalog` / browse [active skills](../../dist/catalog/active-skills.md) after `make build`.
 
 **Collections** (`java`, `backend`, `testing`, …) group skills for browsing in the catalog — they are not install units.
 
@@ -188,6 +192,8 @@ That balance — breadth in planning, depth in active skills — is what makes t
 | --- | --- |
 | Install skills into my project | [Getting started](01-getting-started.md) → [Install guide](02-install.md) |
 | Pick a pack for my stack | [Choosing packs](03-choosing-packs.md) |
+| Suggest packs from my repo | `./tools/skillctl recommend --dest /path/to/project` |
+| List or search skills in the terminal | [CLI reference — Discover](05-skillctl-reference.md#discover-skills-and-packs) |
 | Add or edit a skill | [Authoring skills](04-authoring-skills.md) |
 | Look up CLI commands | [CLI reference](05-skillctl-reference.md) |
 | Contribute a PR | [Contributing](06-contributing.md) |
@@ -207,7 +213,7 @@ Open your project in Cursor (or your agent of choice), ask for an architecture o
 
 If something was wrong or missing — **that is a contribution waiting to happen.**
 
-**Shorter versions (narrative style, matching [AI Broke Your Definition of Done](https://my-tech-profile.dev/insights/ai-broke-your-definition-of-done)):** [docs/articles/introducing-agent-skills-devto.md](articles/introducing-agent-skills-devto.md) and [social excerpts](articles/social-excerpt.md).
+**Shorter narrative (same voice as [AI Broke Your Definition of Done](https://my-tech-profile.dev/insights/ai-broke-your-definition-of-done)):** see the overview sections above, or share [07-introducing-agent-skills.md](07-introducing-agent-skills.md) directly.
 
 ---
 

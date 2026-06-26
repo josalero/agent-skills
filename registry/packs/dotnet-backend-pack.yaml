@@ -16,3 +16,4 @@ targets:
   - cursor
   - copilot
   - claude
+  - opencode

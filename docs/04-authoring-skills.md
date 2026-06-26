@@ -34,7 +34,7 @@ skills/java-spring-boot-service/
 | `references/` | Detailed examples linked from `SKILL.md`. |
 | `eval/prompt.md` | Quality check prompt for manual or future automated evals. |
 
-Generated output lands in `dist/` for Cursor, Copilot, and Codex. **Do not edit `dist/` by hand.**
+Generated output lands in `dist/` for Cursor, Copilot, Codex, Claude Code, and OpenCode. **Do not edit `dist/` by hand.**
 
 ## Edit an existing skill
 
@@ -80,7 +80,7 @@ Required fields:
 
 - `id`, `display_name`, `domain`, `kind`, `modes`, `status`, `summary`
 - `areas`, `tags`, `collections`, `packs`
-- `targets` (`codex`, `cursor`, `copilot`, `claude`)
+- `targets` (`codex`, `cursor`, `copilot`, `claude`, `opencode`)
 - `owners`, `stability`
 
 **modes** — when agents should use the skill:
@@ -92,6 +92,10 @@ Required fields:
 | Both | Workflows that plan then implement (migrations, hardening) |
 
 Start new skills as `status: draft`. Set `active` when authored and reviewed.
+
+**Planning-only skills:** if a skill is design/review-only (no implementation workflow), declare `modes: [planning]` in `skill.yaml` and add the skill ID to `PLANNING_ONLY_SKILLS` in `tools/skillforge/modes.py`. Tests in `tests/test_modes.py` enforce canonical mode lists.
+
+**AI engineering skills** (`kind: ai-engineering`) often pair with `architecture-review-pack` and/or `ai-engineering-pack`. Cross-reference related skills in `SKILL.md` (for example `rag-architecture-review`, `tool-calling-design-review`).
 
 ### 4. Add eval prompt
 

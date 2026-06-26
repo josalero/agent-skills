@@ -18,7 +18,9 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 
 ## Skills
 
+- `agent-orchestration-design`: `.cursor/skills/agent-orchestration-design/SKILL.md` — Design multi-step agent workflows — routing, state, handoffs, limits, and when not to use an agent loop.
 - `ai-assisted-engineering`: `.cursor/skills/ai-assisted-engineering/SKILL.md` — Safe and effective use of AI coding agents in engineering workflows.
+- `ai-evaluation-architecture`: `.cursor/skills/ai-evaluation-architecture/SKILL.md` — Design eval datasets, metrics, gates, and production quality signals for LLM and RAG features.
 - `angular-accessibility`: `.cursor/skills/angular-accessibility/SKILL.md` — Accessible Angular forms, overlays, keyboard support, and CDK patterns.
 - `angular-application-engineering`: `.cursor/skills/angular-application-engineering/SKILL.md` — Standalone components, services, routing, forms, and maintainable Angular structure.
 - `angular-migrate-any-version`: `.cursor/skills/angular-migrate-any-version/SKILL.md` — Plan and execute Angular, CLI, and ecosystem version migrations.
@@ -39,6 +41,7 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `dotnet-runtime-diagnostics`: `.cursor/skills/dotnet-runtime-diagnostics/SKILL.md` — Production debugging for .NET services, memory, threads, and latency.
 - `dotnet-security-hardening`: `.cursor/skills/dotnet-security-hardening/SKILL.md` — Secure implementation and review patterns for .NET applications.
 - `dotnet-testing-verification`: `.cursor/skills/dotnet-testing-verification/SKILL.md` — Design, add, review, and improve .NET test coverage and verification.
+- `frontend-ui-engineering`: `.cursor/skills/frontend-ui-engineering/SKILL.md` — Build and review semantic HTML, Tailwind UI, responsive layouts, and complete component states.
 - `java-21-lts`: `.cursor/skills/java-21-lts/SKILL.md` — Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.
 - `java-25-lts`: `.cursor/skills/java-25-lts/SKILL.md` — Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.
 - `java-ai-backend-engineering`: `.cursor/skills/java-ai-backend-engineering/SKILL.md` — Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.
@@ -55,6 +58,16 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `java-spring-boot-41`: `.cursor/skills/java-spring-boot-41/SKILL.md` — Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.
 - `java-spring-boot-service`: `.cursor/skills/java-spring-boot-service/SKILL.md` — Build, review, refactor, and test production-grade Spring Boot services.
 - `java-testing-verification`: `.cursor/skills/java-testing-verification/SKILL.md` — Design, add, review, and improve Java test coverage and verification.
+- `kotlin-core-engineering`: `.cursor/skills/kotlin-core-engineering/SKILL.md` — Apply modern Kotlin engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+- `kotlin-coroutines-patterns`: `.cursor/skills/kotlin-coroutines-patterns/SKILL.md` — Structured concurrency, Flow, channels, and coroutine reliability patterns for Kotlin backend services.
+- `kotlin-jvm-debugging`: `.cursor/skills/kotlin-jvm-debugging/SKILL.md` — Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues in Kotlin services.
+- `kotlin-migrate-any-version`: `.cursor/skills/kotlin-migrate-any-version/SKILL.md` — Plan and execute Kotlin language, compiler, and toolchain migrations with build and test verification.
+- `kotlin-persistence-performance`: `.cursor/skills/kotlin-persistence-performance/SKILL.md` — Diagnose and improve JPA, Exposed, and R2DBC persistence performance in Kotlin services.
+- `kotlin-quality-gates`: `.cursor/skills/kotlin-quality-gates/SKILL.md` — Define and enforce Kotlin CI quality gates — build, test, detekt, ktlint, and coverage thresholds.
+- `kotlin-security-hardening`: `.cursor/skills/kotlin-security-hardening/SKILL.md` — Secure implementation and review patterns for Kotlin and Spring Boot applications.
+- `kotlin-spring-boot-service`: `.cursor/skills/kotlin-spring-boot-service/SKILL.md` — Build and review Spring Boot REST services with Kotlin idioms, DI, validation, and service tests.
+- `kotlin-testing-verification`: `.cursor/skills/kotlin-testing-verification/SKILL.md` — Design, add, review, and improve Kotlin test coverage and verification.
+- `llm-application-architecture`: `.cursor/skills/llm-application-architecture/SKILL.md` — Choose LLM application patterns — RAG, tools, routing, memory, and sync vs async — before implementation.
 - `migration-planning`: `.cursor/skills/migration-planning/SKILL.md` — Plan cross-stack modernizations with sequencing, risk management, and verification.
 - `observability-review`: `.cursor/skills/observability-review/SKILL.md` — Review logs, metrics, traces, SLOs, dashboards, and alert quality.
 - `php-core-engineering`: `.cursor/skills/php-core-engineering/SKILL.md` — Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.
@@ -77,16 +90,40 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `react-security-hardening`: `.cursor/skills/react-security-hardening/SKILL.md` — Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
 - `react-state-management`: `.cursor/skills/react-state-management/SKILL.md` — Local, URL, server, context, and store patterns for React applications.
 - `react-testing-verification`: `.cursor/skills/react-testing-verification/SKILL.md` — User-centric React tests with Testing Library, Vitest/Jest, and MSW.
+- `rust-api-service`: `.cursor/skills/rust-api-service/SKILL.md` — Build and review Axum and Actix web APIs with validation, auth, and integration tests.
+- `rust-async-patterns`: `.cursor/skills/rust-async-patterns/SKILL.md` — Tokio async/await, task spawning, channels, and reliability patterns for Rust backend services.
+- `rust-core-engineering`: `.cursor/skills/rust-core-engineering/SKILL.md` — Apply idiomatic Rust engineering practices for ownership, error handling, maintainability, and code review.
+- `rust-migrate-any-version`: `.cursor/skills/rust-migrate-any-version/SKILL.md` — Plan and execute Rust edition and toolchain migrations with build and test verification.
+- `rust-performance`: `.cursor/skills/rust-performance/SKILL.md` — Diagnose and improve Rust service performance, memory, latency, and CPU utilization.
+- `rust-persistence-patterns`: `.cursor/skills/rust-persistence-patterns/SKILL.md` — Design and optimize sqlx and Diesel persistence layers for Rust backend services.
+- `rust-quality-gates`: `.cursor/skills/rust-quality-gates/SKILL.md` — Define and enforce Rust CI quality gates — cargo test, clippy, fmt, deny, and coverage.
+- `rust-security-hardening`: `.cursor/skills/rust-security-hardening/SKILL.md` — Secure implementation and review patterns for Rust web services and libraries.
+- `rust-testing-verification`: `.cursor/skills/rust-testing-verification/SKILL.md` — Design, add, review, and improve Rust test coverage and verification.
 - `security-review`: `.cursor/skills/security-review/SKILL.md` — Cross-stack security review for auth, data handling, dependencies, and deployment.
 - `software-design-analysis`: `.cursor/skills/software-design-analysis/SKILL.md` — Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.
 - `system-architecture-review`: `.cursor/skills/system-architecture-review/SKILL.md` — Review system boundaries, tradeoffs, scalability, operability, and migration risk.
+- `technical-article-authoring`: `.cursor/skills/technical-article-authoring/SKILL.md` — Plan, draft, and revise public technical articles — LinkedIn posts, tutorials, deep-dives, and opinion pieces with hooks, narrative, and publication-ready structure.
 - `technical-documentation-authoring`: `.cursor/skills/technical-documentation-authoring/SKILL.md` — Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.
 - `testing-strategy`: `.cursor/skills/testing-strategy/SKILL.md` — Plan test layers, CI quality gates, and risk-based verification across stacks.
 - `tool-calling-design-review`: `.cursor/skills/tool-calling-design-review/SKILL.md` — Review agent tool schemas, safety, authorization, idempotency, and observability.
+- `ui-design-system-review`: `.cursor/skills/ui-design-system-review/SKILL.md` — Review design tokens, spacing, typography, components, and visual consistency across a product UI.
+- `ux-design-review`: `.cursor/skills/ux-design-review/SKILL.md` — Review user flows, heuristics, IA, content, and UI states before or after implementation.
+- `vue-accessibility`: `.cursor/skills/vue-accessibility/SKILL.md` — Accessible Vue patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.
+- `vue-ai-product-engineering`: `.cursor/skills/vue-ai-product-engineering/SKILL.md` — Build Vue chat and streaming AI UX with citations, safety, and accessibility.
+- `vue-application-engineering`: `.cursor/skills/vue-application-engineering/SKILL.md` — SFC script setup, routing, forms, and maintainable Vue application structure.
+- `vue-composables-patterns`: `.cursor/skills/vue-composables-patterns/SKILL.md` — Composables for shared logic, watch, computed, and lifecycle cleanup in Vue 3.
+- `vue-migrate-any-version`: `.cursor/skills/vue-migrate-any-version/SKILL.md` — Plan and execute Vue, router, Pinia, Vite, and ecosystem version migrations.
+- `vue-performance`: `.cursor/skills/vue-performance/SKILL.md` — Diagnose and improve Vue rendering, bundles, lists, and interaction performance.
+- `vue-quality-gates`: `.cursor/skills/vue-quality-gates/SKILL.md` — Define and enforce Vue CI quality gates — ESLint, Prettier, vue-tsc, Vitest, and coverage thresholds.
+- `vue-security-hardening`: `.cursor/skills/vue-security-hardening/SKILL.md` — Harden Vue SPAs against XSS, unsafe HTML, token exposure, CSRF, and client-side secret leakage.
+- `vue-state-management`: `.cursor/skills/vue-state-management/SKILL.md` — Local, URL, server, Pinia, and composable state patterns for Vue applications.
+- `vue-testing-verification`: `.cursor/skills/vue-testing-verification/SKILL.md` — User-centric Vue tests with vue-test-utils, Vitest, and MSW.
 
 ## Rules
 
+- `agent-orchestration-design.mdc`: routes to `.cursor/skills/agent-orchestration-design/`
 - `ai-assisted-engineering.mdc`: routes to `.cursor/skills/ai-assisted-engineering/`
+- `ai-evaluation-architecture.mdc`: routes to `.cursor/skills/ai-evaluation-architecture/`
 - `angular-accessibility.mdc`: routes to `.cursor/skills/angular-accessibility/`
 - `angular-application-engineering.mdc`: routes to `.cursor/skills/angular-application-engineering/`
 - `angular-migrate-any-version.mdc`: routes to `.cursor/skills/angular-migrate-any-version/`
@@ -107,6 +144,7 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `dotnet-runtime-diagnostics.mdc`: routes to `.cursor/skills/dotnet-runtime-diagnostics/`
 - `dotnet-security-hardening.mdc`: routes to `.cursor/skills/dotnet-security-hardening/`
 - `dotnet-testing-verification.mdc`: routes to `.cursor/skills/dotnet-testing-verification/`
+- `frontend-ui-engineering.mdc`: routes to `.cursor/skills/frontend-ui-engineering/`
 - `java-21-lts.mdc`: routes to `.cursor/skills/java-21-lts/`
 - `java-25-lts.mdc`: routes to `.cursor/skills/java-25-lts/`
 - `java-ai-backend-engineering.mdc`: routes to `.cursor/skills/java-ai-backend-engineering/`
@@ -123,6 +161,16 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `java-spring-boot-41.mdc`: routes to `.cursor/skills/java-spring-boot-41/`
 - `java-spring-boot-service.mdc`: routes to `.cursor/skills/java-spring-boot-service/`
 - `java-testing-verification.mdc`: routes to `.cursor/skills/java-testing-verification/`
+- `kotlin-core-engineering.mdc`: routes to `.cursor/skills/kotlin-core-engineering/`
+- `kotlin-coroutines-patterns.mdc`: routes to `.cursor/skills/kotlin-coroutines-patterns/`
+- `kotlin-jvm-debugging.mdc`: routes to `.cursor/skills/kotlin-jvm-debugging/`
+- `kotlin-migrate-any-version.mdc`: routes to `.cursor/skills/kotlin-migrate-any-version/`
+- `kotlin-persistence-performance.mdc`: routes to `.cursor/skills/kotlin-persistence-performance/`
+- `kotlin-quality-gates.mdc`: routes to `.cursor/skills/kotlin-quality-gates/`
+- `kotlin-security-hardening.mdc`: routes to `.cursor/skills/kotlin-security-hardening/`
+- `kotlin-spring-boot-service.mdc`: routes to `.cursor/skills/kotlin-spring-boot-service/`
+- `kotlin-testing-verification.mdc`: routes to `.cursor/skills/kotlin-testing-verification/`
+- `llm-application-architecture.mdc`: routes to `.cursor/skills/llm-application-architecture/`
 - `migration-planning.mdc`: routes to `.cursor/skills/migration-planning/`
 - `observability-review.mdc`: routes to `.cursor/skills/observability-review/`
 - `php-core-engineering.mdc`: routes to `.cursor/skills/php-core-engineering/`
@@ -145,9 +193,31 @@ Do not edit generated files directly. Change canonical skills under `skills/` in
 - `react-security-hardening.mdc`: routes to `.cursor/skills/react-security-hardening/`
 - `react-state-management.mdc`: routes to `.cursor/skills/react-state-management/`
 - `react-testing-verification.mdc`: routes to `.cursor/skills/react-testing-verification/`
+- `rust-api-service.mdc`: routes to `.cursor/skills/rust-api-service/`
+- `rust-async-patterns.mdc`: routes to `.cursor/skills/rust-async-patterns/`
+- `rust-core-engineering.mdc`: routes to `.cursor/skills/rust-core-engineering/`
+- `rust-migrate-any-version.mdc`: routes to `.cursor/skills/rust-migrate-any-version/`
+- `rust-performance.mdc`: routes to `.cursor/skills/rust-performance/`
+- `rust-persistence-patterns.mdc`: routes to `.cursor/skills/rust-persistence-patterns/`
+- `rust-quality-gates.mdc`: routes to `.cursor/skills/rust-quality-gates/`
+- `rust-security-hardening.mdc`: routes to `.cursor/skills/rust-security-hardening/`
+- `rust-testing-verification.mdc`: routes to `.cursor/skills/rust-testing-verification/`
 - `security-review.mdc`: routes to `.cursor/skills/security-review/`
 - `software-design-analysis.mdc`: routes to `.cursor/skills/software-design-analysis/`
 - `system-architecture-review.mdc`: routes to `.cursor/skills/system-architecture-review/`
+- `technical-article-authoring.mdc`: routes to `.cursor/skills/technical-article-authoring/`
 - `technical-documentation-authoring.mdc`: routes to `.cursor/skills/technical-documentation-authoring/`
 - `testing-strategy.mdc`: routes to `.cursor/skills/testing-strategy/`
 - `tool-calling-design-review.mdc`: routes to `.cursor/skills/tool-calling-design-review/`
+- `ui-design-system-review.mdc`: routes to `.cursor/skills/ui-design-system-review/`
+- `ux-design-review.mdc`: routes to `.cursor/skills/ux-design-review/`
+- `vue-accessibility.mdc`: routes to `.cursor/skills/vue-accessibility/`
+- `vue-ai-product-engineering.mdc`: routes to `.cursor/skills/vue-ai-product-engineering/`
+- `vue-application-engineering.mdc`: routes to `.cursor/skills/vue-application-engineering/`
+- `vue-composables-patterns.mdc`: routes to `.cursor/skills/vue-composables-patterns/`
+- `vue-migrate-any-version.mdc`: routes to `.cursor/skills/vue-migrate-any-version/`
+- `vue-performance.mdc`: routes to `.cursor/skills/vue-performance/`
+- `vue-quality-gates.mdc`: routes to `.cursor/skills/vue-quality-gates/`
+- `vue-security-hardening.mdc`: routes to `.cursor/skills/vue-security-hardening/`
+- `vue-state-management.mdc`: routes to `.cursor/skills/vue-state-management/`
+- `vue-testing-verification.mdc`: routes to `.cursor/skills/vue-testing-verification/`

@@ -11,11 +11,16 @@ skills:
   - java-jvm-debugging
   - java-persistence-performance
   - java-security-hardening
+  - kotlin-jvm-debugging
+  - kotlin-persistence-performance
   - observability-review
   - php-persistence-performance
   - production-readiness-review
+  - rust-performance
+  - rust-persistence-patterns
 targets:
   - codex
   - cursor
   - copilot
   - claude
+  - opencode

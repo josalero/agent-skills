@@ -22,6 +22,53 @@ skills:
       - Has at least one realistic eval prompt.
       - Has references when code samples or version tables are needed.
       - Validates and renders for Codex, Cursor, and Copilot.
+  - id: agent-orchestration-design
+    display_name: Agent Orchestration Design
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - ai-engineering
+      - architecture
+      - api-design
+    packs:
+      - ai-engineering-pack
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Multi-step agent workflows, routing, state, limits, and human-in-the-loop design.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: ai-evaluation-architecture
+    display_name: AI Evaluation Architecture
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - ai-engineering
+      - architecture
+      - testing
+    packs:
+      - ai-engineering-pack
+      - architecture-review-pack
+      - testing-verification-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Golden datasets, metrics, CI gates, and production quality signals for LLM and RAG features.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
   - id: angular-accessibility
     display_name: Angular Accessibility
     domain: angular
@@ -391,6 +438,27 @@ skills:
       - Has at least one realistic eval prompt.
       - Has references when code samples or version tables are needed.
       - Validates and renders for Codex, Cursor, and Copilot.
+  - id: frontend-ui-engineering
+    display_name: Frontend UI Engineering
+    domain: cross-stack
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-ux-ui-pack
+      - frontend-react-pack
+      - frontend-angular-pack
+    collections:
+      - frontend
+    rationale: Semantic HTML, Tailwind UI, responsive layouts, and complete component states.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
   - id: java-21-lts
     display_name: Java 21 LTS
     domain: java
@@ -638,6 +706,29 @@ skills:
       - java
       - backend
     rationale: Design, add, review, and improve Java test coverage and verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: llm-application-architecture
+    display_name: LLM Application Architecture
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - ai-engineering
+      - architecture
+      - api-design
+    packs:
+      - ai-engineering-pack
+      - architecture-review-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Pattern selection for RAG, tools, routing, memory, and phased LLM feature rollout.
     promotion_criteria:
       - Has a distinct workflow in SKILL.md.
       - Has at least one realistic eval prompt.
@@ -1143,6 +1234,277 @@ skills:
       - backend
       - frontend
     rationale: Tool schemas, safety, observability, and reliability for agent tool calling.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: ui-design-system-review
+    display_name: UI Design System Review
+    domain: cross-stack
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - architecture
+      - code-quality
+    packs:
+      - architecture-review-pack
+      - frontend-ux-ui-pack
+    collections:
+      - architecture
+      - frontend
+    rationale: Design tokens, spacing, typography, and component consistency audits.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: technical-article-authoring
+    display_name: Technical Article Authoring
+    domain: cross-stack
+    kind: general
+    priority: P2
+    status: active
+    areas:
+      - developer-experience
+      - architecture
+      - code-quality
+    packs:
+      - technical-writing-pack
+    collections:
+      - technical-writing
+      - architecture
+    rationale: Plan, draft, and revise public technical articles for LinkedIn, blogs, and dev publications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: ux-design-review
+    display_name: UX Design Review
+    domain: cross-stack
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - architecture
+      - code-quality
+    packs:
+      - architecture-review-pack
+      - frontend-ux-ui-pack
+    collections:
+      - architecture
+      - frontend
+    rationale: User flows, heuristics, IA, content, and UI state review before implementation.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-accessibility
+    display_name: Vue Accessibility
+    domain: vue
+    kind: review
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Accessibility reviews, fixes, and verification for Vue applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-ai-product-engineering
+    display_name: Vue AI Product Engineering
+    domain: vue
+    kind: ai-engineering
+    priority: P3
+    status: active
+    areas:
+      - frontend
+      - ai-engineering
+    packs:
+      - frontend-vue-pack
+      - ai-engineering-pack
+    collections:
+      - vue
+      - frontend
+    rationale: AI chat, streaming UI, trust, safety, and accessibility patterns for Vue products.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-application-engineering
+    display_name: Vue Application Engineering
+    domain: vue
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Vue SFCs, script setup, routing, forms, and maintainable application structure.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-composables-patterns
+    display_name: Vue Composables Patterns
+    domain: vue
+    kind: framework
+    priority: P2
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Composables, watchers, lifecycle, and reusable async UI behavior in Vue.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-migrate-any-version
+    display_name: Vue Migrate Any Version
+    domain: vue
+    kind: migration
+    priority: P1
+    status: active
+    areas:
+      - migrations
+      - versions
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Plan and execute Vue version, router, and toolchain migrations with verification.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-performance
+    display_name: Vue Performance
+    domain: vue
+    kind: diagnostic
+    priority: P1
+    status: active
+    areas:
+      - performance
+      - observability
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Diagnose and improve Vue application performance, bundles, and render behavior.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-quality-gates
+    display_name: Vue Quality Gates
+    domain: vue
+    kind: delivery
+    priority: P1
+    status: active
+    areas:
+      - frontend
+      - code-quality
+      - testing
+    packs:
+      - frontend-vue-pack
+      - quality-gates-pack
+    collections:
+      - vue
+      - frontend
+      - testing
+      - code-quality
+    rationale: ESLint, Prettier, vue-tsc, Vitest, and CI coverage gates for Vue projects.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-security-hardening
+    display_name: Vue Security Hardening
+    domain: vue
+    kind: security
+    priority: P1
+    status: active
+    areas:
+      - security
+      - testing
+    packs:
+      - frontend-vue-pack
+      - security-review-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Secure implementation and review patterns for Vue applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-state-management
+    display_name: Vue State Management
+    domain: vue
+    kind: framework
+    priority: P3
+    status: active
+    areas:
+      - frontend
+      - code-quality
+    packs:
+      - frontend-vue-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Pinia, composables, URL state, and server cache patterns in Vue applications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: vue-testing-verification
+    display_name: Vue Testing Verification
+    domain: vue
+    kind: testing
+    priority: P1
+    status: active
+    areas:
+      - testing
+    packs:
+      - frontend-vue-pack
+      - testing-verification-pack
+    collections:
+      - vue
+      - frontend
+    rationale: Design, add, review, and improve Vue test coverage with Vitest and vue-test-utils.
     promotion_criteria:
       - Has a distinct workflow in SKILL.md.
       - Has at least one realistic eval prompt.

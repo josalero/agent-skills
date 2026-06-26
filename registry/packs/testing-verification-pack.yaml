@@ -1,20 +1,28 @@
 id: testing-verification-pack
 display_name: Testing Verification Pack
-description: Testing strategy, stack verification, and per-technology CI quality gates across Java, .NET, PHP, React, and Angular.
+description: Testing strategy, stack verification, and per-technology CI quality gates across Java, .NET, PHP, Kotlin, Rust, React, Angular, and Vue.
 skills:
+  - ai-evaluation-architecture
   - angular-quality-gates
   - angular-testing-verification
   - dotnet-quality-gates
   - dotnet-testing-verification
   - java-quality-gates
   - java-testing-verification
+  - kotlin-quality-gates
+  - kotlin-testing-verification
   - php-quality-gates
   - php-testing-verification
   - react-quality-gates
   - react-testing-verification
+  - rust-quality-gates
+  - rust-testing-verification
   - testing-strategy
+  - vue-quality-gates
+  - vue-testing-verification
 targets:
   - codex
   - cursor
   - copilot
   - claude
+  - opencode

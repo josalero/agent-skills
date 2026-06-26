@@ -4,7 +4,7 @@ This guide is for developers who want to **use** skills in their own projects. Y
 
 ## What is this repo?
 
-**agent-skills** is a library of engineering skills — structured instructions that AI coding agents (Cursor, Codex, Copilot) follow when you work on specific tasks.
+**agent-skills** is a library of engineering skills — structured instructions that AI coding agents (Cursor, Codex, Copilot, Claude Code, OpenCode) follow when you work on specific tasks.
 
 Each skill includes:
 
@@ -55,7 +55,17 @@ your-java-project/
 
 Open the project in Cursor. When your task matches a skill description (Spring Boot API, tests, migration, etc.), Cursor can apply that skill's workflow.
 
-## Browse all skills
+## Browse skills and packs
+
+You do not need to read every skill file to pick a pack. Use the CLI or generated catalog:
+
+```bash
+./tools/skillctl list --packs         # install bundle IDs
+./tools/skillctl list --skills        # all active skill IDs
+./tools/skillctl catalog              # id + one-line summary
+./tools/skillctl catalog --format json   # machine-readable (scripts, IDE)
+make list-catalog                     # summaries + paths to dist/catalog/
+```
 
 After `make build`, the full catalog lives in **`dist/catalog/`**:
 
@@ -66,13 +76,20 @@ After `make build`, the full catalog lives in **`dist/catalog/`**:
 | [packs.md](../dist/catalog/packs.md) | Skills grouped by install pack |
 | [coverage-by-mode.md](../dist/catalog/coverage-by-mode.md) | Planning vs coding skills |
 
-Terminal browse:
+Regenerate catalog reports only (no full vendor build):
 
 ```bash
-make list-catalog    # summaries + paths to dist/catalog/
-make list-skills     # IDs only
-make catalog-build   # regenerate dist/catalog/ without full vendor build
+make catalog-build
 ```
+
+**Suggest packs for your app repo:**
+
+```bash
+./tools/skillctl recommend --dest /path/to/your-project
+make recommend DEST=/path/to/your-project
+```
+
+**AI / architecture planning example:** install `ai-engineering-pack` or `architecture-review-pack` with `--modes planning` for skills such as `llm-application-architecture`, `ai-evaluation-architecture`, and `agent-orchestration-design`. See [Choosing packs](03-choosing-packs.md).
 
 ## Pick a different stack?
 
@@ -85,11 +102,12 @@ See [Choosing packs](03-choosing-packs.md) for pack IDs and skill lists.
 | Codex | [Install guide — Codex](02-install.md#codex) |
 | GitHub Copilot | [Install guide — Copilot](02-install.md#copilot) |
 | Claude Code | [Install guide — Claude Code](02-install.md#claude-code) |
+| OpenCode | [Install guide — OpenCode](02-install.md#opencode) |
 
 ## Team workflow
 
 1. One person installs skills into the app repo.
-2. Commit `.cursor/` (or `skills/` for Codex, `.claude/` for Claude Code) with the application code.
+2. Commit `.cursor/` (or `skills/` for Codex, `.claude/` for Claude Code, `.opencode/` for OpenCode) with the application code.
 3. Teammates get skills when they `git pull` — no separate clone required for daily work.
 
 Details: [Install guide — Teams](02-install.md#teams).

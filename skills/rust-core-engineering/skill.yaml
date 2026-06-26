@@ -1,0 +1,29 @@
+id: rust-core-engineering
+display_name: Rust Core Engineering
+domain: rust
+kind: general
+modes:
+  - coding
+status: active
+summary: Apply idiomatic Rust engineering practices for ownership, error handling, maintainability, and code review.
+areas:
+  - backend
+  - code-quality
+tags:
+  - rust
+  - core-rust
+  - refactoring
+collections:
+  - rust
+  - backend
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

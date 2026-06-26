@@ -21,9 +21,9 @@ class ModesTests(unittest.TestCase):
             self.assertEqual(metadata.get("modes"), expected, skill_id)
 
     def test_mode_counts(self) -> None:
-        self.assertEqual(len(PLANNING_ONLY_SKILLS), 12)
-        self.assertEqual(len(CODING_ONLY_SKILLS), 16)
-        self.assertEqual(len(PLANNING_ONLY_SKILLS | CODING_ONLY_SKILLS), 28)
+        self.assertEqual(len(PLANNING_ONLY_SKILLS), 18)
+        self.assertEqual(len(CODING_ONLY_SKILLS), 26)
+        self.assertEqual(len(PLANNING_ONLY_SKILLS | CODING_ONLY_SKILLS), 44)
 
     def test_skill_supports_modes_requires_subset(self) -> None:
         self.assertTrue(skill_supports_modes(["planning", "coding"], {"planning"}))

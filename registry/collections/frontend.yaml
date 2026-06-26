@@ -2,7 +2,9 @@ id: frontend
 display_name: Frontend
 description: Cross-framework frontend engineering skills.
 skills:
+  - agent-orchestration-design
   - ai-assisted-engineering
+  - ai-evaluation-architecture
   - angular-accessibility
   - angular-application-engineering
   - angular-migrate-any-version
@@ -12,6 +14,8 @@ skills:
   - angular-testing-verification
   - api-design-review
   - cloud-native-delivery
+  - frontend-ui-engineering
+  - llm-application-architecture
   - migration-planning
   - observability-review
   - production-readiness-review
@@ -24,7 +28,19 @@ skills:
   - react-security-hardening
   - react-state-management
   - react-testing-verification
+  - vue-accessibility
+  - vue-ai-product-engineering
+  - vue-application-engineering
+  - vue-composables-patterns
+  - vue-migrate-any-version
+  - vue-performance
+  - vue-quality-gates
+  - vue-security-hardening
+  - vue-state-management
+  - vue-testing-verification
   - security-review
   - system-architecture-review
   - testing-strategy
   - tool-calling-design-review
+  - ui-design-system-review
+  - ux-design-review

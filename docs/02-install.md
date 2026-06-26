@@ -2,7 +2,7 @@
 
 Install generated skills from a local **agent-skills** clone into your project or user config.
 
-> **Important:** Cursor, Codex, Copilot, and Claude Code do not pull skills from a GitHub URL at runtime. You copy local files from `dist/` (or use `skillctl` / the install script).
+> **Important:** Cursor, Codex, Copilot, Claude Code, and OpenCode do not pull skills from a GitHub URL at runtime. You copy local files from `dist/` (or use `skillctl` / the install script).
 
 ## Prerequisites
 
@@ -23,6 +23,7 @@ If `dist/` is missing (e.g. you are on a dev branch), run `make build` or pass `
 | **Codex** | `skills/<id>/` and optional `AGENTS.md` |
 | **Copilot** | `.github/skills/<id>/` and `.github/instructions/<id>.instructions.md` |
 | **Claude Code** | `.claude/skills/<id>/` and optional `CLAUDE.md` |
+| **OpenCode** | `.opencode/skills/<id>/` (also reads `.claude/skills/` for compatibility) |
 
 The skill **bundle** (`SKILL.md` + `references/`) is the source of truth. Cursor rules and Copilot instruction files are thin routers that point to the bundle.
 
@@ -34,7 +35,7 @@ The skill **bundle** (`SKILL.md` + `references/`) is the source of truth. Cursor
 # One pack → Cursor (most common)
 ./scripts/install-from-clone.sh --dest /path/to/project --pack java-backend-pack
 
-# All 55 active skills → Cursor
+# All 68 active skills → Cursor
 ./scripts/install-from-clone.sh --dest /path/to/project
 
 # All skills → Codex layout
@@ -45,6 +46,9 @@ The skill **bundle** (`SKILL.md` + `references/`) is the source of truth. Cursor
 
 # All skills → Claude Code layout
 ./scripts/install-from-clone.sh --dest /path/to/project --target claude
+
+# All skills → OpenCode layout
+./scripts/install-from-clone.sh --dest /path/to/project --target opencode
 
 # Planning skills only (skips coding-only skills in the pack)
 ./scripts/install-from-clone.sh --dest /path/to/project --pack java-backend-pack --modes planning
@@ -162,6 +166,31 @@ Claude discovers skills from [project or user `.claude/skills/`](https://code.cl
 
 ---
 
+## OpenCode
+
+```bash
+./scripts/install-from-clone.sh --dest /path/to/project --target opencode
+```
+
+Manual copy:
+
+```bash
+cp -R dist/opencode/.opencode /path/to/project/.opencode
+```
+
+Personal install (all projects on this machine):
+
+```bash
+mkdir -p ~/.config/opencode/skills
+cp -R dist/opencode/.opencode/skills/* ~/.config/opencode/skills/
+```
+
+OpenCode discovers skills from [project `.opencode/skills/`](https://opencode.ai/docs/skills/) (and compatible `.claude/skills/` paths). Skills load on demand via the native `skill` tool — no thin routing files.
+
+If your project already has a root `AGENTS.md`, keep it for project rules; installed skills live under `.opencode/skills/` only.
+
+---
+
 ## Teams
 
 Install once, commit with the application repo:
@@ -173,6 +202,7 @@ git add .cursor/              # Cursor
 # git add skills/ AGENTS.md   # Codex
 # git add .github/            # Copilot
 # git add .claude/            # Claude Code
+# git add .opencode/           # OpenCode
 git commit -m "chore: add agent skills from agent-skills"
 ```
 

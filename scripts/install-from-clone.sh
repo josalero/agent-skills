@@ -5,6 +5,7 @@
 #   ./scripts/install-from-clone.sh --dest /path/to/project --pack java-backend-pack
 #   ./scripts/install-from-clone.sh --dest /path/to/project --target codex
 #   ./scripts/install-from-clone.sh --dest /path/to/project --target claude
+#   ./scripts/install-from-clone.sh --dest /path/to/project --target opencode
 #   ./scripts/install-from-clone.sh --user --pack frontend-react-pack
 #   AGENT_SKILLS_ROOT=/other/clone ./scripts/install-from-clone.sh --dest . --pack java-backend-pack
 #
@@ -32,7 +33,7 @@ Required (one of):
 
 Options:
   --pack ID         Pack to install (omit to install all active skills)
-  --target TARGET   cursor (default), copilot, codex, or claude
+  --target TARGET   cursor (default), copilot, codex, claude, or opencode
   --modes MODE ...  Filter by modes: planning, coding (pack install only)
   --build           Run make build if dist/ is missing
   -h, --help        Show this help
@@ -42,6 +43,7 @@ Examples:
   ./scripts/install-from-clone.sh --dest ../my-app --pack java-backend-pack
   ./scripts/install-from-clone.sh --dest ../my-app --target codex
   ./scripts/install-from-clone.sh --dest ../my-app --target claude
+  ./scripts/install-from-clone.sh --dest ../my-app --target opencode
   ./scripts/install-from-clone.sh --user
 
 List packs: ./tools/skillctl list --packs
@@ -99,8 +101,8 @@ if [[ -z "$DEST" ]]; then
   exit 1
 fi
 
-if [[ "$TARGET" != "cursor" && "$TARGET" != "copilot" && "$TARGET" != "codex" && "$TARGET" != "claude" ]]; then
-  echo "Error: --target must be cursor, copilot, codex, or claude" >&2
+if [[ "$TARGET" != "cursor" && "$TARGET" != "copilot" && "$TARGET" != "codex" && "$TARGET" != "claude" && "$TARGET" != "opencode" ]]; then
+  echo "Error: --target must be cursor, copilot, codex, claude, or opencode" >&2
   exit 1
 fi
 
@@ -113,6 +115,7 @@ ensure_dist() {
     copilot) marker="$REPO_ROOT/dist/copilot/.github/skills" ;;
     codex) marker="$REPO_ROOT/dist/codex/skills" ;;
     claude) marker="$REPO_ROOT/dist/claude/.claude/skills" ;;
+    opencode) marker="$REPO_ROOT/dist/opencode/.opencode/skills" ;;
   esac
 
   if [[ ! -d "$marker" ]]; then
@@ -158,6 +161,10 @@ else
       if [[ -f "$REPO_ROOT/dist/claude/CLAUDE.md" ]]; then
         cp "$REPO_ROOT/dist/claude/CLAUDE.md" "$DEST/CLAUDE.md"
       fi
+      ;;
+    opencode)
+      mkdir -p "$DEST/.opencode"
+      cp -R "$REPO_ROOT/dist/opencode/.opencode/." "$DEST/.opencode/"
       ;;
   esac
   echo "Installed all active skills ($TARGET) to $DEST"

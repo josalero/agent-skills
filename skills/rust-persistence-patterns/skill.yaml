@@ -1,0 +1,31 @@
+id: rust-persistence-patterns
+display_name: Rust Persistence Patterns
+domain: rust
+kind: framework
+modes:
+  - planning
+  - coding
+status: active
+summary: Design and optimize sqlx and Diesel persistence layers for Rust backend services.
+areas:
+  - backend
+  - data-persistence
+tags:
+  - rust
+  - sqlx
+  - diesel
+  - persistence
+collections:
+  - rust
+  - backend
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

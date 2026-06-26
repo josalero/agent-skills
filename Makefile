@@ -1,5 +1,5 @@
-.PHONY: help install doctor list-skills list-collections list-packs list-catalog \
-	validate validate-backlog test build build-claude build-codex build-cursor build-copilot \
+.PHONY: help install doctor list-skills list-collections list-packs list-catalog recommend \
+	validate validate-backlog test build build-claude build-codex build-cursor build-copilot build-opencode \
 	catalog catalog-build backlog-generate backlog-promote-waves install-pack install-all check clean-dist
 
 SKILLCTL := ./tools/skillctl
@@ -39,6 +39,10 @@ list-collections: ## List collection IDs
 list-packs: ## List pack IDs
 	$(SKILLCTL) list --packs
 
+recommend: ## Suggest packs for a project (requires DEST=)
+	@test -n "$(DEST)" || (echo "Usage: make recommend DEST=/path/to/project"; exit 1)
+	$(SKILLCTL) recommend --dest $(DEST)
+
 validate: ## Validate skills, collections, and packs
 	$(SKILLCTL) validate --all
 
@@ -50,7 +54,7 @@ test: ## Run unit tests
 
 build: build-all ## Alias for build-all
 
-build-all: validate ## Build Claude, Codex, Cursor, Copilot, and catalog output
+build-all: validate ## Build Claude, Codex, Cursor, Copilot, OpenCode, and catalog output
 	$(SKILLCTL) build --target all
 
 build-claude: validate ## Build dist/claude only
@@ -64,6 +68,9 @@ build-cursor: validate ## Build dist/cursor only
 
 build-copilot: validate ## Build dist/copilot only
 	$(SKILLCTL) build --target copilot
+
+build-opencode: validate ## Build dist/opencode only
+	$(SKILLCTL) build --target opencode
 
 catalog: ## Print active skill catalog
 	$(SKILLCTL) catalog
@@ -90,4 +97,4 @@ check: validate validate-backlog test build-all ## Run the same checks as CI
 	git diff --exit-code dist/
 
 clean-dist: ## Remove generated dist output
-	rm -rf dist/claude dist/codex dist/cursor dist/copilot dist/catalog
+	rm -rf dist/claude dist/codex dist/cursor dist/copilot dist/opencode dist/catalog

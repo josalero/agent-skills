@@ -42,6 +42,10 @@ class RenderTests(unittest.TestCase):
                     ROOT / "tests" / "golden" / "codex" / "java-core-engineering.SKILL.md",
                 ),
                 (
+                    root / "dist" / "opencode" / ".opencode" / "skills" / "java-core-engineering" / "SKILL.md",
+                    ROOT / "tests" / "golden" / "codex" / "java-core-engineering.SKILL.md",
+                ),
+                (
                     root / "dist" / "copilot" / ".github" / "instructions" / "java-core-engineering.instructions.md",
                     ROOT / "tests" / "golden" / "copilot" / "java-core-engineering.instructions.md",
                 ),
@@ -93,6 +97,21 @@ class RenderTests(unittest.TestCase):
             self.assertTrue(
                 claude_reference.exists(),
                 f"missing claude skill reference bundle: {claude_reference}",
+            )
+
+            opencode_reference = (
+                root
+                / "dist"
+                / "opencode"
+                / ".opencode"
+                / "skills"
+                / "java-core-engineering"
+                / "references"
+                / "idioms.md"
+            )
+            self.assertTrue(
+                opencode_reference.exists(),
+                f"missing opencode skill reference bundle: {opencode_reference}",
             )
 
             cursor_rule = root / "dist" / "cursor" / ".cursor" / "rules" / "java-core-engineering.mdc"

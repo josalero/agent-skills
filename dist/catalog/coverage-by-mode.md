@@ -7,16 +7,18 @@ Agent modes describe when to use a skill:
 
 ## Skills By Mode
 
-- `coding`: 53
-- `planning`: 49
+- `coding`: 82
+- `planning`: 74
 
-- `planning+coding` (both): 37
+- `planning+coding` (both): 56
 
 ## Skills By Mode And Domain
 
 ### Planning
 
+- `agent-orchestration-design` (cross-stack)
 - `ai-assisted-engineering` (cross-stack)
+- `ai-evaluation-architecture` (cross-stack)
 - `angular-accessibility` (angular)
 - `angular-migrate-any-version` (angular)
 - `angular-performance` (angular)
@@ -42,6 +44,13 @@ Agent modes describe when to use a skill:
 - `java-security-hardening` (java)
 - `java-spring-boot-40` (java)
 - `java-testing-verification` (java)
+- `kotlin-jvm-debugging` (kotlin)
+- `kotlin-migrate-any-version` (kotlin)
+- `kotlin-persistence-performance` (kotlin)
+- `kotlin-quality-gates` (kotlin)
+- `kotlin-security-hardening` (kotlin)
+- `kotlin-testing-verification` (kotlin)
+- `llm-application-architecture` (cross-stack)
 - `migration-planning` (cross-stack)
 - `observability-review` (cross-stack)
 - `php-delivery-operations` (php)
@@ -59,12 +68,28 @@ Agent modes describe when to use a skill:
 - `react-quality-gates` (react)
 - `react-security-hardening` (react)
 - `react-testing-verification` (react)
+- `rust-migrate-any-version` (rust)
+- `rust-performance` (rust)
+- `rust-persistence-patterns` (rust)
+- `rust-quality-gates` (rust)
+- `rust-security-hardening` (rust)
+- `rust-testing-verification` (rust)
 - `security-review` (cross-stack)
 - `software-design-analysis` (cross-stack)
 - `system-architecture-review` (cross-stack)
+- `technical-article-authoring` (cross-stack)
 - `technical-documentation-authoring` (cross-stack)
 - `testing-strategy` (cross-stack)
 - `tool-calling-design-review` (cross-stack)
+- `ui-design-system-review` (cross-stack)
+- `ux-design-review` (cross-stack)
+- `vue-accessibility` (vue)
+- `vue-ai-product-engineering` (vue)
+- `vue-migrate-any-version` (vue)
+- `vue-performance` (vue)
+- `vue-quality-gates` (vue)
+- `vue-security-hardening` (vue)
+- `vue-testing-verification` (vue)
 
 ### Coding
 
@@ -87,6 +112,7 @@ Agent modes describe when to use a skill:
 - `dotnet-runtime-diagnostics` (dotnet)
 - `dotnet-security-hardening` (dotnet)
 - `dotnet-testing-verification` (dotnet)
+- `frontend-ui-engineering` (cross-stack)
 - `java-21-lts` (java)
 - `java-25-lts` (java)
 - `java-ai-backend-engineering` (java)
@@ -103,6 +129,15 @@ Agent modes describe when to use a skill:
 - `java-spring-boot-41` (java)
 - `java-spring-boot-service` (java)
 - `java-testing-verification` (java)
+- `kotlin-core-engineering` (kotlin)
+- `kotlin-coroutines-patterns` (kotlin)
+- `kotlin-jvm-debugging` (kotlin)
+- `kotlin-migrate-any-version` (kotlin)
+- `kotlin-persistence-performance` (kotlin)
+- `kotlin-quality-gates` (kotlin)
+- `kotlin-security-hardening` (kotlin)
+- `kotlin-spring-boot-service` (kotlin)
+- `kotlin-testing-verification` (kotlin)
 - `php-core-engineering` (php)
 - `php-delivery-operations` (php)
 - `php-laravel-service` (php)
@@ -121,3 +156,22 @@ Agent modes describe when to use a skill:
 - `react-security-hardening` (react)
 - `react-state-management` (react)
 - `react-testing-verification` (react)
+- `rust-api-service` (rust)
+- `rust-async-patterns` (rust)
+- `rust-core-engineering` (rust)
+- `rust-migrate-any-version` (rust)
+- `rust-performance` (rust)
+- `rust-persistence-patterns` (rust)
+- `rust-quality-gates` (rust)
+- `rust-security-hardening` (rust)
+- `rust-testing-verification` (rust)
+- `vue-accessibility` (vue)
+- `vue-ai-product-engineering` (vue)
+- `vue-application-engineering` (vue)
+- `vue-composables-patterns` (vue)
+- `vue-migrate-any-version` (vue)
+- `vue-performance` (vue)
+- `vue-quality-gates` (vue)
+- `vue-security-hardening` (vue)
+- `vue-state-management` (vue)
+- `vue-testing-verification` (vue)

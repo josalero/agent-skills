@@ -1,0 +1,30 @@
+id: kotlin-coroutines-patterns
+display_name: Kotlin Coroutines Patterns
+domain: kotlin
+kind: framework
+modes:
+  - coding
+status: active
+summary: Structured concurrency, Flow, channels, and coroutine reliability patterns for Kotlin backend services.
+areas:
+  - backend
+  - concurrency
+tags:
+  - kotlin
+  - coroutines
+  - flow
+  - async
+collections:
+  - kotlin
+  - backend
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

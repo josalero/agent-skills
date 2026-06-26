@@ -1,0 +1,29 @@
+id: rust-async-patterns
+display_name: Rust Async Patterns
+domain: rust
+kind: framework
+modes:
+  - coding
+status: active
+summary: Tokio async/await, task spawning, channels, and reliability patterns for Rust backend services.
+areas:
+  - backend
+  - concurrency
+tags:
+  - rust
+  - tokio
+  - async
+collections:
+  - rust
+  - backend
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

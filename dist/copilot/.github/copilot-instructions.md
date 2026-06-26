@@ -16,7 +16,9 @@ Layout:
 
 ## Available Skills
 
+- `agent-orchestration-design`: `.github/skills/agent-orchestration-design/SKILL.md` — Design multi-step agent workflows — routing, state, handoffs, limits, and when not to use an agent loop.
 - `ai-assisted-engineering`: `.github/skills/ai-assisted-engineering/SKILL.md` — Safe and effective use of AI coding agents in engineering workflows.
+- `ai-evaluation-architecture`: `.github/skills/ai-evaluation-architecture/SKILL.md` — Design eval datasets, metrics, gates, and production quality signals for LLM and RAG features.
 - `angular-accessibility`: `.github/skills/angular-accessibility/SKILL.md` — Accessible Angular forms, overlays, keyboard support, and CDK patterns.
 - `angular-application-engineering`: `.github/skills/angular-application-engineering/SKILL.md` — Standalone components, services, routing, forms, and maintainable Angular structure.
 - `angular-migrate-any-version`: `.github/skills/angular-migrate-any-version/SKILL.md` — Plan and execute Angular, CLI, and ecosystem version migrations.
@@ -37,6 +39,7 @@ Layout:
 - `dotnet-runtime-diagnostics`: `.github/skills/dotnet-runtime-diagnostics/SKILL.md` — Production debugging for .NET services, memory, threads, and latency.
 - `dotnet-security-hardening`: `.github/skills/dotnet-security-hardening/SKILL.md` — Secure implementation and review patterns for .NET applications.
 - `dotnet-testing-verification`: `.github/skills/dotnet-testing-verification/SKILL.md` — Design, add, review, and improve .NET test coverage and verification.
+- `frontend-ui-engineering`: `.github/skills/frontend-ui-engineering/SKILL.md` — Build and review semantic HTML, Tailwind UI, responsive layouts, and complete component states.
 - `java-21-lts`: `.github/skills/java-21-lts/SKILL.md` — Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.
 - `java-25-lts`: `.github/skills/java-25-lts/SKILL.md` — Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.
 - `java-ai-backend-engineering`: `.github/skills/java-ai-backend-engineering/SKILL.md` — Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.
@@ -53,6 +56,16 @@ Layout:
 - `java-spring-boot-41`: `.github/skills/java-spring-boot-41/SKILL.md` — Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.
 - `java-spring-boot-service`: `.github/skills/java-spring-boot-service/SKILL.md` — Build, review, refactor, and test production-grade Spring Boot services.
 - `java-testing-verification`: `.github/skills/java-testing-verification/SKILL.md` — Design, add, review, and improve Java test coverage and verification.
+- `kotlin-core-engineering`: `.github/skills/kotlin-core-engineering/SKILL.md` — Apply modern Kotlin engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+- `kotlin-coroutines-patterns`: `.github/skills/kotlin-coroutines-patterns/SKILL.md` — Structured concurrency, Flow, channels, and coroutine reliability patterns for Kotlin backend services.
+- `kotlin-jvm-debugging`: `.github/skills/kotlin-jvm-debugging/SKILL.md` — Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues in Kotlin services.
+- `kotlin-migrate-any-version`: `.github/skills/kotlin-migrate-any-version/SKILL.md` — Plan and execute Kotlin language, compiler, and toolchain migrations with build and test verification.
+- `kotlin-persistence-performance`: `.github/skills/kotlin-persistence-performance/SKILL.md` — Diagnose and improve JPA, Exposed, and R2DBC persistence performance in Kotlin services.
+- `kotlin-quality-gates`: `.github/skills/kotlin-quality-gates/SKILL.md` — Define and enforce Kotlin CI quality gates — build, test, detekt, ktlint, and coverage thresholds.
+- `kotlin-security-hardening`: `.github/skills/kotlin-security-hardening/SKILL.md` — Secure implementation and review patterns for Kotlin and Spring Boot applications.
+- `kotlin-spring-boot-service`: `.github/skills/kotlin-spring-boot-service/SKILL.md` — Build and review Spring Boot REST services with Kotlin idioms, DI, validation, and service tests.
+- `kotlin-testing-verification`: `.github/skills/kotlin-testing-verification/SKILL.md` — Design, add, review, and improve Kotlin test coverage and verification.
+- `llm-application-architecture`: `.github/skills/llm-application-architecture/SKILL.md` — Choose LLM application patterns — RAG, tools, routing, memory, and sync vs async — before implementation.
 - `migration-planning`: `.github/skills/migration-planning/SKILL.md` — Plan cross-stack modernizations with sequencing, risk management, and verification.
 - `observability-review`: `.github/skills/observability-review/SKILL.md` — Review logs, metrics, traces, SLOs, dashboards, and alert quality.
 - `php-core-engineering`: `.github/skills/php-core-engineering/SKILL.md` — Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.
@@ -75,9 +88,31 @@ Layout:
 - `react-security-hardening`: `.github/skills/react-security-hardening/SKILL.md` — Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
 - `react-state-management`: `.github/skills/react-state-management/SKILL.md` — Local, URL, server, context, and store patterns for React applications.
 - `react-testing-verification`: `.github/skills/react-testing-verification/SKILL.md` — User-centric React tests with Testing Library, Vitest/Jest, and MSW.
+- `rust-api-service`: `.github/skills/rust-api-service/SKILL.md` — Build and review Axum and Actix web APIs with validation, auth, and integration tests.
+- `rust-async-patterns`: `.github/skills/rust-async-patterns/SKILL.md` — Tokio async/await, task spawning, channels, and reliability patterns for Rust backend services.
+- `rust-core-engineering`: `.github/skills/rust-core-engineering/SKILL.md` — Apply idiomatic Rust engineering practices for ownership, error handling, maintainability, and code review.
+- `rust-migrate-any-version`: `.github/skills/rust-migrate-any-version/SKILL.md` — Plan and execute Rust edition and toolchain migrations with build and test verification.
+- `rust-performance`: `.github/skills/rust-performance/SKILL.md` — Diagnose and improve Rust service performance, memory, latency, and CPU utilization.
+- `rust-persistence-patterns`: `.github/skills/rust-persistence-patterns/SKILL.md` — Design and optimize sqlx and Diesel persistence layers for Rust backend services.
+- `rust-quality-gates`: `.github/skills/rust-quality-gates/SKILL.md` — Define and enforce Rust CI quality gates — cargo test, clippy, fmt, deny, and coverage.
+- `rust-security-hardening`: `.github/skills/rust-security-hardening/SKILL.md` — Secure implementation and review patterns for Rust web services and libraries.
+- `rust-testing-verification`: `.github/skills/rust-testing-verification/SKILL.md` — Design, add, review, and improve Rust test coverage and verification.
 - `security-review`: `.github/skills/security-review/SKILL.md` — Cross-stack security review for auth, data handling, dependencies, and deployment.
 - `software-design-analysis`: `.github/skills/software-design-analysis/SKILL.md` — Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.
 - `system-architecture-review`: `.github/skills/system-architecture-review/SKILL.md` — Review system boundaries, tradeoffs, scalability, operability, and migration risk.
+- `technical-article-authoring`: `.github/skills/technical-article-authoring/SKILL.md` — Plan, draft, and revise public technical articles — LinkedIn posts, tutorials, deep-dives, and opinion pieces with hooks, narrative, and publication-ready structure.
 - `technical-documentation-authoring`: `.github/skills/technical-documentation-authoring/SKILL.md` — Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.
 - `testing-strategy`: `.github/skills/testing-strategy/SKILL.md` — Plan test layers, CI quality gates, and risk-based verification across stacks.
 - `tool-calling-design-review`: `.github/skills/tool-calling-design-review/SKILL.md` — Review agent tool schemas, safety, authorization, idempotency, and observability.
+- `ui-design-system-review`: `.github/skills/ui-design-system-review/SKILL.md` — Review design tokens, spacing, typography, components, and visual consistency across a product UI.
+- `ux-design-review`: `.github/skills/ux-design-review/SKILL.md` — Review user flows, heuristics, IA, content, and UI states before or after implementation.
+- `vue-accessibility`: `.github/skills/vue-accessibility/SKILL.md` — Accessible Vue patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.
+- `vue-ai-product-engineering`: `.github/skills/vue-ai-product-engineering/SKILL.md` — Build Vue chat and streaming AI UX with citations, safety, and accessibility.
+- `vue-application-engineering`: `.github/skills/vue-application-engineering/SKILL.md` — SFC script setup, routing, forms, and maintainable Vue application structure.
+- `vue-composables-patterns`: `.github/skills/vue-composables-patterns/SKILL.md` — Composables for shared logic, watch, computed, and lifecycle cleanup in Vue 3.
+- `vue-migrate-any-version`: `.github/skills/vue-migrate-any-version/SKILL.md` — Plan and execute Vue, router, Pinia, Vite, and ecosystem version migrations.
+- `vue-performance`: `.github/skills/vue-performance/SKILL.md` — Diagnose and improve Vue rendering, bundles, lists, and interaction performance.
+- `vue-quality-gates`: `.github/skills/vue-quality-gates/SKILL.md` — Define and enforce Vue CI quality gates — ESLint, Prettier, vue-tsc, Vitest, and coverage thresholds.
+- `vue-security-hardening`: `.github/skills/vue-security-hardening/SKILL.md` — Harden Vue SPAs against XSS, unsafe HTML, token exposure, CSRF, and client-side secret leakage.
+- `vue-state-management`: `.github/skills/vue-state-management/SKILL.md` — Local, URL, server, Pinia, and composable state patterns for Vue applications.
+- `vue-testing-verification`: `.github/skills/vue-testing-verification/SKILL.md` — User-centric Vue tests with vue-test-utils, Vitest, and MSW.

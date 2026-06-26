@@ -33,7 +33,12 @@ Copy `templates/canonical-skill/`, fill in `skills/<id>/`, register in `registry
 make check
 ./tools/skillctl validate --all
 ./tools/skillctl validate <skill-id>
+./tools/skillctl list --packs
+./tools/skillctl recommend --dest /path/to/project
+./tools/skillctl catalog
 make build
 ```
+
+**New planning-only skill:** add ID to `PLANNING_ONLY_SKILLS` in `tools/skillforge/modes.py` and update counts in `tests/test_modes.py`.
 
 Human docs: [docs/README.md](docs/README.md)

@@ -1,0 +1,13 @@
+id: kotlin
+display_name: Kotlin
+description: Skills for Kotlin language engineering, coroutines, Spring Boot services, JVM diagnostics, testing, and migrations.
+skills:
+  - kotlin-core-engineering
+  - kotlin-coroutines-patterns
+  - kotlin-spring-boot-service
+  - kotlin-migrate-any-version
+  - kotlin-persistence-performance
+  - kotlin-quality-gates
+  - kotlin-security-hardening
+  - kotlin-testing-verification
+  - kotlin-jvm-debugging

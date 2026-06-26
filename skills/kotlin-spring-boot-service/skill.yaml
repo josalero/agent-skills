@@ -1,0 +1,31 @@
+id: kotlin-spring-boot-service
+display_name: Kotlin Spring Boot Service
+domain: kotlin
+kind: framework
+modes:
+  - coding
+status: active
+summary: Build and review Spring Boot REST services with Kotlin idioms, DI, validation, and service tests.
+areas:
+  - backend
+  - api-design
+  - testing
+tags:
+  - kotlin
+  - spring-boot
+  - rest-api
+collections:
+  - kotlin
+  - backend
+  - testing
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

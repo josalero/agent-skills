@@ -2,6 +2,39 @@
   {
     "areas": [
       "ai-engineering",
+      "architecture",
+      "api-design"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "Agent Orchestration Design",
+    "domain": "cross-stack",
+    "id": "agent-orchestration-design",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "ai-engineering-pack",
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design multi-step agent workflows \u2014 routing, state, handoffs, limits, and when not to use an agent loop.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "ai-engineering",
       "developer-experience",
       "code-quality"
     ],
@@ -28,7 +61,42 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "ai-engineering",
+      "architecture",
+      "testing"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "AI Evaluation Architecture",
+    "domain": "cross-stack",
+    "id": "ai-evaluation-architecture",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "ai-engineering-pack",
+      "architecture-review-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design eval datasets, metrics, gates, and production quality signals for LLM and RAG features.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -58,7 +126,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -87,7 +156,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -118,7 +188,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -148,7 +219,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -182,7 +254,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -211,7 +284,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -242,7 +316,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -271,7 +346,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -302,7 +378,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -333,7 +410,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -365,7 +443,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -395,7 +474,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -426,7 +506,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -455,7 +536,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -487,7 +569,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -517,7 +600,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -551,7 +635,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -583,7 +668,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -613,7 +699,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -642,7 +729,39 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "frontend"
+    ],
+    "display_name": "Frontend UI Engineering",
+    "domain": "cross-stack",
+    "id": "frontend-ui-engineering",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-ux-ui-pack",
+      "frontend-react-pack",
+      "frontend-angular-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build and review semantic HTML, Tailwind UI, responsive layouts, and complete component states.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -672,7 +791,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -702,7 +822,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -733,7 +854,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -765,7 +887,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -797,7 +920,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -826,7 +950,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -857,7 +982,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -891,7 +1017,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -923,7 +1050,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -957,7 +1085,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -990,7 +1119,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1022,7 +1152,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1055,7 +1186,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1086,7 +1218,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1118,7 +1251,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1150,7 +1284,334 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality"
+    ],
+    "collections": [
+      "kotlin",
+      "backend"
+    ],
+    "display_name": "Kotlin Core Engineering",
+    "domain": "kotlin",
+    "id": "kotlin-core-engineering",
+    "kind": "general",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Apply modern Kotlin engineering practices for idiomatic implementation, maintainability, correctness, and code review.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "concurrency"
+    ],
+    "collections": [
+      "kotlin",
+      "backend"
+    ],
+    "display_name": "Kotlin Coroutines Patterns",
+    "domain": "kotlin",
+    "id": "kotlin-coroutines-patterns",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Structured concurrency, Flow, channels, and coroutine reliability patterns for Kotlin backend services.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "observability",
+      "performance"
+    ],
+    "collections": [
+      "kotlin",
+      "backend"
+    ],
+    "display_name": "Kotlin JVM Debugging",
+    "domain": "kotlin",
+    "id": "kotlin-jvm-debugging",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues in Kotlin services.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "migrations",
+      "versions",
+      "testing"
+    ],
+    "collections": [
+      "kotlin",
+      "backend",
+      "testing",
+      "migrations"
+    ],
+    "display_name": "Kotlin Migrate Any Version",
+    "domain": "kotlin",
+    "id": "kotlin-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute Kotlin language, compiler, and toolchain migrations with build and test verification.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "data-persistence",
+      "performance"
+    ],
+    "collections": [
+      "kotlin",
+      "backend"
+    ],
+    "display_name": "Kotlin Persistence Performance",
+    "domain": "kotlin",
+    "id": "kotlin-persistence-performance",
+    "kind": "framework",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve JPA, Exposed, and R2DBC persistence performance in Kotlin services.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "kotlin",
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "Kotlin Quality Gates",
+    "domain": "kotlin",
+    "id": "kotlin-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce Kotlin CI quality gates \u2014 build, test, detekt, ktlint, and coverage thresholds.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "security",
+      "testing"
+    ],
+    "collections": [
+      "kotlin",
+      "backend"
+    ],
+    "display_name": "Kotlin Security Hardening",
+    "domain": "kotlin",
+    "id": "kotlin-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Secure implementation and review patterns for Kotlin and Spring Boot applications.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing"
+    ],
+    "collections": [
+      "kotlin",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Kotlin Spring Boot Service",
+    "domain": "kotlin",
+    "id": "kotlin-spring-boot-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build and review Spring Boot REST services with Kotlin idioms, DI, validation, and service tests.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "collections": [
+      "kotlin",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Kotlin Testing Verification",
+    "domain": "kotlin",
+    "id": "kotlin-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "kotlin-backend-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design, add, review, and improve Kotlin test coverage and verification.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "ai-engineering",
+      "architecture",
+      "api-design"
+    ],
+    "collections": [
+      "architecture",
+      "backend",
+      "frontend"
+    ],
+    "display_name": "LLM Application Architecture",
+    "domain": "cross-stack",
+    "id": "llm-application-architecture",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "ai-engineering-pack",
+      "architecture-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Choose LLM application patterns \u2014 RAG, tools, routing, memory, and sync vs async \u2014 before implementation.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1181,7 +1642,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1213,7 +1675,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1242,7 +1705,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1272,7 +1736,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1304,7 +1769,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1334,7 +1800,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1366,7 +1833,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1400,7 +1868,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1432,7 +1901,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1464,7 +1934,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1494,7 +1965,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1526,7 +1998,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1558,7 +2031,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1588,7 +2062,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1619,7 +2094,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1648,7 +2124,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1679,7 +2156,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1709,7 +2187,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1743,7 +2222,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1774,7 +2254,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1803,7 +2284,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1834,7 +2316,300 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "api-design",
+      "testing"
+    ],
+    "collections": [
+      "rust",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Rust API Service",
+    "domain": "rust",
+    "id": "rust-api-service",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build and review Axum and Actix web APIs with validation, auth, and integration tests.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "concurrency"
+    ],
+    "collections": [
+      "rust",
+      "backend"
+    ],
+    "display_name": "Rust Async Patterns",
+    "domain": "rust",
+    "id": "rust-async-patterns",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Tokio async/await, task spawning, channels, and reliability patterns for Rust backend services.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality"
+    ],
+    "collections": [
+      "rust",
+      "backend"
+    ],
+    "display_name": "Rust Core Engineering",
+    "domain": "rust",
+    "id": "rust-core-engineering",
+    "kind": "general",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Apply idiomatic Rust engineering practices for ownership, error handling, maintainability, and code review.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "migrations",
+      "versions",
+      "testing"
+    ],
+    "collections": [
+      "rust",
+      "backend",
+      "testing",
+      "migrations"
+    ],
+    "display_name": "Rust Migrate Any Version",
+    "domain": "rust",
+    "id": "rust-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute Rust edition and toolchain migrations with build and test verification.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "observability",
+      "performance"
+    ],
+    "collections": [
+      "rust",
+      "backend"
+    ],
+    "display_name": "Rust Performance",
+    "domain": "rust",
+    "id": "rust-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve Rust service performance, memory, latency, and CPU utilization.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "data-persistence"
+    ],
+    "collections": [
+      "rust",
+      "backend"
+    ],
+    "display_name": "Rust Persistence Patterns",
+    "domain": "rust",
+    "id": "rust-persistence-patterns",
+    "kind": "framework",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design and optimize sqlx and Diesel persistence layers for Rust backend services.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "rust",
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "Rust Quality Gates",
+    "domain": "rust",
+    "id": "rust-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce Rust CI quality gates \u2014 cargo test, clippy, fmt, deny, and coverage.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "security",
+      "testing"
+    ],
+    "collections": [
+      "rust",
+      "backend"
+    ],
+    "display_name": "Rust Security Hardening",
+    "domain": "rust",
+    "id": "rust-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Secure implementation and review patterns for Rust web services and libraries.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "backend",
+      "testing",
+      "code-quality"
+    ],
+    "collections": [
+      "rust",
+      "backend",
+      "testing"
+    ],
+    "display_name": "Rust Testing Verification",
+    "domain": "rust",
+    "id": "rust-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "rust-backend-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Design, add, review, and improve Rust test coverage and verification.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1866,7 +2641,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1888,7 +2664,8 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack"
+      "architecture-review-pack",
+      "technical-writing-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1897,7 +2674,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1928,7 +2706,39 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "developer-experience",
+      "architecture",
+      "code-quality"
+    ],
+    "collections": [
+      "technical-writing",
+      "architecture"
+    ],
+    "display_name": "Technical Article Authoring",
+    "domain": "cross-stack",
+    "id": "technical-article-authoring",
+    "kind": "general",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "technical-writing-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan, draft, and revise public technical articles \u2014 LinkedIn posts, tutorials, deep-dives, and opinion pieces with hooks, narrative, and publication-ready structure.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1950,7 +2760,8 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack"
+      "architecture-review-pack",
+      "technical-writing-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1959,7 +2770,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -1991,7 +2803,8 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
     ]
   },
   {
@@ -2023,7 +2836,387 @@
       "claude",
       "codex",
       "copilot",
-      "cursor"
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "architecture",
+      "code-quality"
+    ],
+    "collections": [
+      "architecture",
+      "frontend"
+    ],
+    "display_name": "UI Design System Review",
+    "domain": "cross-stack",
+    "id": "ui-design-system-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "frontend-ux-ui-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review design tokens, spacing, typography, components, and visual consistency across a product UI.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "architecture",
+      "code-quality"
+    ],
+    "collections": [
+      "architecture",
+      "frontend"
+    ],
+    "display_name": "UX Design Review",
+    "domain": "cross-stack",
+    "id": "ux-design-review",
+    "kind": "review",
+    "modes": [
+      "planning"
+    ],
+    "packs": [
+      "architecture-review-pack",
+      "frontend-ux-ui-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Review user flows, heuristics, IA, content, and UI states before or after implementation.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Accessibility",
+    "domain": "vue",
+    "id": "vue-accessibility",
+    "kind": "review",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Accessible Vue patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "ai-engineering"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue AI Product Engineering",
+    "domain": "vue",
+    "id": "vue-ai-product-engineering",
+    "kind": "ai-engineering",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack",
+      "ai-engineering-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Build Vue chat and streaming AI UX with citations, safety, and accessibility.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Application Engineering",
+    "domain": "vue",
+    "id": "vue-application-engineering",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "SFC script setup, routing, forms, and maintainable Vue application structure.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Composables Patterns",
+    "domain": "vue",
+    "id": "vue-composables-patterns",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Composables for shared logic, watch, computed, and lifecycle cleanup in Vue 3.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "migrations",
+      "versions"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Migrate Any Version",
+    "domain": "vue",
+    "id": "vue-migrate-any-version",
+    "kind": "migration",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Plan and execute Vue, router, Pinia, Vite, and ecosystem version migrations.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "performance"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Performance",
+    "domain": "vue",
+    "id": "vue-performance",
+    "kind": "diagnostic",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Diagnose and improve Vue rendering, bundles, lists, and interaction performance.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality",
+      "testing"
+    ],
+    "collections": [
+      "vue",
+      "frontend",
+      "testing",
+      "code-quality"
+    ],
+    "display_name": "Vue Quality Gates",
+    "domain": "vue",
+    "id": "vue-quality-gates",
+    "kind": "delivery",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack",
+      "quality-gates-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Define and enforce Vue CI quality gates \u2014 ESLint, Prettier, vue-tsc, Vitest, and coverage thresholds.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "security"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Security Hardening",
+    "domain": "vue",
+    "id": "vue-security-hardening",
+    "kind": "security",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack",
+      "security-review-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Harden Vue SPAs against XSS, unsafe HTML, token exposure, CSRF, and client-side secret leakage.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "code-quality"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue State Management",
+    "domain": "vue",
+    "id": "vue-state-management",
+    "kind": "framework",
+    "modes": [
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "Local, URL, server, Pinia, and composable state patterns for Vue applications.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
+    ]
+  },
+  {
+    "areas": [
+      "frontend",
+      "testing"
+    ],
+    "collections": [
+      "vue",
+      "frontend"
+    ],
+    "display_name": "Vue Testing Verification",
+    "domain": "vue",
+    "id": "vue-testing-verification",
+    "kind": "testing",
+    "modes": [
+      "planning",
+      "coding"
+    ],
+    "packs": [
+      "frontend-vue-pack",
+      "testing-verification-pack"
+    ],
+    "stability": "stable",
+    "status": "active",
+    "summary": "User-centric Vue tests with vue-test-utils, Vitest, and MSW.",
+    "targets": [
+      "claude",
+      "codex",
+      "copilot",
+      "cursor",
+      "opencode"
     ]
   }
 ]

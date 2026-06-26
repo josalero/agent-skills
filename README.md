@@ -1,14 +1,14 @@
 # agent-skills
 
-Engineering skills for AI coding agents — **Cursor**, **Codex**, **GitHub Copilot**, and **Claude Code**.
+Engineering skills for AI coding agents — **Cursor**, **Codex**, **GitHub Copilot**, **Claude Code**, and **OpenCode**.
 
 Each skill is a focused workflow (Spring Boot services, React performance, security review, migrations, and more) with references and checklists. Install them as files into your project; agents read them locally.
 
 | | |
 | --- | --- |
-| **65** active skills | Java, .NET, PHP, React, Angular, architecture, AI engineering |
-| **11** install packs | Stack bundles + quality gates — see [Choosing packs](docs/03-choosing-packs.md) |
-| **4** agent targets | Cursor, Codex, Copilot, Claude Code (generated under `dist/`) |
+| **100** active skills | Java, Kotlin, .NET, PHP, Rust, React, Angular, Vue, architecture, AI engineering, UX/UI, technical writing |
+| **16** install packs | Stack bundles + quality gates — see [Choosing packs](docs/03-choosing-packs.md) |
+| **5** agent targets | Cursor, Codex, Copilot, Claude Code, OpenCode (generated under `dist/`) |
 
 ---
 
@@ -31,6 +31,9 @@ cd agent-skills
 
 # Claude Code
 ./scripts/install-from-clone.sh --dest /path/to/your-project --pack java-backend-pack --target claude
+
+# OpenCode
+./scripts/install-from-clone.sh --dest /path/to/your-project --pack java-backend-pack --target opencode
 ```
 
 **Next steps**
@@ -38,12 +41,16 @@ cd agent-skills
 | Step | Doc |
 | --- | --- |
 | Concepts and glossary | [Getting started](docs/01-getting-started.md) |
-| Cursor, Codex, Copilot, Claude Code, teams | [Install guide](docs/02-install.md) |
+| Cursor, Codex, Copilot, Claude Code, OpenCode, teams | [Install guide](docs/02-install.md) |
 | Which pack fits your stack | [Choosing packs](docs/03-choosing-packs.md) |
 | Browse every skill | [dist/catalog/active-skills.md](dist/catalog/active-skills.md) or `make list-catalog` |
+| List packs / skills in terminal | [CLI reference — Discover](docs/05-skillctl-reference.md#discover-skills-and-packs) |
+| Suggest packs for your repo | `./tools/skillctl recommend --dest /path/to/project` |
 | Read the overview article | [Introducing agent-skills](docs/07-introducing-agent-skills.md) |
 
-List pack IDs: `./tools/skillctl list --packs`
+List pack IDs: `./tools/skillctl list --packs`  
+Suggest packs for a repo: `./tools/skillctl recommend --dest /path/to/project`  
+Browse summaries: `./tools/skillctl catalog` or `make list-catalog`
 
 ---
 
@@ -81,7 +88,7 @@ make check          # validate, test, build, verify dist/ is committed
 ```text
 skills/           Canonical skill source (author here)
 registry/         Packs, collections, backlog YAML
-dist/             Generated Cursor / Copilot / Codex output (committed)
+dist/             Generated Cursor / Copilot / Codex / Claude / OpenCode output (committed)
 tools/skillforge/ skillctl CLI
 scripts/          install-from-clone.sh, git hooks
 docs/             Numbered guides (01–06) + architecture/

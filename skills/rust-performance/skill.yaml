@@ -1,0 +1,31 @@
+id: rust-performance
+display_name: Rust Performance
+domain: rust
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose and improve Rust service performance, memory, latency, and CPU utilization.
+areas:
+  - backend
+  - observability
+  - performance
+tags:
+  - rust
+  - performance
+  - profiling
+collections:
+  - rust
+  - backend
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

@@ -33,7 +33,7 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 
 | # | Goal |
 | --- | --- |
-| G1 | Provide **reusable, high-quality skills** for common engineering workflows across Java, .NET, PHP, React, Angular, architecture, and AI engineering |
+| G1 | Provide **reusable, high-quality skills** for common engineering workflows across Java, Kotlin, .NET, PHP, Rust, React, Angular, Vue, architecture, and AI engineering |
 | G2 | Support **multiple agent runtimes** from one canonical skill source (Codex, Cursor, Copilot) |
 | G3 | Enable **pack-based installation** so teams install only what matches their stack |
 | G4 | Enforce **structural and quality gates** before skills ship (validation, CI, no TODOs on active skills) |
@@ -46,7 +46,7 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 | --- | --- |
 | NG1 | Runtime skill fetching from GitHub inside agent products |
 | NG2 | Auto-generating hundreds of **active** skills without human-authored workflows |
-| NG3 | Supporting every agent platform in v1 (Claude Code, Antigravity, OpenAI API bundles, npm/dotnet global tools are out of scope today) |
+| NG3 | Supporting every agent platform (Antigravity, OpenAI API bundles, npm/dotnet global tools remain out of scope) |
 | NG4 | Hosting or executing agent workloads — this repo ships **files**, not a service |
 | NG5 | Replacing project-specific `.cursor/rules` or team standards — skills **augment** them |
 
@@ -60,7 +60,7 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 | **Tech lead / architect** | Chooses packs and reviews skill quality | Coverage by domain/mode, trust in validation and ownership |
 | **Skill author** | Adds or edits skills | Clear authoring rules, fast validate/build loop |
 | **Catalog maintainer** | Manages packs, collections, backlog | Registry tools, promotion flow, CI safety |
-| **AI agent (Cursor/Codex/Copilot)** | Reads installed skill files | Concise routing + deep references when triggered |
+| **AI agent (Cursor/Codex/Copilot/Claude Code)** | Reads installed skill files | Concise routing + deep references when triggered |
 
 ---
 
@@ -71,7 +71,7 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 | ID | Story | Priority |
 | --- | --- | --- |
 | US-C1 | As a developer, I want to **install a stack-specific pack** into my project so agents use vetted workflows without authoring skills myself. | Must |
-| US-C2 | As a developer, I want to **install for Cursor, Codex, or Copilot** so I can use my preferred agent. | Must |
+| US-C2 | As a developer, I want to **install for Cursor, Codex, Copilot, Claude Code, or OpenCode** so I can use my preferred agent. | Must |
 | US-C3 | As a developer, I want to **browse active skills and packs** so I know what I am installing. | Must |
 | US-C4 | As a developer, I want to **install without running Python** when the clone includes `dist/`. | Should |
 | US-C5 | As a developer, I want to **filter by planning vs coding modes** when installing so review skills do not clutter implementation work. | Should |
@@ -122,17 +122,18 @@ Engineering teams using multiple AI agents lack a **single, reviewable source of
 | ID | Requirement |
 | --- | --- |
 | FR-10 | `validate --all` validates skills, collections, packs, and backlog. |
-| FR-11 | `build --target {claude,codex,cursor,copilot,all}` renders vendor output after validation. |
+| FR-11 | `build --target {claude,codex,cursor,copilot,opencode,all}` renders vendor output after validation. |
 | FR-12 | `install` copies generated output into a target project (pack, target, optional mode filter). |
 | FR-13 | `backlog list|validate|generate|promote` supports catalog scale workflows. |
 | FR-14 | `catalog build` generates human- and machine-readable reports under `dist/catalog/`. |
+| FR-15 | `recommend --dest <project>` inspects a target repo and suggests install packs with reasons. |
 
 ### 7.4 Installation
 
 | ID | Requirement |
 | --- | --- |
-| FR-15 | `scripts/install-from-clone.sh` installs from a local clone without requiring pip install. |
-| FR-16 | Committed `dist/` allows consumers to install immediately after clone. |
+| FR-16 | `scripts/install-from-clone.sh` installs from a local clone without requiring pip install. |
+| FR-17 | Committed `dist/` allows consumers to install immediately after clone. |
 
 ---
 
@@ -183,14 +184,14 @@ The product meets requirements when all of the following hold:
 | AC-2 | **≥ 8 install packs** with documented stack mapping | `skillctl list --packs`, `docs/03-choosing-packs.md` |
 | AC-3 | Every active skill validates with **`skillctl validate --all`** | CI + local `make validate` |
 | AC-4 | **`make check`** passes: validate, backlog validate, test, build, dist diff | CI workflow |
-| AC-5 | Codex, Cursor, and Copilot outputs generate for all target-enabled active skills | `make build` |
+| AC-5 | Claude Code, Codex, Cursor, Copilot, and OpenCode outputs generate for all target-enabled active skills | `make build` |
 | AC-6 | No active skill contains **`TODO`** in `SKILL.md` | Validator error |
 | AC-7 | Every active skill has **`modes`** declared | Validator + `test_modes.py` |
 | AC-8 | Install script works for **pack** and **all skills** targets | `scripts/install-from-clone.sh --help`, install tests |
 | AC-9 | **`dist/` is committed** and matches `make build` | `git diff --exit-code dist/` in CI |
 | AC-10 | Consumer can install **without Python** when `dist/` present | Documented in `docs/02-install.md` |
 
-**Current as-built status (June 2026):** AC-1 through AC-10 are met (65 active skills, 11 packs).
+**Current as-built status (June 2026):** AC-1 through AC-10 are met (100 active skills, 16 packs, five agent targets).
 
 ---
 
@@ -209,7 +210,7 @@ The product meets requirements when all of the following hold:
 ## 12. Future considerations (not committed)
 
 - Automated eval execution against fixtures (today: eval prompts are manual/future CI)
-- Additional vendor adapters beyond Codex, Cursor, Copilot
+- Additional vendor adapters beyond Claude Code, Codex, Cursor, and Copilot
 - Versioned skill releases on a registry (npm/Maven-style distribution)
 - Organization-specific pack overlays or private forks
 - Skill routing evals (does the agent pick the right skill?)

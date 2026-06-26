@@ -5,11 +5,15 @@ skills:
   - angular-security-hardening
   - dotnet-security-hardening
   - java-security-hardening
+  - kotlin-security-hardening
   - php-security-hardening
   - react-security-hardening
+  - rust-security-hardening
   - security-review
+  - vue-security-hardening
 targets:
   - codex
   - cursor
   - copilot
   - claude
+  - opencode

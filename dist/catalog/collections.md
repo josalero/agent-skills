@@ -20,9 +20,12 @@
 - ID: `architecture`
 - Description: Cross-stack architecture, review, and planning skills.
 - Skills:
+  - `agent-orchestration-design`
   - `ai-assisted-engineering`
+  - `ai-evaluation-architecture`
   - `api-design-review`
   - `cloud-native-delivery`
+  - `llm-application-architecture`
   - `migration-planning`
   - `observability-review`
   - `production-readiness-review`
@@ -31,15 +34,20 @@
   - `system-architecture-review`
   - `software-design-analysis`
   - `technical-documentation-authoring`
+  - `technical-article-authoring`
   - `testing-strategy`
   - `tool-calling-design-review`
+  - `ui-design-system-review`
+  - `ux-design-review`
 
 ## Backend Engineering
 
 - ID: `backend`
 - Description: Skills for API services, runtime behavior, reliability, testing, migrations, and production backend delivery.
 - Skills:
+  - `agent-orchestration-design`
   - `ai-assisted-engineering`
+  - `ai-evaluation-architecture`
   - `api-design-review`
   - `cloud-native-delivery`
   - `dotnet-aspnet-service`
@@ -65,9 +73,20 @@
   - `java-spring-boot-40`
   - `java-spring-boot-41`
   - `java-testing-verification`
+  - `kotlin-core-engineering`
+  - `kotlin-coroutines-patterns`
+  - `kotlin-jvm-debugging`
+  - `kotlin-migrate-any-version`
+  - `kotlin-persistence-performance`
+  - `kotlin-quality-gates`
+  - `kotlin-security-hardening`
+  - `kotlin-spring-boot-service`
+  - `kotlin-testing-verification`
+  - `llm-application-architecture`
   - `migration-planning`
   - `observability-review`
   - `software-design-analysis`
+  - `technical-article-authoring`
   - `technical-documentation-authoring`
   - `php-core-engineering`
   - `php-delivery-operations`
@@ -79,6 +98,15 @@
   - `php-testing-verification`
   - `production-readiness-review`
   - `rag-architecture-review`
+  - `rust-api-service`
+  - `rust-async-patterns`
+  - `rust-core-engineering`
+  - `rust-migrate-any-version`
+  - `rust-performance`
+  - `rust-persistence-patterns`
+  - `rust-quality-gates`
+  - `rust-security-hardening`
+  - `rust-testing-verification`
   - `security-review`
   - `system-architecture-review`
   - `testing-strategy`
@@ -116,7 +144,9 @@
 - ID: `frontend`
 - Description: Cross-framework frontend engineering skills.
 - Skills:
+  - `agent-orchestration-design`
   - `ai-assisted-engineering`
+  - `ai-evaluation-architecture`
   - `angular-accessibility`
   - `angular-application-engineering`
   - `angular-migrate-any-version`
@@ -126,6 +156,8 @@
   - `angular-testing-verification`
   - `api-design-review`
   - `cloud-native-delivery`
+  - `frontend-ui-engineering`
+  - `llm-application-architecture`
   - `migration-planning`
   - `observability-review`
   - `production-readiness-review`
@@ -138,10 +170,22 @@
   - `react-security-hardening`
   - `react-state-management`
   - `react-testing-verification`
+  - `vue-accessibility`
+  - `vue-ai-product-engineering`
+  - `vue-application-engineering`
+  - `vue-composables-patterns`
+  - `vue-migrate-any-version`
+  - `vue-performance`
+  - `vue-quality-gates`
+  - `vue-security-hardening`
+  - `vue-state-management`
+  - `vue-testing-verification`
   - `security-review`
   - `system-architecture-review`
   - `testing-strategy`
   - `tool-calling-design-review`
+  - `ui-design-system-review`
+  - `ux-design-review`
 
 ## Java
 
@@ -164,6 +208,21 @@
   - `java-spring-boot-40`
   - `java-spring-boot-41`
   - `java-testing-verification`
+
+## Kotlin
+
+- ID: `kotlin`
+- Description: Skills for Kotlin language engineering, coroutines, Spring Boot services, JVM diagnostics, testing, and migrations.
+- Skills:
+  - `kotlin-core-engineering`
+  - `kotlin-coroutines-patterns`
+  - `kotlin-spring-boot-service`
+  - `kotlin-migrate-any-version`
+  - `kotlin-persistence-performance`
+  - `kotlin-quality-gates`
+  - `kotlin-security-hardening`
+  - `kotlin-testing-verification`
+  - `kotlin-jvm-debugging`
 
 ## Migrations
 
@@ -204,6 +263,30 @@
   - `react-state-management`
   - `react-testing-verification`
 
+## Rust
+
+- ID: `rust`
+- Description: Skills for Rust language engineering, async runtimes, web APIs, persistence, testing, security, and performance diagnostics.
+- Skills:
+  - `rust-core-engineering`
+  - `rust-async-patterns`
+  - `rust-api-service`
+  - `rust-migrate-any-version`
+  - `rust-persistence-patterns`
+  - `rust-quality-gates`
+  - `rust-security-hardening`
+  - `rust-testing-verification`
+  - `rust-performance`
+
+## Technical Writing
+
+- ID: `technical-writing`
+- Description: Skills for public articles, internal documentation, and analysis that supports both.
+- Skills:
+  - `software-design-analysis`
+  - `technical-article-authoring`
+  - `technical-documentation-authoring`
+
 ## Testing and Verification
 
 - ID: `testing`
@@ -220,3 +303,19 @@
   - `react-quality-gates`
   - `react-testing-verification`
   - `testing-strategy`
+
+## Vue
+
+- ID: `vue`
+- Description: Skills for Vue components, composables, state, testing, performance, and accessibility.
+- Skills:
+  - `vue-accessibility`
+  - `vue-ai-product-engineering`
+  - `vue-application-engineering`
+  - `vue-composables-patterns`
+  - `vue-migrate-any-version`
+  - `vue-performance`
+  - `vue-quality-gates`
+  - `vue-security-hardening`
+  - `vue-state-management`
+  - `vue-testing-verification`

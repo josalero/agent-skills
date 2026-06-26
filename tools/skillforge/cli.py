@@ -9,6 +9,7 @@ from .catalog import active_skill_catalog, load_repository, write_catalog
 from .install import install_pack
 from .models import Issue
 from .promote import promote_all_waves, promote_skill, promote_wave
+from .recommend import format_recommend_report, recommend_project, render_recommend_json
 from .render import build_targets
 from .validate import has_errors, validate_repository
 
@@ -23,7 +24,7 @@ def main(argv: list[str] | None = None) -> int:
     validate_parser.add_argument("--all", action="store_true", help="Validate the full repository")
 
     build_parser = subparsers.add_parser("build", help="Build generated vendor output")
-    build_parser.add_argument("--target", choices=["all", "claude", "codex", "cursor", "copilot"], required=True)
+    build_parser.add_argument("--target", choices=["all", "claude", "codex", "cursor", "copilot", "opencode"], required=True)
 
     list_parser = subparsers.add_parser("list", help="List repository objects")
     list_group = list_parser.add_mutually_exclusive_group(required=True)
@@ -54,11 +55,38 @@ def main(argv: list[str] | None = None) -> int:
     catalog_build_parser = catalog_subparsers.add_parser("build", help="Write dist/catalog reports")
     catalog_build_parser.add_argument("--include-backlog", action=argparse.BooleanOptionalAction, default=True)
 
+    recommend_parser = subparsers.add_parser(
+        "recommend",
+        help="Analyze a project and suggest skills or packs to install",
+    )
+    recommend_parser.add_argument(
+        "--dest",
+        required=True,
+        help="Path to the target project to analyze",
+    )
+    recommend_parser.add_argument(
+        "--format",
+        choices=["text", "json"],
+        default="text",
+        help="Output format (default: text)",
+    )
+    recommend_parser.add_argument(
+        "--primary-only",
+        action="store_true",
+        help="Omit 'also consider' cross-cutting packs",
+    )
+    recommend_parser.add_argument(
+        "--target",
+        choices=["cursor", "copilot", "codex", "claude", "opencode"],
+        default="cursor",
+        help="Agent target for generated install commands (default: cursor)",
+    )
+
     install_parser = subparsers.add_parser("install", help="Install generated skills from a pack into a project")
     install_parser.add_argument("--pack", required=True, help="Pack ID (see skillctl list --packs)")
     install_parser.add_argument(
         "--target",
-        choices=["cursor", "copilot", "codex", "claude"],
+        choices=["cursor", "copilot", "codex", "claude", "opencode"],
         default="cursor",
         help="Vendor target output to install",
     )
@@ -191,6 +219,26 @@ def main(argv: list[str] | None = None) -> int:
         else:
             for item in active_skill_catalog(repo):
                 print(f"{item['id']}: {item['summary']}")
+        return 0
+
+    if args.command == "recommend":
+        project_root = Path(args.dest).resolve()
+        if not project_root.is_dir():
+            print(f"Project path is not a directory: {project_root}")
+            return 1
+        try:
+            report = recommend_project(
+                root,
+                project_root,
+                include_consider=not args.primary_only,
+            )
+        except ValueError as exc:
+            print(str(exc))
+            return 1
+        if args.format == "json":
+            print(render_recommend_json(report, agent_skills_root=root, target=args.target))
+        else:
+            print(format_recommend_report(report, agent_skills_root=root, target=args.target), end="")
         return 0
 
     if args.command == "install":

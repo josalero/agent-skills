@@ -1,0 +1,33 @@
+id: kotlin-persistence-performance
+display_name: Kotlin Persistence Performance
+domain: kotlin
+kind: framework
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose and improve JPA, Exposed, and R2DBC persistence performance in Kotlin services.
+areas:
+  - backend
+  - data-persistence
+  - performance
+tags:
+  - kotlin
+  - persistence
+  - jpa
+  - exposed
+  - r2dbc
+collections:
+  - kotlin
+  - backend
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

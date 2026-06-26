@@ -1,0 +1,14 @@
+id: vue
+display_name: Vue
+description: Skills for Vue components, composables, state, testing, performance, and accessibility.
+skills:
+  - vue-accessibility
+  - vue-ai-product-engineering
+  - vue-application-engineering
+  - vue-composables-patterns
+  - vue-migrate-any-version
+  - vue-performance
+  - vue-quality-gates
+  - vue-security-hardening
+  - vue-state-management
+  - vue-testing-verification

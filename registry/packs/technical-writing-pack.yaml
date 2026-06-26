@@ -1,0 +1,13 @@
+id: technical-writing-pack
+display_name: Technical Writing Pack
+description: Public technical articles, internal documentation, and design analysis for research-first writing.
+skills:
+  - software-design-analysis
+  - technical-article-authoring
+  - technical-documentation-authoring
+targets:
+  - codex
+  - cursor
+  - copilot
+  - claude
+  - opencode

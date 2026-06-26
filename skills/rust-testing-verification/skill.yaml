@@ -1,0 +1,33 @@
+id: rust-testing-verification
+display_name: Rust Testing Verification
+domain: rust
+kind: testing
+modes:
+  - planning
+  - coding
+status: active
+summary: Design, add, review, and improve Rust test coverage and verification.
+areas:
+  - backend
+  - testing
+  - code-quality
+tags:
+  - rust
+  - testing
+  - verification
+collections:
+  - rust
+  - backend
+  - testing
+packs:
+  - rust-backend-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

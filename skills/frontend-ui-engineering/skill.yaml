@@ -1,0 +1,32 @@
+id: frontend-ui-engineering
+display_name: Frontend UI Engineering
+domain: cross-stack
+kind: framework
+modes:
+  - coding
+status: active
+summary: Build and review semantic HTML, Tailwind UI, responsive layouts, and complete component states.
+areas:
+  - frontend
+  - code-quality
+tags:
+  - cross-stack
+  - ui
+  - html
+  - tailwind
+  - responsive
+collections:
+  - frontend
+packs:
+  - frontend-ux-ui-pack
+  - frontend-react-pack
+  - frontend-angular-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

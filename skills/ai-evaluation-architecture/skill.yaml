@@ -1,0 +1,35 @@
+id: ai-evaluation-architecture
+display_name: AI Evaluation Architecture
+domain: cross-stack
+kind: ai-engineering
+modes:
+  - planning
+status: active
+summary: Design eval datasets, metrics, gates, and production quality signals for LLM and RAG features.
+areas:
+  - ai-engineering
+  - architecture
+  - testing
+tags:
+  - cross-stack
+  - evaluation
+  - llm
+  - rag
+  - quality
+collections:
+  - architecture
+  - backend
+  - frontend
+packs:
+  - ai-engineering-pack
+  - architecture-review-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

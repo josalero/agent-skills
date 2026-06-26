@@ -2,8 +2,11 @@ id: architecture-review-pack
 display_name: Architecture Review Pack
 description: Architecture, API design, readiness, and migration planning skills.
 skills:
+  - agent-orchestration-design
+  - ai-evaluation-architecture
   - api-design-review
   - cloud-native-delivery
+  - llm-application-architecture
   - migration-planning
   - observability-review
   - production-readiness-review
@@ -14,8 +17,11 @@ skills:
   - technical-documentation-authoring
   - testing-strategy
   - tool-calling-design-review
+  - ui-design-system-review
+  - ux-design-review
 targets:
   - codex
   - cursor
   - copilot
   - claude
+  - opencode

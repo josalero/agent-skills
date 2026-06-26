@@ -1,0 +1,7 @@
+id: technical-writing
+display_name: Technical Writing
+description: Skills for public articles, internal documentation, and analysis that supports both.
+skills:
+  - software-design-analysis
+  - technical-article-authoring
+  - technical-documentation-authoring

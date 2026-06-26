@@ -28,6 +28,7 @@ targets:
   cursor: true
   copilot: true
   claude: true
+  opencode: true
 owners:
   - josalero
 stability: stable

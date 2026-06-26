@@ -2,6 +2,8 @@
 
 Commands for **skillctl** and the **Makefile** wrapper.
 
+Use this doc when you need to **discover** skills or packs, **validate** changes, **build** `dist/`, or **install** into a project.
+
 Install skillctl:
 
 ```bash
@@ -21,6 +23,28 @@ Global option:
 
 Defaults to current directory.
 
+### Discover skills and packs
+
+Quick answers without opening the repo in an editor:
+
+| Question | Command |
+| --- | --- |
+| What packs fit this repo? | `./tools/skillctl recommend --dest /path/to/project` |
+| What packs can I install? | `./tools/skillctl list --packs` |
+| What skills exist? | `./tools/skillctl list --skills` |
+| What does each skill do? | `./tools/skillctl catalog` |
+| JSON for scripts / tooling | `./tools/skillctl catalog --format json` |
+| Full reports on disk | `make catalog-build` → `dist/catalog/` |
+| Summaries + catalog paths | `make list-catalog` |
+
+**Pack contents** (canonical after build): [dist/catalog/packs.md](../dist/catalog/packs.md). Stack-oriented picker: [Choosing packs](03-choosing-packs.md).
+
+Filter install by mode (planning vs coding):
+
+```bash
+./tools/skillctl install --pack architecture-review-pack --target cursor --dest . --modes planning
+```
+
 ### Validate
 
 ```bash
@@ -37,6 +61,7 @@ Defaults to current directory.
 ./tools/skillctl build --target copilot
 ./tools/skillctl build --target codex
 ./tools/skillctl build --target claude
+./tools/skillctl build --target opencode
 ```
 
 Build runs validation first; fails if skills are invalid.
@@ -50,6 +75,27 @@ Build runs validation first; fails if skills are invalid.
 make list-catalog    # summaries + dist/catalog/ file paths
 ```
 
+### Recommend
+
+Analyze a target project and suggest install packs based on detected stacks and features (Maven/Gradle, package.json, Docker, AI libraries, CI, etc.).
+
+```bash
+./tools/skillctl recommend --dest /path/to/your-project
+./tools/skillctl recommend --dest /path/to/your-project --format json
+./tools/skillctl recommend --dest /path/to/your-project --target opencode
+./tools/skillctl recommend --dest /path/to/your-project --primary-only
+make recommend DEST=/path/to/your-project
+```
+
+**Detection signals:** Java, Kotlin, .NET, PHP, Rust, React, Angular, Vue, Spring Boot version, Docker/compose, CI workflows, test configs, AI/LLM dependencies.
+
+**Output tiers:**
+
+- **Recommended** — stack packs (`java-backend-pack`, …) plus strong signals (`ai-engineering-pack`, `production-readiness-pack`)
+- **Also consider** — cross-cutting packs (`architecture-review-pack`, `testing-verification-pack`, …) unless `--primary-only`
+
+Includes ready-to-run `install-from-clone.sh` commands for recommended packs.
+
 ### Install
 
 ```bash
@@ -59,7 +105,7 @@ make list-catalog    # summaries + dist/catalog/ file paths
   --dest /path/to/project
 
 # Options:
-#   --target cursor|copilot|codex|claude   (default: cursor)
+#   --target cursor|copilot|codex|claude|opencode   (default: cursor)
 #   --include-draft                 include draft skills
 #   --modes planning coding         filter by modes (subset match)
 ```
@@ -125,11 +171,14 @@ make help
 | `make build-copilot` | Build Copilot output only |
 | `make build-codex` | Build Codex output only |
 | `make build-claude` | Build Claude Code output only |
+| `make build-opencode` | Build OpenCode output only |
 | `make test` | Run unit tests |
 | `make list-skills` | Active skill IDs only |
+| `make list-packs` | Pack IDs |
+| `make list-collections` | Collection IDs (browse-only) |
 | `make list-catalog` | All active skills with summaries + `dist/catalog/` paths |
 | `make catalog` | Print active skill catalog to terminal |
-| `make catalog-build` | Build `dist/catalog/` reports |
+| `make recommend DEST=...` | Suggest install packs for a target project |
 | `make backlog-generate` | Generate backlog from taxonomy |
 | `make backlog-promote-waves` | Generate backlog + promote all waves |
 | `make install-pack PACK=... DEST=...` | Install one pack (Cursor) |
@@ -141,6 +190,8 @@ make help
 
 ```bash
 make check
+make list-packs
+make list-catalog
 make install-pack PACK=java-backend-pack DEST=/path/to/project
 make install-all DEST=/path/to/project
 make catalog-build

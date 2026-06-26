@@ -105,7 +105,8 @@ Update user docs when behavior changes:
 | --- | --- |
 | Install flow | [docs/02-install.md](02-install.md) |
 | New pack | [docs/03-choosing-packs.md](03-choosing-packs.md), `registry/packs/*.yaml`, rebuild catalog |
-| New CLI flag | [docs/05-skillctl-reference.md](05-skillctl-reference.md) |
+| New planning-only skill | `tools/skillforge/modes.py`, `tests/test_modes.py`, `skill.yaml` modes |
+| New CLI flag or command | [docs/05-skillctl-reference.md](05-skillctl-reference.md) |
 | High-level overview | [README.md](../README.md) |
 
 ## CI

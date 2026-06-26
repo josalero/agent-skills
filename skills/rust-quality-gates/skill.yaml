@@ -1,0 +1,35 @@
+id: rust-quality-gates
+display_name: Rust Quality Gates
+domain: rust
+kind: delivery
+modes:
+  - planning
+  - coding
+status: active
+summary: Define and enforce Rust CI quality gates — cargo test, clippy, fmt, deny, and coverage.
+areas:
+  - backend
+  - code-quality
+  - testing
+tags:
+  - rust
+  - ci
+  - quality-gates
+  - clippy
+collections:
+  - rust
+  - backend
+  - testing
+  - code-quality
+packs:
+  - rust-backend-pack
+  - quality-gates-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

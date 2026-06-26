@@ -4,8 +4,11 @@ SUPPORTED_MODES = frozenset({"coding", "planning"})
 
 PLANNING_ONLY_SKILLS = frozenset(
     {
+        "agent-orchestration-design",
+        "ai-evaluation-architecture",
         "api-design-review",
         "cloud-native-delivery",
+        "llm-application-architecture",
         "migration-planning",
         "observability-review",
         "production-readiness-review",
@@ -13,9 +16,12 @@ PLANNING_ONLY_SKILLS = frozenset(
         "security-review",
         "system-architecture-review",
         "software-design-analysis",
+        "technical-article-authoring",
         "technical-documentation-authoring",
         "testing-strategy",
         "tool-calling-design-review",
+        "ui-design-system-review",
+        "ux-design-review",
     }
 )
 
@@ -26,17 +32,27 @@ CODING_ONLY_SKILLS = frozenset(
         "angular-state-management",
         "dotnet-aspnet-service",
         "dotnet-core-engineering",
+        "frontend-ui-engineering",
         "java-21-lts",
         "java-25-lts",
         "java-core-engineering",
         "java-spring-boot-35",
         "java-spring-boot-41",
         "java-spring-boot-service",
+        "kotlin-core-engineering",
+        "kotlin-coroutines-patterns",
+        "kotlin-spring-boot-service",
         "php-core-engineering",
         "php-laravel-service",
         "php-symfony-service",
         "react-component-engineering",
         "react-state-management",
+        "rust-api-service",
+        "rust-async-patterns",
+        "rust-core-engineering",
+        "vue-application-engineering",
+        "vue-composables-patterns",
+        "vue-state-management",
     }
 )
 

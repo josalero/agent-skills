@@ -20,7 +20,9 @@ This is the portable skill bundle format. Other vendor outputs are adapters arou
 
 ## Skills
 
+- `agent-orchestration-design`: Design multi-step agent workflows — routing, state, handoffs, limits, and when not to use an agent loop.
 - `ai-assisted-engineering`: Safe and effective use of AI coding agents in engineering workflows.
+- `ai-evaluation-architecture`: Design eval datasets, metrics, gates, and production quality signals for LLM and RAG features.
 - `angular-accessibility`: Accessible Angular forms, overlays, keyboard support, and CDK patterns.
 - `angular-application-engineering`: Standalone components, services, routing, forms, and maintainable Angular structure.
 - `angular-migrate-any-version`: Plan and execute Angular, CLI, and ecosystem version migrations.
@@ -41,6 +43,7 @@ This is the portable skill bundle format. Other vendor outputs are adapters arou
 - `dotnet-runtime-diagnostics`: Production debugging for .NET services, memory, threads, and latency.
 - `dotnet-security-hardening`: Secure implementation and review patterns for .NET applications.
 - `dotnet-testing-verification`: Design, add, review, and improve .NET test coverage and verification.
+- `frontend-ui-engineering`: Build and review semantic HTML, Tailwind UI, responsive layouts, and complete component states.
 - `java-21-lts`: Adopt Java 21 LTS features and migrate toolchains safely, including virtual threads, sequenced collections, and pattern matching for switch.
 - `java-25-lts`: Adopt Java 25 LTS features and verify toolchain alignment, focusing on finalized language and library capabilities and safe migration from Java 21.
 - `java-ai-backend-engineering`: Build Spring Boot AI features with RAG ports, tools, guardrails, and audit.
@@ -57,6 +60,16 @@ This is the portable skill bundle format. Other vendor outputs are adapters arou
 - `java-spring-boot-41`: Upgrade to or build on Spring Boot 4.1 with Spring Framework 7.0.8+, Spring Security 7.1, gRPC support, hardened HTTP clients, and observability improvements on a Boot 4.0 baseline.
 - `java-spring-boot-service`: Build, review, refactor, and test production-grade Spring Boot services.
 - `java-testing-verification`: Design, add, review, and improve Java test coverage and verification.
+- `kotlin-core-engineering`: Apply modern Kotlin engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+- `kotlin-coroutines-patterns`: Structured concurrency, Flow, channels, and coroutine reliability patterns for Kotlin backend services.
+- `kotlin-jvm-debugging`: Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues in Kotlin services.
+- `kotlin-migrate-any-version`: Plan and execute Kotlin language, compiler, and toolchain migrations with build and test verification.
+- `kotlin-persistence-performance`: Diagnose and improve JPA, Exposed, and R2DBC persistence performance in Kotlin services.
+- `kotlin-quality-gates`: Define and enforce Kotlin CI quality gates — build, test, detekt, ktlint, and coverage thresholds.
+- `kotlin-security-hardening`: Secure implementation and review patterns for Kotlin and Spring Boot applications.
+- `kotlin-spring-boot-service`: Build and review Spring Boot REST services with Kotlin idioms, DI, validation, and service tests.
+- `kotlin-testing-verification`: Design, add, review, and improve Kotlin test coverage and verification.
+- `llm-application-architecture`: Choose LLM application patterns — RAG, tools, routing, memory, and sync vs async — before implementation.
 - `migration-planning`: Plan cross-stack modernizations with sequencing, risk management, and verification.
 - `observability-review`: Review logs, metrics, traces, SLOs, dashboards, and alert quality.
 - `php-core-engineering`: Apply modern PHP engineering practices for idiomatic implementation, maintainability, correctness, and code review.
@@ -79,9 +92,31 @@ This is the portable skill bundle format. Other vendor outputs are adapters arou
 - `react-security-hardening`: Harden React SPAs against XSS, token leakage, CSRF, and unsafe rendering.
 - `react-state-management`: Local, URL, server, context, and store patterns for React applications.
 - `react-testing-verification`: User-centric React tests with Testing Library, Vitest/Jest, and MSW.
+- `rust-api-service`: Build and review Axum and Actix web APIs with validation, auth, and integration tests.
+- `rust-async-patterns`: Tokio async/await, task spawning, channels, and reliability patterns for Rust backend services.
+- `rust-core-engineering`: Apply idiomatic Rust engineering practices for ownership, error handling, maintainability, and code review.
+- `rust-migrate-any-version`: Plan and execute Rust edition and toolchain migrations with build and test verification.
+- `rust-performance`: Diagnose and improve Rust service performance, memory, latency, and CPU utilization.
+- `rust-persistence-patterns`: Design and optimize sqlx and Diesel persistence layers for Rust backend services.
+- `rust-quality-gates`: Define and enforce Rust CI quality gates — cargo test, clippy, fmt, deny, and coverage.
+- `rust-security-hardening`: Secure implementation and review patterns for Rust web services and libraries.
+- `rust-testing-verification`: Design, add, review, and improve Rust test coverage and verification.
 - `security-review`: Cross-stack security review for auth, data handling, dependencies, and deployment.
 - `software-design-analysis`: Analyze requirements, problem structure, design options, and quality attributes before implementation or architecture review.
 - `system-architecture-review`: Review system boundaries, tradeoffs, scalability, operability, and migration risk.
+- `technical-article-authoring`: Plan, draft, and revise public technical articles — LinkedIn posts, tutorials, deep-dives, and opinion pieces with hooks, narrative, and publication-ready structure.
 - `technical-documentation-authoring`: Author BRDs, plans, RFCs, ADRs, and technical specs with clear structure, formatting, and documentation best practices.
 - `testing-strategy`: Plan test layers, CI quality gates, and risk-based verification across stacks.
 - `tool-calling-design-review`: Review agent tool schemas, safety, authorization, idempotency, and observability.
+- `ui-design-system-review`: Review design tokens, spacing, typography, components, and visual consistency across a product UI.
+- `ux-design-review`: Review user flows, heuristics, IA, content, and UI states before or after implementation.
+- `vue-accessibility`: Accessible Vue patterns for forms, keyboard, ARIA, focus, and WCAG-oriented UI.
+- `vue-ai-product-engineering`: Build Vue chat and streaming AI UX with citations, safety, and accessibility.
+- `vue-application-engineering`: SFC script setup, routing, forms, and maintainable Vue application structure.
+- `vue-composables-patterns`: Composables for shared logic, watch, computed, and lifecycle cleanup in Vue 3.
+- `vue-migrate-any-version`: Plan and execute Vue, router, Pinia, Vite, and ecosystem version migrations.
+- `vue-performance`: Diagnose and improve Vue rendering, bundles, lists, and interaction performance.
+- `vue-quality-gates`: Define and enforce Vue CI quality gates — ESLint, Prettier, vue-tsc, Vitest, and coverage thresholds.
+- `vue-security-hardening`: Harden Vue SPAs against XSS, unsafe HTML, token exposure, CSRF, and client-side secret leakage.
+- `vue-state-management`: Local, URL, server, Pinia, and composable state patterns for Vue applications.
+- `vue-testing-verification`: User-centric Vue tests with vue-test-utils, Vitest, and MSW.

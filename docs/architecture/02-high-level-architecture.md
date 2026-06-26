@@ -190,6 +190,7 @@ Checks include:
 | **Codex** | `dist/codex/skills/<id>/` (SKILL.md + references/scripts/assets), `dist/codex/AGENTS.md` |
 | **Cursor** | `dist/cursor/.cursor/skills/<id>/` + thin `dist/cursor/.cursor/rules/<id>.mdc` + `AGENTS.md` |
 | **Copilot** | `dist/copilot/.github/skills/<id>/`, `.github/instructions/*.instructions.md`, `copilot-instructions.md`, `AGENTS.md` |
+| **OpenCode** | `dist/opencode/.opencode/skills/<id>/` (SKILL.md + references/scripts/assets), `dist/opencode/AGENTS.md` (generated index) |
 | **Catalog** | `dist/catalog/*.md`, `skills.json` |
 
 Routing logic (`routing.py`) rewrites reference paths in thin rules to point at bundle roots.
@@ -223,7 +224,8 @@ tools/skillforge/
     ├── claude.py
     ├── codex.py
     ├── cursor.py
-    └── copilot.py
+    ├── copilot.py
+    └── opencode.py
 ```
 
 ---

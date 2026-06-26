@@ -1,0 +1,33 @@
+id: kotlin-testing-verification
+display_name: Kotlin Testing Verification
+domain: kotlin
+kind: testing
+modes:
+  - planning
+  - coding
+status: active
+summary: Design, add, review, and improve Kotlin test coverage and verification.
+areas:
+  - backend
+  - testing
+  - code-quality
+tags:
+  - kotlin
+  - testing
+  - verification
+collections:
+  - kotlin
+  - backend
+  - testing
+packs:
+  - kotlin-backend-pack
+  - testing-verification-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

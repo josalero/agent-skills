@@ -12,7 +12,6 @@ docs/
   05-skillctl-reference.md
   06-contributing.md
   07-introducing-agent-skills.md   ← repo overview & contribution story (article)
-  articles/                      ← Dev.to / LinkedIn short post + social copy
   architecture/
     README.md
     01-brd.md
@@ -31,9 +30,11 @@ Read in order:
 
 | # | Doc | What you'll learn |
 | --- | --- | --- |
-| 1 | [Getting started](01-getting-started.md) | Concepts, first install, glossary |
-| 2 | [Install guide](02-install.md) | Cursor, Codex, Copilot, teams, updates |
+| 1 | [Getting started](01-getting-started.md) | Concepts, first install, browse skills & packs |
+| 2 | [Install guide](02-install.md) | Cursor, Codex, Copilot, Claude Code, teams, updates |
 | 3 | [Choosing packs](03-choosing-packs.md) | Which pack matches your stack *(optional)* |
+| — | [CLI reference — Recommend](05-skillctl-reference.md#recommend) | Auto-suggest packs from your repo |
+| — | [CLI reference — Discover](05-skillctl-reference.md#discover-skills-and-packs) | `skillctl list`, `skillctl catalog`, `make list-catalog` |
 
 ## Maintain this catalog (contributors)
 
@@ -45,7 +46,6 @@ Read in order:
 | 5 | [CLI reference](05-skillctl-reference.md) | All `skillctl` and `make` commands |
 | 6 | [Contributing](06-contributing.md) | PR workflow, CI, what to commit |
 | — | [Introducing agent-skills](07-introducing-agent-skills.md) | Overview article: what it is, how to use & contribute |
-| — | [Dev.to / My Tech Profile article](articles/introducing-agent-skills-devto.md) | Narrative intro (same voice as [Definition of Done insight](https://my-tech-profile.dev/insights/ai-broke-your-definition-of-done)) + [social copy](articles/social-excerpt.md) |
 
 ## Generated catalog reports
 
@@ -72,8 +72,15 @@ Index: **[architecture/README.md](architecture/README.md)**
 
 ```bash
 make list-catalog                      # all skills + dist/catalog paths
+./tools/skillctl recommend --dest /path/to/project   # suggest packs from repo signals
 ./tools/skillctl list --packs          # pack IDs
 ./tools/skillctl list --skills         # skill IDs only
+./tools/skillctl catalog               # id + summary (terminal)
+./tools/skillctl catalog --format json # machine-readable catalog
 ./scripts/install-from-clone.sh --help # install helper
 make help                              # Makefile targets
 ```
+
+**AI architect / LLM planning skills** (planning mode): `llm-application-architecture`, `ai-evaluation-architecture`, `agent-orchestration-design` — in `ai-engineering-pack` and `architecture-review-pack`. See [Choosing packs — AI engineering](03-choosing-packs.md#ai-engineering-pack).
+
+**UX/UI skills:** `ux-design-review`, `ui-design-system-review`, `frontend-ui-engineering` — in `frontend-ux-ui-pack`. See [Choosing packs — Frontend UX/UI](03-choosing-packs.md#frontend-ux-ui-pack).

@@ -1,0 +1,33 @@
+id: technical-article-authoring
+display_name: Technical Article Authoring
+domain: cross-stack
+kind: general
+modes:
+  - planning
+status: active
+summary: Plan, draft, and revise public technical articles — LinkedIn posts, tutorials, deep-dives, and opinion pieces with hooks, narrative, and publication-ready structure.
+areas:
+  - developer-experience
+  - architecture
+  - code-quality
+tags:
+  - cross-stack
+  - writing
+  - article
+  - linkedin
+  - blog
+  - tutorial
+collections:
+  - technical-writing
+  - architecture
+packs:
+  - technical-writing-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

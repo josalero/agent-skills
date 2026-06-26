@@ -1,0 +1,35 @@
+id: rust-migrate-any-version
+display_name: Rust Migrate Any Version
+domain: rust
+kind: migration
+modes:
+  - planning
+  - coding
+status: active
+summary: Plan and execute Rust edition and toolchain migrations with build and test verification.
+areas:
+  - backend
+  - migrations
+  - versions
+  - testing
+tags:
+  - rust
+  - migration
+  - edition
+  - toolchain
+collections:
+  - rust
+  - backend
+  - testing
+  - migrations
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

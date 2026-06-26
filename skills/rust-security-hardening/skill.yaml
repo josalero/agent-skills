@@ -1,0 +1,32 @@
+id: rust-security-hardening
+display_name: Rust Security Hardening
+domain: rust
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: Secure implementation and review patterns for Rust web services and libraries.
+areas:
+  - backend
+  - security
+  - testing
+tags:
+  - rust
+  - security
+  - hardening
+collections:
+  - rust
+  - backend
+packs:
+  - rust-backend-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

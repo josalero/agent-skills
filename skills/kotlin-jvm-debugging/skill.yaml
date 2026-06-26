@@ -1,0 +1,31 @@
+id: kotlin-jvm-debugging
+display_name: Kotlin JVM Debugging
+domain: kotlin
+kind: diagnostic
+modes:
+  - planning
+  - coding
+status: active
+summary: Diagnose JVM runtime behavior, memory, latency, thread, and production performance issues in Kotlin services.
+areas:
+  - backend
+  - observability
+  - performance
+tags:
+  - kotlin
+  - jvm
+  - debugging
+collections:
+  - kotlin
+  - backend
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

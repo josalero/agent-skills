@@ -1,0 +1,32 @@
+id: kotlin-security-hardening
+display_name: Kotlin Security Hardening
+domain: kotlin
+kind: security
+modes:
+  - planning
+  - coding
+status: active
+summary: Secure implementation and review patterns for Kotlin and Spring Boot applications.
+areas:
+  - backend
+  - security
+  - testing
+tags:
+  - kotlin
+  - security
+  - hardening
+collections:
+  - kotlin
+  - backend
+packs:
+  - kotlin-backend-pack
+  - security-review-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

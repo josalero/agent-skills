@@ -5,13 +5,16 @@ from pathlib import Path
 from typing import Any
 
 
-SUPPORTED_TARGETS = {"codex", "cursor", "copilot", "claude"}
+SUPPORTED_TARGETS = {"codex", "cursor", "copilot", "claude", "opencode"}
 SUPPORTED_DOMAINS = {
     "java",
+    "kotlin",
+    "rust",
     "dotnet",
     "php",
     "react",
     "angular",
+    "vue",
     "node",
     "python",
     "database",

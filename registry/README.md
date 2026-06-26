@@ -21,9 +21,14 @@ Everything that **lists, groups, or plans** skills lives here. Skill workflows t
 
 ```bash
 ./tools/skillctl list --packs
+./tools/skillctl list --skills
 ./tools/skillctl list --collections
+./tools/skillctl catalog              # terminal summaries
+./tools/skillctl catalog --format json
 ./tools/skillctl backlog list
-make backlog-generate    # merge taxonomy → skill-backlog.yaml
+make list-catalog                     # summaries + dist/catalog/ paths
+make catalog-build                    # regenerate dist/catalog/
+make backlog-generate                 # merge taxonomy → skill-backlog.yaml
 ```
 
 See [docs/04-authoring-skills.md](../docs/04-authoring-skills.md) for the full authoring guide.

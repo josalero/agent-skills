@@ -1,0 +1,32 @@
+id: rust-api-service
+display_name: Rust API Service
+domain: rust
+kind: framework
+modes:
+  - coding
+status: active
+summary: Build and review Axum and Actix web APIs with validation, auth, and integration tests.
+areas:
+  - backend
+  - api-design
+  - testing
+tags:
+  - rust
+  - axum
+  - actix
+  - api
+collections:
+  - rust
+  - backend
+  - testing
+packs:
+  - rust-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

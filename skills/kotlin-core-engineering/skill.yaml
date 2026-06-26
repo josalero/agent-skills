@@ -1,0 +1,29 @@
+id: kotlin-core-engineering
+display_name: Kotlin Core Engineering
+domain: kotlin
+kind: general
+modes:
+  - coding
+status: active
+summary: Apply modern Kotlin engineering practices for idiomatic implementation, maintainability, correctness, and code review.
+areas:
+  - backend
+  - code-quality
+tags:
+  - kotlin
+  - core-kotlin
+  - refactoring
+collections:
+  - kotlin
+  - backend
+packs:
+  - kotlin-backend-pack
+targets:
+  codex: true
+  cursor: true
+  copilot: true
+  claude: true
+  opencode: true
+owners:
+  - josalero
+stability: stable

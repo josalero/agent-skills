@@ -4,6 +4,7 @@ description: Angular application, RxJS, testing, and performance skills.
 skills:
   - angular-accessibility
   - angular-application-engineering
+  - frontend-ui-engineering
   - angular-migrate-any-version
   - angular-performance
   - angular-quality-gates
@@ -16,3 +17,4 @@ targets:
   - cursor
   - copilot
   - claude
+  - opencode
