@@ -4,13 +4,13 @@ description: Kotlin backend engineering bundle for core language, coroutines, Sp
 skills:
   - kotlin-core-engineering
   - kotlin-coroutines-patterns
-  - kotlin-spring-boot-service
+  - kotlin-jvm-debugging
   - kotlin-migrate-any-version
   - kotlin-persistence-performance
   - kotlin-quality-gates
   - kotlin-security-hardening
+  - kotlin-spring-boot-service
   - kotlin-testing-verification
-  - kotlin-jvm-debugging
 targets:
   - codex
   - cursor

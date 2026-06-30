@@ -18,10 +18,8 @@ tags:
   - performance
 collections:
   - php
-  - backend
 packs:
   - php-backend-pack
-  - production-readiness-pack
 targets:
   codex: true
   cursor: true

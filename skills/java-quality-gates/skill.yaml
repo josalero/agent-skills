@@ -19,12 +19,8 @@ tags:
   - maven
 collections:
   - java
-  - backend
-  - testing
-  - code-quality
 packs:
   - java-backend-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

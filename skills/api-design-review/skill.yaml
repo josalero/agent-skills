@@ -16,8 +16,6 @@ tags:
   - review
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
   - architecture-review-pack
 targets:

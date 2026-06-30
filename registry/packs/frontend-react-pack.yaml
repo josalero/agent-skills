@@ -2,10 +2,10 @@ id: frontend-react-pack
 display_name: Frontend React Pack
 description: React component, state, testing, performance, and accessibility skills.
 skills:
+  - frontend-ui-engineering
   - react-accessibility
   - react-ai-product-engineering
   - react-component-engineering
-  - frontend-ui-engineering
   - react-migrate-any-version
   - react-performance
   - react-quality-gates

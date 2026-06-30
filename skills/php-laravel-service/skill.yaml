@@ -17,8 +17,6 @@ tags:
   - rest-api
 collections:
   - php
-  - backend
-  - testing
 packs:
   - php-backend-pack
 targets:

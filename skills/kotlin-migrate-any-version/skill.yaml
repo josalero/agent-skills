@@ -18,9 +18,6 @@ tags:
   - upgrade
 collections:
   - kotlin
-  - backend
-  - testing
-  - migrations
 packs:
   - kotlin-backend-pack
 targets:

@@ -17,10 +17,8 @@ tags:
   - hardening
 collections:
   - rust
-  - backend
 packs:
   - rust-backend-pack
-  - security-review-pack
 targets:
   codex: true
   cursor: true

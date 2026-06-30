@@ -17,7 +17,6 @@ tags:
   - virtual-threads
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
 targets:

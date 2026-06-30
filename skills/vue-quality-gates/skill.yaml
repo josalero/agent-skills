@@ -20,12 +20,8 @@ tags:
   - vitest
 collections:
   - vue
-  - frontend
-  - testing
-  - code-quality
 packs:
   - frontend-vue-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

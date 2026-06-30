@@ -16,11 +16,8 @@ tags:
   - strategy
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
   - architecture-review-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

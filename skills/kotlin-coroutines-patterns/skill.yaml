@@ -16,7 +16,6 @@ tags:
   - async
 collections:
   - kotlin
-  - backend
 packs:
   - kotlin-backend-pack
 targets:

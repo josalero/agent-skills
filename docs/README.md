@@ -81,6 +81,6 @@ make list-catalog                      # all skills + dist/catalog paths
 make help                              # Makefile targets
 ```
 
-**AI architect / LLM planning skills** (planning mode): `llm-application-architecture`, `ai-evaluation-architecture`, `agent-orchestration-design` — in `ai-engineering-pack` and `architecture-review-pack`. See [Choosing packs — AI engineering](03-choosing-packs.md#ai-engineering-pack).
+**AI architect / LLM planning skills** (planning mode): `llm-application-architecture`, `ai-evaluation-architecture`, `agent-orchestration-design` — in `architecture-review-pack`. See [Choosing packs](03-choosing-packs.md).
 
-**UX/UI skills:** `ux-design-review`, `ui-design-system-review`, `frontend-ui-engineering` — in `frontend-ux-ui-pack`. See [Choosing packs — Frontend UX/UI](03-choosing-packs.md#frontend-ux-ui-pack).
+**UX/UI skills:** `ux-design-review`, `ui-design-system-review`, `frontend-ui-engineering` — planning review skills in `architecture-review-pack`; implementation in each frontend technology pack.

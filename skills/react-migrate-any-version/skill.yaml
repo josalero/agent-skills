@@ -17,7 +17,6 @@ tags:
   - versions
 collections:
   - react
-  - frontend
 packs:
   - frontend-react-pack
 targets:

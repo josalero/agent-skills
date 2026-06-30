@@ -17,11 +17,8 @@ tags:
   - verification
 collections:
   - kotlin
-  - backend
-  - testing
 packs:
   - kotlin-backend-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

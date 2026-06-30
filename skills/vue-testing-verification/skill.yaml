@@ -17,10 +17,8 @@ tags:
   - frontend
 collections:
   - vue
-  - frontend
 packs:
   - frontend-vue-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

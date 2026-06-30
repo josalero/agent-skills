@@ -16,10 +16,8 @@ tags:
   - frontend
 collections:
   - react
-  - frontend
 packs:
   - frontend-react-pack
-  - ai-engineering-pack
 targets:
   codex: true
   cursor: true

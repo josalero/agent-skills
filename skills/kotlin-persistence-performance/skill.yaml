@@ -19,7 +19,6 @@ tags:
   - r2dbc
 collections:
   - kotlin
-  - backend
 packs:
   - kotlin-backend-pack
 targets:

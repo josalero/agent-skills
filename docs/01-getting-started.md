@@ -20,7 +20,7 @@ Skills are **installed as files** into your project. Agents read those files loc
 | --- | --- |
 | **Skill** | One focused capability, e.g. `java-spring-boot-service` |
 | **Pack** | A bundle of related skills you install together, e.g. `java-backend-pack` |
-| **Collection** | A browse/group label in the catalog (java, frontend, testing) — not an install unit |
+| **Collection** | A technology or cross-stack browse label in the catalog (`java`, `react`, `architecture`) — not an install unit |
 | **dist/** | Generated, agent-ready output. **Install from here**, not from `skills/` directly |
 | **modes** | When to use a skill: `planning` (design/review) or `coding` (implement/test), or both |
 
@@ -89,7 +89,7 @@ make catalog-build
 make recommend DEST=/path/to/your-project
 ```
 
-**AI / architecture planning example:** install `ai-engineering-pack` or `architecture-review-pack` with `--modes planning` for skills such as `llm-application-architecture`, `ai-evaluation-architecture`, and `agent-orchestration-design`. See [Choosing packs](03-choosing-packs.md).
+**AI / architecture planning example:** install `architecture-review-pack` with `--modes planning` for skills such as `llm-application-architecture`, `ai-evaluation-architecture`, and `agent-orchestration-design`. See [Choosing packs](03-choosing-packs.md).
 
 ## Pick a different stack?
 

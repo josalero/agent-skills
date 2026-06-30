@@ -16,8 +16,6 @@ tags:
   - planning
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
   - architecture-review-pack
 targets:

@@ -50,7 +50,6 @@ class RecommendTests(unittest.TestCase):
             report = recommend_for_project(self.repo, project)
             pack_ids = [item.pack_id for item in report.packs if item.tier == "recommended"]
             self.assertIn("java-backend-pack", pack_ids)
-            self.assertIn("production-readiness-pack", pack_ids)
 
             skill_ids = [item.skill_id for item in report.skills]
             self.assertIn("java-spring-boot-40", skill_ids)
@@ -73,8 +72,9 @@ class RecommendTests(unittest.TestCase):
 
             report = recommend_for_project(self.repo, project)
             recommended = {item.pack_id for item in report.packs if item.tier == "recommended"}
+            consider = {item.pack_id for item in report.packs if item.tier == "consider"}
             self.assertIn("frontend-react-pack", recommended)
-            self.assertIn("ai-engineering-pack", recommended)
+            self.assertIn("architecture-review-pack", consider)
 
             skill_ids = [item.skill_id for item in report.skills]
             self.assertIn("react-ai-product-engineering", skill_ids)
@@ -101,8 +101,9 @@ class RecommendTests(unittest.TestCase):
 
             report = recommend_for_project(self.repo, project)
             recommended = {item.pack_id for item in report.packs if item.tier == "recommended"}
+            consider = {item.pack_id for item in report.packs if item.tier == "consider"}
             self.assertIn("frontend-vue-pack", recommended)
-            self.assertIn("ai-engineering-pack", recommended)
+            self.assertIn("architecture-review-pack", consider)
 
             skill_ids = [item.skill_id for item in report.skills]
             self.assertIn("vue-ai-product-engineering", skill_ids)

@@ -17,10 +17,8 @@ tags:
   - developer-experience
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
-  - ai-engineering-pack
+  - architecture-review-pack
 targets:
   codex: true
   cursor: true

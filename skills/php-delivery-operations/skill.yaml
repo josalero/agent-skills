@@ -17,7 +17,6 @@ tags:
   - cicd
 collections:
   - php
-  - backend
 packs:
   - php-backend-pack
 targets:

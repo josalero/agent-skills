@@ -3,32 +3,32 @@ version: 1
 domains:
   - id: java
     title: Java
-    collections: [java, backend]
+    collections: [java]
     default_packs: [java-backend-pack]
     default_areas: [backend, code-quality]
   - id: dotnet
     title: .NET
-    collections: [dotnet, backend]
+    collections: [dotnet]
     default_packs: [dotnet-backend-pack]
     default_areas: [backend, code-quality]
   - id: php
     title: PHP
-    collections: [php, backend]
+    collections: [php]
     default_packs: [php-backend-pack]
     default_areas: [backend, code-quality]
   - id: react
     title: React
-    collections: [react, frontend]
+    collections: [react]
     default_packs: [frontend-react-pack]
     default_areas: [frontend, code-quality]
   - id: angular
     title: Angular
-    collections: [angular, frontend]
+    collections: [angular]
     default_packs: [frontend-angular-pack]
     default_areas: [frontend, code-quality]
   - id: cross-stack
     title: Cross-Stack
-    collections: [architecture, backend, frontend]
+    collections: [architecture]
     default_packs: [architecture-review-pack]
     default_areas: [architecture, backend]
 
@@ -63,7 +63,7 @@ capability_shapes:
     priority: P1
     applies_to: [java, dotnet, php, react, angular]
     areas: [security, testing]
-    default_packs: [security-review-pack]
+    default_packs: []
     rationale: Secure implementation and review patterns for {domain_title} applications.
   - id: performance
     skill_suffix: performance
@@ -99,7 +99,7 @@ explicit_skills:
     priority: P0
     status: draft
     areas: [backend, observability, performance]
-    packs: [java-backend-pack, production-readiness-pack]
+    packs: [java-backend-pack]
     rationale: Diagnose JVM runtime behavior, memory, latency, threads, and production issues.
   - id: java-persistence-performance
     display_name: Java Persistence Performance
@@ -107,7 +107,7 @@ explicit_skills:
     kind: diagnostic
     priority: P1
     areas: [backend, data-persistence, performance]
-    packs: [java-backend-pack, production-readiness-pack]
+    packs: [java-backend-pack]
     rationale: SQL, JPA/Hibernate, transactions, N+1 queries, and connection pool tuning.
   - id: java-cloud-native-delivery
     display_name: Java Cloud Native Delivery
@@ -115,7 +115,7 @@ explicit_skills:
     kind: delivery
     priority: P1
     areas: [backend, cloud-delivery, observability]
-    packs: [java-backend-pack, production-readiness-pack]
+    packs: [java-backend-pack]
     rationale: Containers, health checks, CI/CD, and cloud deployment for Java services.
   - id: java-concurrency-reliability
     display_name: Java Concurrency and Reliability
@@ -123,7 +123,7 @@ explicit_skills:
     kind: diagnostic
     priority: P2
     areas: [backend, concurrency, performance]
-    packs: [java-backend-pack, production-readiness-pack]
+    packs: [java-backend-pack]
     rationale: Thread pools, async work, locking, and reliability patterns in Java services.
   - id: java-21-lts
     display_name: Java 21 LTS
@@ -155,7 +155,7 @@ explicit_skills:
     kind: diagnostic
     priority: P2
     areas: [backend, data-persistence, performance]
-    packs: [dotnet-backend-pack, production-readiness-pack]
+    packs: [dotnet-backend-pack]
     rationale: EF Core modeling, queries, migrations, and persistence performance.
   - id: dotnet-runtime-diagnostics
     display_name: .NET Runtime Diagnostics
@@ -163,7 +163,7 @@ explicit_skills:
     kind: diagnostic
     priority: P2
     areas: [backend, observability, performance]
-    packs: [dotnet-backend-pack, production-readiness-pack]
+    packs: [dotnet-backend-pack]
     rationale: Production debugging for .NET services, memory, threads, and latency.
   - id: dotnet-cloud-native-delivery
     display_name: .NET Cloud Native Delivery
@@ -171,7 +171,7 @@ explicit_skills:
     kind: delivery
     priority: P2
     areas: [backend, cloud-delivery]
-    packs: [dotnet-backend-pack, production-readiness-pack]
+    packs: [dotnet-backend-pack]
     rationale: Containerized .NET delivery, CI/CD, and deployment verification.
   - id: php-laravel-service
     display_name: PHP Laravel Service
@@ -195,7 +195,7 @@ explicit_skills:
     kind: diagnostic
     priority: P3
     areas: [backend, data-persistence, performance]
-    packs: [php-backend-pack, production-readiness-pack]
+    packs: [php-backend-pack]
     rationale: ORM/query performance, transactions, and database tuning for PHP apps.
   - id: php-delivery-operations
     display_name: PHP Delivery Operations
@@ -227,7 +227,7 @@ explicit_skills:
     kind: ai-engineering
     priority: P3
     areas: [frontend, ai-engineering]
-    packs: [frontend-react-pack, ai-engineering-pack]
+    packs: [frontend-react-pack]
     rationale: AI-assisted UX, streaming responses, and safe frontend AI feature patterns.
   - id: angular-application-engineering
     display_name: Angular Application Engineering
@@ -275,7 +275,7 @@ explicit_skills:
     kind: review
     priority: P1
     areas: [architecture, observability, cloud-delivery]
-    packs: [architecture-review-pack, production-readiness-pack]
+    packs: [architecture-review-pack]
     rationale: Release readiness, operability, rollback, and production verification.
   - id: security-review
     display_name: Security Review
@@ -283,7 +283,7 @@ explicit_skills:
     kind: review
     priority: P1
     areas: [security, architecture, backend]
-    packs: [architecture-review-pack, security-review-pack]
+    packs: [architecture-review-pack]
     rationale: Cross-stack security review for services, data handling, and dependencies.
   - id: testing-strategy
     display_name: Testing Strategy
@@ -291,7 +291,7 @@ explicit_skills:
     kind: testing
     priority: P1
     areas: [testing, architecture, backend]
-    packs: [architecture-review-pack, testing-verification-pack]
+    packs: [architecture-review-pack]
     rationale: Test planning, quality gates, and verification strategy across stacks.
   - id: observability-review
     display_name: Observability Review
@@ -299,7 +299,7 @@ explicit_skills:
     kind: review
     priority: P2
     areas: [observability, architecture, performance]
-    packs: [architecture-review-pack, production-readiness-pack]
+    packs: [architecture-review-pack]
     rationale: Logs, metrics, traces, SLOs, and production signal quality.
   - id: cloud-native-delivery
     display_name: Cloud Native Delivery
@@ -307,7 +307,7 @@ explicit_skills:
     kind: delivery
     priority: P2
     areas: [cloud-delivery, architecture, backend]
-    packs: [architecture-review-pack, production-readiness-pack]
+    packs: [architecture-review-pack]
     rationale: Deployment architecture, containers, CI/CD, and environment promotion.
   - id: migration-planning
     display_name: Migration Planning
@@ -323,7 +323,7 @@ explicit_skills:
     kind: ai-engineering
     priority: P2
     areas: [ai-engineering, developer-experience, code-quality]
-    packs: [ai-engineering-pack]
+    packs: [architecture-review-pack]
     rationale: Safe and effective use of AI coding agents in engineering workflows.
   - id: java-ai-backend-engineering
     display_name: Java AI Backend Engineering
@@ -331,7 +331,7 @@ explicit_skills:
     kind: ai-engineering
     priority: P2
     areas: [backend, ai-engineering]
-    packs: [java-backend-pack, ai-engineering-pack]
+    packs: [java-backend-pack]
     rationale: AI feature patterns for Java backends including tools, RAG integration, and safety.
   - id: rag-architecture-review
     display_name: RAG Architecture Review
@@ -339,7 +339,7 @@ explicit_skills:
     kind: ai-engineering
     priority: P3
     areas: [ai-engineering, architecture, data-persistence]
-    packs: [ai-engineering-pack, architecture-review-pack]
+    packs: [architecture-review-pack]
     rationale: Retrieval architecture, indexing, evaluation, and operational concerns for RAG systems.
   - id: tool-calling-design-review
     display_name: Tool Calling Design Review
@@ -347,7 +347,7 @@ explicit_skills:
     kind: ai-engineering
     priority: P3
     areas: [ai-engineering, architecture, api-design]
-    packs: [ai-engineering-pack, architecture-review-pack]
+    packs: [architecture-review-pack]
     rationale: Tool schemas, safety, observability, and reliability for agent tool calling.
 
 promotion_criteria_defaults:

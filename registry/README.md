@@ -5,7 +5,7 @@ Everything that **lists, groups, or plans** skills lives here. Skill workflows t
 | Path | Purpose | Edit when… |
 | --- | --- | --- |
 | [packs/](packs/) | Install bundles (`java-backend-pack`, …) | Registering which skills ship together |
-| [collections/](collections/) | Browse/group labels (`java`, `backend`, …) | Adding a skill to a catalog view |
+| [collections/](collections/) | Technology and cross-stack browse labels (`java`, `react`, `architecture`, …) | Adding a skill to a catalog view |
 | [skill-backlog.yaml](skill-backlog.yaml) | Planned and promoted skills with status | Proposing or tracking skill lifecycle |
 | [taxonomy.yaml](taxonomy.yaml) | Source definitions for backlog generation | Adding new skill types at scale (maintainers) |
 | [waves.yaml](waves.yaml) | Promotion waves for draft scaffolding | Batch-promoting groups of skills |

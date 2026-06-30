@@ -2,12 +2,12 @@ id: rust
 display_name: Rust
 description: Skills for Rust language engineering, async runtimes, web APIs, persistence, testing, security, and performance diagnostics.
 skills:
-  - rust-core-engineering
-  - rust-async-patterns
   - rust-api-service
+  - rust-async-patterns
+  - rust-core-engineering
   - rust-migrate-any-version
+  - rust-performance
   - rust-persistence-patterns
   - rust-quality-gates
   - rust-security-hardening
   - rust-testing-verification
-  - rust-performance

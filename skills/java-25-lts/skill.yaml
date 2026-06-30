@@ -16,7 +16,6 @@ tags:
   - lts
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
 targets:

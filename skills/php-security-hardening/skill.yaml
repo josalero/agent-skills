@@ -17,10 +17,8 @@ tags:
   - hardening
 collections:
   - php
-  - backend
 packs:
   - php-backend-pack
-  - security-review-pack
 targets:
   codex: true
   cursor: true

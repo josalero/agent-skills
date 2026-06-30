@@ -18,9 +18,7 @@ tags:
   - adr
   - rfc
 collections:
-  - architecture
-  - backend
-  - frontend
+  - technical-writing
 packs:
   - architecture-review-pack
   - technical-writing-pack

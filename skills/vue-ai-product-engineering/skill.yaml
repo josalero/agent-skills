@@ -16,10 +16,8 @@ tags:
   - frontend
 collections:
   - vue
-  - frontend
 packs:
   - frontend-vue-pack
-  - ai-engineering-pack
 targets:
   codex: true
   cursor: true

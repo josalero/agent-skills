@@ -16,10 +16,8 @@ tags:
   - spring-boot
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
-  - ai-engineering-pack
 targets:
   codex: true
   cursor: true

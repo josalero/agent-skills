@@ -15,7 +15,6 @@ tags:
   - migrate
 collections:
   - dotnet
-  - backend
 packs:
   - dotnet-backend-pack
 targets:

@@ -15,7 +15,6 @@ tags:
   - refactoring
 collections:
   - kotlin
-  - backend
 packs:
   - kotlin-backend-pack
 targets:

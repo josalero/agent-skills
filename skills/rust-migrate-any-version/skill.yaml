@@ -19,9 +19,6 @@ tags:
   - toolchain
 collections:
   - rust
-  - backend
-  - testing
-  - migrations
 packs:
   - rust-backend-pack
 targets:

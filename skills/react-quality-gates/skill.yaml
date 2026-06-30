@@ -19,12 +19,8 @@ tags:
   - typescript
 collections:
   - react
-  - frontend
-  - testing
-  - code-quality
 packs:
   - frontend-react-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

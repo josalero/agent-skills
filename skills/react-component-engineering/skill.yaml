@@ -15,7 +15,6 @@ tags:
   - frontend
 collections:
   - react
-  - frontend
 packs:
   - frontend-react-pack
 targets:

@@ -15,13 +15,11 @@ areas:
 tags:
   - java
   - spring-boot
-  - "4.0"
+  - 4.0
   - spring-framework-7
   - jackson-3
 collections:
   - java
-  - backend
-  - migrations
 packs:
   - java-backend-pack
 targets:

@@ -6,9 +6,7 @@
       "api-design"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Agent Orchestration Design",
     "domain": "cross-stack",
@@ -18,7 +16,6 @@
       "planning"
     ],
     "packs": [
-      "ai-engineering-pack",
       "architecture-review-pack"
     ],
     "stability": "stable",
@@ -39,9 +36,7 @@
       "code-quality"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "AI Assisted Engineering",
     "domain": "cross-stack",
@@ -52,7 +47,7 @@
       "coding"
     ],
     "packs": [
-      "ai-engineering-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -72,9 +67,7 @@
       "testing"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "AI Evaluation Architecture",
     "domain": "cross-stack",
@@ -84,9 +77,7 @@
       "planning"
     ],
     "packs": [
-      "ai-engineering-pack",
-      "architecture-review-pack",
-      "testing-verification-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -105,8 +96,7 @@
       "code-quality"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Accessibility",
     "domain": "angular",
@@ -136,8 +126,7 @@
       "code-quality"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Application Engineering",
     "domain": "angular",
@@ -167,8 +156,7 @@
       "versions"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Migrate Any Version",
     "domain": "angular",
@@ -198,8 +186,7 @@
       "performance"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Performance",
     "domain": "angular",
@@ -230,10 +217,7 @@
       "testing"
     ],
     "collections": [
-      "angular",
-      "frontend",
-      "testing",
-      "code-quality"
+      "angular"
     ],
     "display_name": "Angular Quality Gates",
     "domain": "angular",
@@ -244,8 +228,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-angular-pack",
-      "quality-gates-pack"
+      "frontend-angular-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -264,8 +247,7 @@
       "code-quality"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular RxJS Patterns",
     "domain": "angular",
@@ -294,8 +276,7 @@
       "security"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Security Hardening",
     "domain": "angular",
@@ -306,8 +287,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-angular-pack",
-      "security-review-pack"
+      "frontend-angular-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -326,8 +306,7 @@
       "code-quality"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular State Management",
     "domain": "angular",
@@ -356,8 +335,7 @@
       "testing"
     ],
     "collections": [
-      "angular",
-      "frontend"
+      "angular"
     ],
     "display_name": "Angular Testing Verification",
     "domain": "angular",
@@ -368,8 +346,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-angular-pack",
-      "testing-verification-pack"
+      "frontend-angular-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -389,9 +366,7 @@
       "backend"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "API Design Review",
     "domain": "cross-stack",
@@ -421,9 +396,7 @@
       "backend"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Cloud Native Delivery",
     "domain": "cross-stack",
@@ -433,8 +406,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "production-readiness-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -454,8 +426,7 @@
       "testing"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET ASP.NET Service",
     "domain": "dotnet",
@@ -484,8 +455,7 @@
       "cloud-delivery"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Cloud Native Delivery",
     "domain": "dotnet",
@@ -496,8 +466,7 @@
       "coding"
     ],
     "packs": [
-      "dotnet-backend-pack",
-      "production-readiness-pack"
+      "dotnet-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -516,8 +485,7 @@
       "code-quality"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Core Engineering",
     "domain": "dotnet",
@@ -547,8 +515,7 @@
       "performance"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET EF Core Persistence",
     "domain": "dotnet",
@@ -559,8 +526,7 @@
       "coding"
     ],
     "packs": [
-      "dotnet-backend-pack",
-      "production-readiness-pack"
+      "dotnet-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -579,8 +545,7 @@
       "versions"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Migrate Any Version",
     "domain": "dotnet",
@@ -611,10 +576,7 @@
       "testing"
     ],
     "collections": [
-      "dotnet",
-      "backend",
-      "testing",
-      "code-quality"
+      "dotnet"
     ],
     "display_name": ".NET Quality Gates",
     "domain": "dotnet",
@@ -625,8 +587,7 @@
       "coding"
     ],
     "packs": [
-      "dotnet-backend-pack",
-      "quality-gates-pack"
+      "dotnet-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -646,8 +607,7 @@
       "performance"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Runtime Diagnostics",
     "domain": "dotnet",
@@ -658,8 +618,7 @@
       "coding"
     ],
     "packs": [
-      "dotnet-backend-pack",
-      "production-readiness-pack"
+      "dotnet-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -678,8 +637,7 @@
       "testing"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Security Hardening",
     "domain": "dotnet",
@@ -690,7 +648,7 @@
       "coding"
     ],
     "packs": [
-      "security-review-pack"
+      "dotnet-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -708,8 +666,7 @@
       "testing"
     ],
     "collections": [
-      "dotnet",
-      "backend"
+      "dotnet"
     ],
     "display_name": ".NET Testing Verification",
     "domain": "dotnet",
@@ -739,7 +696,9 @@
       "code-quality"
     ],
     "collections": [
-      "frontend"
+      "react",
+      "angular",
+      "vue"
     ],
     "display_name": "Frontend UI Engineering",
     "domain": "cross-stack",
@@ -749,9 +708,9 @@
       "coding"
     ],
     "packs": [
-      "frontend-ux-ui-pack",
+      "frontend-angular-pack",
       "frontend-react-pack",
-      "frontend-angular-pack"
+      "frontend-vue-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -771,8 +730,7 @@
       "migrations"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java 21 LTS",
     "domain": "java",
@@ -802,8 +760,7 @@
       "migrations"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java 25 LTS",
     "domain": "java",
@@ -832,8 +789,7 @@
       "ai-engineering"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java AI Backend Engineering",
     "domain": "java",
@@ -844,8 +800,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "ai-engineering-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -865,8 +820,7 @@
       "observability"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Cloud Native Delivery",
     "domain": "java",
@@ -877,8 +831,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "production-readiness-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -898,8 +851,7 @@
       "performance"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Concurrency and Reliability",
     "domain": "java",
@@ -910,8 +862,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "production-readiness-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -930,8 +881,7 @@
       "code-quality"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Core Engineering",
     "domain": "java",
@@ -961,8 +911,7 @@
       "performance"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java JVM Debugging",
     "domain": "java",
@@ -994,10 +943,7 @@
       "testing"
     ],
     "collections": [
-      "java",
-      "backend",
-      "testing",
-      "migrations"
+      "java"
     ],
     "display_name": "Java Migrate Any Version",
     "domain": "java",
@@ -1028,8 +974,7 @@
       "performance"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Persistence Performance",
     "domain": "java",
@@ -1040,8 +985,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "production-readiness-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1061,10 +1005,7 @@
       "testing"
     ],
     "collections": [
-      "java",
-      "backend",
-      "testing",
-      "code-quality"
+      "java"
     ],
     "display_name": "Java Quality Gates",
     "domain": "java",
@@ -1075,8 +1016,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "quality-gates-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1096,8 +1036,7 @@
       "testing"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Security Hardening",
     "domain": "java",
@@ -1108,9 +1047,7 @@
       "coding"
     ],
     "packs": [
-      "java-backend-pack",
-      "security-review-pack",
-      "production-readiness-pack"
+      "java-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1131,9 +1068,7 @@
       "observability"
     ],
     "collections": [
-      "java",
-      "backend",
-      "migrations"
+      "java"
     ],
     "display_name": "Java Spring Boot 3.5",
     "domain": "java",
@@ -1164,9 +1099,7 @@
       "security"
     ],
     "collections": [
-      "java",
-      "backend",
-      "migrations"
+      "java"
     ],
     "display_name": "Java Spring Boot 4.0",
     "domain": "java",
@@ -1198,8 +1131,7 @@
       "security"
     ],
     "collections": [
-      "java",
-      "backend"
+      "java"
     ],
     "display_name": "Java Spring Boot 4.1",
     "domain": "java",
@@ -1230,9 +1162,7 @@
       "observability"
     ],
     "collections": [
-      "java",
-      "backend",
-      "testing"
+      "java"
     ],
     "display_name": "Java Spring Boot Service",
     "domain": "java",
@@ -1262,9 +1192,7 @@
       "code-quality"
     ],
     "collections": [
-      "java",
-      "backend",
-      "testing"
+      "java"
     ],
     "display_name": "Java Testing Verification",
     "domain": "java",
@@ -1294,8 +1222,7 @@
       "code-quality"
     ],
     "collections": [
-      "kotlin",
-      "backend"
+      "kotlin"
     ],
     "display_name": "Kotlin Core Engineering",
     "domain": "kotlin",
@@ -1324,8 +1251,7 @@
       "concurrency"
     ],
     "collections": [
-      "kotlin",
-      "backend"
+      "kotlin"
     ],
     "display_name": "Kotlin Coroutines Patterns",
     "domain": "kotlin",
@@ -1355,8 +1281,7 @@
       "performance"
     ],
     "collections": [
-      "kotlin",
-      "backend"
+      "kotlin"
     ],
     "display_name": "Kotlin JVM Debugging",
     "domain": "kotlin",
@@ -1388,10 +1313,7 @@
       "testing"
     ],
     "collections": [
-      "kotlin",
-      "backend",
-      "testing",
-      "migrations"
+      "kotlin"
     ],
     "display_name": "Kotlin Migrate Any Version",
     "domain": "kotlin",
@@ -1422,8 +1344,7 @@
       "performance"
     ],
     "collections": [
-      "kotlin",
-      "backend"
+      "kotlin"
     ],
     "display_name": "Kotlin Persistence Performance",
     "domain": "kotlin",
@@ -1454,10 +1375,7 @@
       "testing"
     ],
     "collections": [
-      "kotlin",
-      "backend",
-      "testing",
-      "code-quality"
+      "kotlin"
     ],
     "display_name": "Kotlin Quality Gates",
     "domain": "kotlin",
@@ -1468,8 +1386,7 @@
       "coding"
     ],
     "packs": [
-      "kotlin-backend-pack",
-      "quality-gates-pack"
+      "kotlin-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1489,8 +1406,7 @@
       "testing"
     ],
     "collections": [
-      "kotlin",
-      "backend"
+      "kotlin"
     ],
     "display_name": "Kotlin Security Hardening",
     "domain": "kotlin",
@@ -1501,8 +1417,7 @@
       "coding"
     ],
     "packs": [
-      "kotlin-backend-pack",
-      "security-review-pack"
+      "kotlin-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1522,9 +1437,7 @@
       "testing"
     ],
     "collections": [
-      "kotlin",
-      "backend",
-      "testing"
+      "kotlin"
     ],
     "display_name": "Kotlin Spring Boot Service",
     "domain": "kotlin",
@@ -1554,9 +1467,7 @@
       "code-quality"
     ],
     "collections": [
-      "kotlin",
-      "backend",
-      "testing"
+      "kotlin"
     ],
     "display_name": "Kotlin Testing Verification",
     "domain": "kotlin",
@@ -1567,8 +1478,7 @@
       "coding"
     ],
     "packs": [
-      "kotlin-backend-pack",
-      "testing-verification-pack"
+      "kotlin-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1588,9 +1498,7 @@
       "api-design"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "LLM Application Architecture",
     "domain": "cross-stack",
@@ -1600,7 +1508,6 @@
       "planning"
     ],
     "packs": [
-      "ai-engineering-pack",
       "architecture-review-pack"
     ],
     "stability": "stable",
@@ -1621,9 +1528,7 @@
       "versions"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Migration Planning",
     "domain": "cross-stack",
@@ -1653,9 +1558,7 @@
       "performance"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Observability Review",
     "domain": "cross-stack",
@@ -1665,8 +1568,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "production-readiness-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1685,8 +1587,7 @@
       "code-quality"
     ],
     "collections": [
-      "php",
-      "backend"
+      "php"
     ],
     "display_name": "PHP Core Engineering",
     "domain": "php",
@@ -1715,8 +1616,7 @@
       "cloud-delivery"
     ],
     "collections": [
-      "php",
-      "backend"
+      "php"
     ],
     "display_name": "PHP Delivery Operations",
     "domain": "php",
@@ -1748,9 +1648,7 @@
       "observability"
     ],
     "collections": [
-      "php",
-      "backend",
-      "testing"
+      "php"
     ],
     "display_name": "PHP Laravel Service",
     "domain": "php",
@@ -1779,8 +1677,7 @@
       "versions"
     ],
     "collections": [
-      "php",
-      "backend"
+      "php"
     ],
     "display_name": "PHP Migrate Any Version",
     "domain": "php",
@@ -1811,8 +1708,7 @@
       "performance"
     ],
     "collections": [
-      "php",
-      "backend"
+      "php"
     ],
     "display_name": "PHP Persistence Performance",
     "domain": "php",
@@ -1823,8 +1719,7 @@
       "coding"
     ],
     "packs": [
-      "php-backend-pack",
-      "production-readiness-pack"
+      "php-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1844,10 +1739,7 @@
       "testing"
     ],
     "collections": [
-      "php",
-      "backend",
-      "testing",
-      "code-quality"
+      "php"
     ],
     "display_name": "PHP Quality Gates",
     "domain": "php",
@@ -1858,8 +1750,7 @@
       "coding"
     ],
     "packs": [
-      "php-backend-pack",
-      "quality-gates-pack"
+      "php-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1879,8 +1770,7 @@
       "testing"
     ],
     "collections": [
-      "php",
-      "backend"
+      "php"
     ],
     "display_name": "PHP Security Hardening",
     "domain": "php",
@@ -1891,8 +1781,7 @@
       "coding"
     ],
     "packs": [
-      "php-backend-pack",
-      "security-review-pack"
+      "php-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -1913,9 +1802,7 @@
       "observability"
     ],
     "collections": [
-      "php",
-      "backend",
-      "testing"
+      "php"
     ],
     "display_name": "PHP Symfony Service",
     "domain": "php",
@@ -1943,9 +1830,7 @@
       "testing"
     ],
     "collections": [
-      "php",
-      "backend",
-      "testing"
+      "php"
     ],
     "display_name": "PHP Testing Verification",
     "domain": "php",
@@ -1976,9 +1861,7 @@
       "cloud-delivery"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Production Readiness Review",
     "domain": "cross-stack",
@@ -1988,8 +1871,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "production-readiness-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2009,9 +1891,7 @@
       "data-persistence"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "RAG Architecture Review",
     "domain": "cross-stack",
@@ -2021,7 +1901,6 @@
       "planning"
     ],
     "packs": [
-      "ai-engineering-pack",
       "architecture-review-pack"
     ],
     "stability": "stable",
@@ -2041,8 +1920,7 @@
       "code-quality"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Accessibility",
     "domain": "react",
@@ -2072,8 +1950,7 @@
       "ai-engineering"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React AI Product Engineering",
     "domain": "react",
@@ -2084,8 +1961,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-react-pack",
-      "ai-engineering-pack"
+      "frontend-react-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2104,8 +1980,7 @@
       "code-quality"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Component Engineering",
     "domain": "react",
@@ -2135,8 +2010,7 @@
       "versions"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Migrate Any Version",
     "domain": "react",
@@ -2166,8 +2040,7 @@
       "performance"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Performance",
     "domain": "react",
@@ -2198,10 +2071,7 @@
       "testing"
     ],
     "collections": [
-      "react",
-      "frontend",
-      "testing",
-      "code-quality"
+      "react"
     ],
     "display_name": "React Quality Gates",
     "domain": "react",
@@ -2212,8 +2082,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-react-pack",
-      "quality-gates-pack"
+      "frontend-react-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2232,8 +2101,7 @@
       "security"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Security Hardening",
     "domain": "react",
@@ -2244,8 +2112,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-react-pack",
-      "security-review-pack"
+      "frontend-react-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2264,8 +2131,7 @@
       "code-quality"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React State Management",
     "domain": "react",
@@ -2294,8 +2160,7 @@
       "testing"
     ],
     "collections": [
-      "react",
-      "frontend"
+      "react"
     ],
     "display_name": "React Testing Verification",
     "domain": "react",
@@ -2306,8 +2171,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-react-pack",
-      "testing-verification-pack"
+      "frontend-react-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2327,9 +2191,7 @@
       "testing"
     ],
     "collections": [
-      "rust",
-      "backend",
-      "testing"
+      "rust"
     ],
     "display_name": "Rust API Service",
     "domain": "rust",
@@ -2358,8 +2220,7 @@
       "concurrency"
     ],
     "collections": [
-      "rust",
-      "backend"
+      "rust"
     ],
     "display_name": "Rust Async Patterns",
     "domain": "rust",
@@ -2388,8 +2249,7 @@
       "code-quality"
     ],
     "collections": [
-      "rust",
-      "backend"
+      "rust"
     ],
     "display_name": "Rust Core Engineering",
     "domain": "rust",
@@ -2420,10 +2280,7 @@
       "testing"
     ],
     "collections": [
-      "rust",
-      "backend",
-      "testing",
-      "migrations"
+      "rust"
     ],
     "display_name": "Rust Migrate Any Version",
     "domain": "rust",
@@ -2454,8 +2311,7 @@
       "performance"
     ],
     "collections": [
-      "rust",
-      "backend"
+      "rust"
     ],
     "display_name": "Rust Performance",
     "domain": "rust",
@@ -2485,8 +2341,7 @@
       "data-persistence"
     ],
     "collections": [
-      "rust",
-      "backend"
+      "rust"
     ],
     "display_name": "Rust Persistence Patterns",
     "domain": "rust",
@@ -2517,10 +2372,7 @@
       "testing"
     ],
     "collections": [
-      "rust",
-      "backend",
-      "testing",
-      "code-quality"
+      "rust"
     ],
     "display_name": "Rust Quality Gates",
     "domain": "rust",
@@ -2531,8 +2383,7 @@
       "coding"
     ],
     "packs": [
-      "rust-backend-pack",
-      "quality-gates-pack"
+      "rust-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2552,8 +2403,7 @@
       "testing"
     ],
     "collections": [
-      "rust",
-      "backend"
+      "rust"
     ],
     "display_name": "Rust Security Hardening",
     "domain": "rust",
@@ -2564,8 +2414,7 @@
       "coding"
     ],
     "packs": [
-      "rust-backend-pack",
-      "security-review-pack"
+      "rust-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2585,9 +2434,7 @@
       "code-quality"
     ],
     "collections": [
-      "rust",
-      "backend",
-      "testing"
+      "rust"
     ],
     "display_name": "Rust Testing Verification",
     "domain": "rust",
@@ -2598,8 +2445,7 @@
       "coding"
     ],
     "packs": [
-      "rust-backend-pack",
-      "testing-verification-pack"
+      "rust-backend-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2619,9 +2465,7 @@
       "backend"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Security Review",
     "domain": "cross-stack",
@@ -2631,8 +2475,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "security-review-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2653,8 +2496,7 @@
     ],
     "collections": [
       "architecture",
-      "backend",
-      "frontend"
+      "technical-writing"
     ],
     "display_name": "Software Design Analysis",
     "domain": "cross-stack",
@@ -2685,9 +2527,7 @@
       "cloud-delivery"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "System Architecture Review",
     "domain": "cross-stack",
@@ -2717,8 +2557,7 @@
       "code-quality"
     ],
     "collections": [
-      "technical-writing",
-      "architecture"
+      "technical-writing"
     ],
     "display_name": "Technical Article Authoring",
     "domain": "cross-stack",
@@ -2748,9 +2587,7 @@
       "code-quality"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "technical-writing"
     ],
     "display_name": "Technical Documentation Authoring",
     "domain": "cross-stack",
@@ -2781,9 +2618,7 @@
       "backend"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Testing Strategy",
     "domain": "cross-stack",
@@ -2793,8 +2628,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "testing-verification-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2814,9 +2648,7 @@
       "api-design"
     ],
     "collections": [
-      "architecture",
-      "backend",
-      "frontend"
+      "architecture"
     ],
     "display_name": "Tool Calling Design Review",
     "domain": "cross-stack",
@@ -2826,7 +2658,6 @@
       "planning"
     ],
     "packs": [
-      "ai-engineering-pack",
       "architecture-review-pack"
     ],
     "stability": "stable",
@@ -2847,8 +2678,7 @@
       "code-quality"
     ],
     "collections": [
-      "architecture",
-      "frontend"
+      "architecture"
     ],
     "display_name": "UI Design System Review",
     "domain": "cross-stack",
@@ -2858,8 +2688,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "frontend-ux-ui-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2879,8 +2708,7 @@
       "code-quality"
     ],
     "collections": [
-      "architecture",
-      "frontend"
+      "architecture"
     ],
     "display_name": "UX Design Review",
     "domain": "cross-stack",
@@ -2890,8 +2718,7 @@
       "planning"
     ],
     "packs": [
-      "architecture-review-pack",
-      "frontend-ux-ui-pack"
+      "architecture-review-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2910,8 +2737,7 @@
       "code-quality"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Accessibility",
     "domain": "vue",
@@ -2941,8 +2767,7 @@
       "ai-engineering"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue AI Product Engineering",
     "domain": "vue",
@@ -2953,8 +2778,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-vue-pack",
-      "ai-engineering-pack"
+      "frontend-vue-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -2973,8 +2797,7 @@
       "code-quality"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Application Engineering",
     "domain": "vue",
@@ -3003,8 +2826,7 @@
       "code-quality"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Composables Patterns",
     "domain": "vue",
@@ -3034,8 +2856,7 @@
       "versions"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Migrate Any Version",
     "domain": "vue",
@@ -3065,8 +2886,7 @@
       "performance"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Performance",
     "domain": "vue",
@@ -3097,10 +2917,7 @@
       "testing"
     ],
     "collections": [
-      "vue",
-      "frontend",
-      "testing",
-      "code-quality"
+      "vue"
     ],
     "display_name": "Vue Quality Gates",
     "domain": "vue",
@@ -3111,8 +2928,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-vue-pack",
-      "quality-gates-pack"
+      "frontend-vue-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -3131,8 +2947,7 @@
       "security"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Security Hardening",
     "domain": "vue",
@@ -3143,8 +2958,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-vue-pack",
-      "security-review-pack"
+      "frontend-vue-pack"
     ],
     "stability": "stable",
     "status": "active",
@@ -3163,8 +2977,7 @@
       "code-quality"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue State Management",
     "domain": "vue",
@@ -3193,8 +3006,7 @@
       "testing"
     ],
     "collections": [
-      "vue",
-      "frontend"
+      "vue"
     ],
     "display_name": "Vue Testing Verification",
     "domain": "vue",
@@ -3205,8 +3017,7 @@
       "coding"
     ],
     "packs": [
-      "frontend-vue-pack",
-      "testing-verification-pack"
+      "frontend-vue-pack"
     ],
     "stability": "stable",
     "status": "active",

@@ -2,6 +2,7 @@ id: react
 display_name: React
 description: Skills for React components, state, testing, performance, and accessibility.
 skills:
+  - frontend-ui-engineering
   - react-accessibility
   - react-ai-product-engineering
   - react-component-engineering

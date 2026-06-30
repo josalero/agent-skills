@@ -95,7 +95,7 @@ Start new skills as `status: draft`. Set `active` when authored and reviewed.
 
 **Planning-only skills:** if a skill is design/review-only (no implementation workflow), declare `modes: [planning]` in `skill.yaml` and add the skill ID to `PLANNING_ONLY_SKILLS` in `tools/skillforge/modes.py`. Tests in `tests/test_modes.py` enforce canonical mode lists.
 
-**AI engineering skills** (`kind: ai-engineering`) often pair with `architecture-review-pack` and/or `ai-engineering-pack`. Cross-reference related skills in `SKILL.md` (for example `rag-architecture-review`, `tool-calling-design-review`).
+**AI engineering skills** (`kind: ai-engineering`) often pair with `architecture-review-pack` and the relevant technology pack (for example `java-backend-pack` for `java-ai-backend-engineering`). Cross-reference related skills in `SKILL.md` (for example `rag-architecture-review`, `tool-calling-design-review`).
 
 ### 4. Add eval prompt
 

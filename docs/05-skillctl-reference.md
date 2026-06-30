@@ -91,8 +91,8 @@ make recommend DEST=/path/to/your-project
 
 **Output tiers:**
 
-- **Recommended** — stack packs (`java-backend-pack`, …) plus strong signals (`ai-engineering-pack`, `production-readiness-pack`)
-- **Also consider** — cross-cutting packs (`architecture-review-pack`, `testing-verification-pack`, …) unless `--primary-only`
+- **Recommended** — technology packs (`java-backend-pack`, `frontend-react-pack`, …) detected from project files
+- **Also consider** — `architecture-review-pack` for planning, AI, CI, and cross-stack review — unless `--primary-only`
 
 Includes ready-to-run `install-from-clone.sh` commands for recommended packs.
 

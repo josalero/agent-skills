@@ -20,12 +20,8 @@ tags:
   - symfony
 collections:
   - php
-  - backend
-  - testing
-  - code-quality
 packs:
   - php-backend-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

@@ -17,10 +17,8 @@ tags:
   - hardening
 collections:
   - kotlin
-  - backend
 packs:
   - kotlin-backend-pack
-  - security-review-pack
 targets:
   codex: true
   cursor: true

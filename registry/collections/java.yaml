@@ -13,8 +13,8 @@ skills:
   - java-persistence-performance
   - java-quality-gates
   - java-security-hardening
-  - java-spring-boot-service
   - java-spring-boot-35
   - java-spring-boot-40
   - java-spring-boot-41
+  - java-spring-boot-service
   - java-testing-verification

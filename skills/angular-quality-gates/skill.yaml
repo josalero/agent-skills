@@ -19,12 +19,8 @@ tags:
   - typescript
 collections:
   - angular
-  - frontend
-  - testing
-  - code-quality
 packs:
   - frontend-angular-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

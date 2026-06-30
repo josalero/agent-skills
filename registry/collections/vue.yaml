@@ -2,6 +2,7 @@ id: vue
 display_name: Vue
 description: Skills for Vue components, composables, state, testing, performance, and accessibility.
 skills:
+  - frontend-ui-engineering
   - vue-accessibility
   - vue-ai-product-engineering
   - vue-application-engineering

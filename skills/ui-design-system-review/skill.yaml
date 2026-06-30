@@ -17,10 +17,8 @@ tags:
   - tailwind
 collections:
   - architecture
-  - frontend
 packs:
   - architecture-review-pack
-  - frontend-ux-ui-pack
 targets:
   codex: true
   cursor: true

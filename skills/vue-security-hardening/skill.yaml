@@ -16,10 +16,8 @@ tags:
   - frontend
 collections:
   - vue
-  - frontend
 packs:
   - frontend-vue-pack
-  - security-review-pack
 targets:
   codex: true
   cursor: true

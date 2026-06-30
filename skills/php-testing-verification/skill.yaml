@@ -16,8 +16,6 @@ tags:
   - verification
 collections:
   - php
-  - backend
-  - testing
 packs:
   - php-backend-pack
 targets:

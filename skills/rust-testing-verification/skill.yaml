@@ -17,11 +17,8 @@ tags:
   - verification
 collections:
   - rust
-  - backend
-  - testing
 packs:
   - rust-backend-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

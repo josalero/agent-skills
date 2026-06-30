@@ -16,8 +16,6 @@ tags:
   - rest-api
 collections:
   - kotlin
-  - backend
-  - testing
 packs:
   - kotlin-backend-pack
 targets:

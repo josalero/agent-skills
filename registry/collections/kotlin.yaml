@@ -4,10 +4,10 @@ description: Skills for Kotlin language engineering, coroutines, Spring Boot ser
 skills:
   - kotlin-core-engineering
   - kotlin-coroutines-patterns
-  - kotlin-spring-boot-service
+  - kotlin-jvm-debugging
   - kotlin-migrate-any-version
   - kotlin-persistence-performance
   - kotlin-quality-gates
   - kotlin-security-hardening
+  - kotlin-spring-boot-service
   - kotlin-testing-verification
-  - kotlin-jvm-debugging

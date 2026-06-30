@@ -16,7 +16,6 @@ tags:
   - frontend
 collections:
   - vue
-  - frontend
 packs:
   - frontend-vue-pack
 targets:

@@ -16,10 +16,8 @@ tags:
   - frontend
 collections:
   - angular
-  - frontend
 packs:
   - frontend-angular-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

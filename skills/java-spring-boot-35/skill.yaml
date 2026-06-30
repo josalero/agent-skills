@@ -14,12 +14,10 @@ areas:
 tags:
   - java
   - spring-boot
-  - "3.5"
+  - 3.5
   - spring-framework-6
 collections:
   - java
-  - backend
-  - migrations
 packs:
   - java-backend-pack
 targets:

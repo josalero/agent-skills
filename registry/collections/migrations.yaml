@@ -1,8 +1,0 @@
-id: migrations
-display_name: Migrations
-description: Skills for version upgrades, framework modernization, compatibility checks, and migration verification.
-skills:
-  - java-migrate-any-version
-  - java-spring-boot-35
-  - java-spring-boot-40
-

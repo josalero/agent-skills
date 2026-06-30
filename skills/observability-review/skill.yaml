@@ -16,11 +16,8 @@ tags:
   - review
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
   - architecture-review-pack
-  - production-readiness-pack
 targets:
   codex: true
   cursor: true

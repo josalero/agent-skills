@@ -16,7 +16,6 @@ tags:
   - service
 collections:
   - dotnet
-  - backend
 packs:
   - dotnet-backend-pack
 targets:

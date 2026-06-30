@@ -18,12 +18,8 @@ tags:
   - analyzers
 collections:
   - dotnet
-  - backend
-  - testing
-  - code-quality
 packs:
   - dotnet-backend-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

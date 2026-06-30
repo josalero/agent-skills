@@ -14,12 +14,11 @@ areas:
 tags:
   - java
   - spring-boot
-  - "4.1"
+  - 4.1
   - spring-framework-7
   - grpc
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
 targets:

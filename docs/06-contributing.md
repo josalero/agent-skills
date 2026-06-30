@@ -28,7 +28,7 @@ make check
 ## PR workflow
 
 1. Create a branch from `main` / `master`.
-2. Make changes under `skills/`, `packs/`, `collections/`, or `tools/`.
+2. Make changes under `skills/`, `registry/packs/`, `registry/collections/`, or `tools/`.
 3. Run the full check locally:
 
 ```bash

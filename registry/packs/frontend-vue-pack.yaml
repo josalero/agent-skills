@@ -2,10 +2,10 @@ id: frontend-vue-pack
 display_name: Frontend Vue Pack
 description: Vue application, composables, state, testing, performance, and accessibility skills.
 skills:
+  - frontend-ui-engineering
   - vue-accessibility
   - vue-ai-product-engineering
   - vue-application-engineering
-  - frontend-ui-engineering
   - vue-composables-patterns
   - vue-migrate-any-version
   - vue-performance

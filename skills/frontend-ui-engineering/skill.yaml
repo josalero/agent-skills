@@ -16,11 +16,13 @@ tags:
   - tailwind
   - responsive
 collections:
-  - frontend
+  - react
+  - angular
+  - vue
 packs:
-  - frontend-ux-ui-pack
-  - frontend-react-pack
   - frontend-angular-pack
+  - frontend-react-pack
+  - frontend-vue-pack
 targets:
   codex: true
   cursor: true

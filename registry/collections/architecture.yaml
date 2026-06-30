@@ -1,6 +1,6 @@
 id: architecture
 display_name: Architecture
-description: Cross-stack architecture, review, and planning skills.
+description: Cross-stack architecture, review, and planning skills (technology-specific skills live in their stack collections).
 skills:
   - agent-orchestration-design
   - ai-assisted-engineering
@@ -13,10 +13,8 @@ skills:
   - production-readiness-review
   - rag-architecture-review
   - security-review
-  - system-architecture-review
   - software-design-analysis
-  - technical-documentation-authoring
-  - technical-article-authoring
+  - system-architecture-review
   - testing-strategy
   - tool-calling-design-review
   - ui-design-system-review

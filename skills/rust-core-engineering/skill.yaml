@@ -15,7 +15,6 @@ tags:
   - refactoring
 collections:
   - rust
-  - backend
 packs:
   - rust-backend-pack
 targets:

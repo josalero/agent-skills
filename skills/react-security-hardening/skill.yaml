@@ -16,10 +16,8 @@ tags:
   - frontend
 collections:
   - react
-  - frontend
 packs:
   - frontend-react-pack
-  - security-review-pack
 targets:
   codex: true
   cursor: true

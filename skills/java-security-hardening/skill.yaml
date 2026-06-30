@@ -17,11 +17,8 @@ tags:
   - hardening
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
-  - security-review-pack
-  - production-readiness-pack
 targets:
   codex: true
   cursor: true

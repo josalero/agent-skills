@@ -16,9 +16,8 @@ tags:
   - hardening
 collections:
   - dotnet
-  - backend
 packs:
-  - security-review-pack
+  - dotnet-backend-pack
 targets:
   codex: true
   cursor: true

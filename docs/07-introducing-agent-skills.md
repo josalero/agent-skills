@@ -25,9 +25,9 @@ A skill is not a prompt dump. It is a small, focused package:
 
 Example: `java-spring-boot-service` tells an agent how to build or review a REST vertical slice (DTOs, validation, transactions, tests). `java-quality-gates` tells it how to fix CI when Checkstyle or JaCoCo fails. `technical-documentation-authoring` tells it how to structure an RFC or ADR.
 
-**AI architect skills** (planning mode) help before you write code: `llm-application-architecture` (RAG vs tools vs prompt-only, routing, memory), `ai-evaluation-architecture` (golden sets, metrics, CI gates), and `agent-orchestration-design` (multi-step agents, state, limits, human-in-the-loop). They ship in `ai-engineering-pack` and `architecture-review-pack`.
+**AI architect skills** (planning mode) help before you write code: `llm-application-architecture` (RAG vs tools vs prompt-only, routing, memory), `ai-evaluation-architecture` (golden sets, metrics, CI gates), and `agent-orchestration-design` (multi-step agents, state, limits, human-in-the-loop). They ship in `architecture-review-pack`.
 
-**UX/UI skills** complement framework accessibility skills: `ux-design-review` and `ui-design-system-review` for flows, heuristics, and design tokens; `frontend-ui-engineering` for semantic HTML, Tailwind, and responsive implementation. See `frontend-ux-ui-pack`.
+**UX/UI skills** complement framework accessibility skills: `ux-design-review` and `ui-design-system-review` for flows, heuristics, and design tokens; `frontend-ui-engineering` for semantic HTML, Tailwind, and responsive implementation in each frontend technology pack.
 
 Skills declare **modes**:
 
@@ -66,9 +66,9 @@ cd agent-skills
   --target codex
 ```
 
-**Packs** are curated bundles: `java-backend-pack`, `frontend-react-pack`, `architecture-review-pack`, `ai-engineering-pack`, `quality-gates-pack`, and others. See [Choosing packs](03-choosing-packs.md) for a stack picker, or run `./tools/skillctl catalog` / browse [active skills](../../dist/catalog/active-skills.md) after `make build`.
+**Packs** are technology-scoped install bundles: `java-backend-pack`, `frontend-react-pack`, `architecture-review-pack`, and others. See [Choosing packs](03-choosing-packs.md) for a stack picker, or run `./tools/skillctl catalog` / browse [active skills](../../dist/catalog/active-skills.md) after `make build`.
 
-**Collections** (`java`, `backend`, `testing`, …) group skills for browsing in the catalog — they are not install units.
+**Collections** (`java`, `react`, `architecture`, …) group skills by technology or cross-stack concern for browsing — they are not install units.
 
 Nothing phones home at runtime. Skills are files on disk in your repo, same as your own rules.
 

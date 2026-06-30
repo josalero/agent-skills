@@ -17,8 +17,6 @@ tags:
   - api
 collections:
   - rust
-  - backend
-  - testing
 packs:
   - rust-backend-pack
 targets:

@@ -17,7 +17,6 @@ tags:
   - debugging
 collections:
   - java
-  - backend
 packs:
   - java-backend-pack
 targets:
@@ -29,4 +28,3 @@ targets:
 owners:
   - josalero
 stability: stable
-

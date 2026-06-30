@@ -19,12 +19,8 @@ tags:
   - gradle
 collections:
   - kotlin
-  - backend
-  - testing
-  - code-quality
 packs:
   - kotlin-backend-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

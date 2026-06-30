@@ -18,12 +18,8 @@ tags:
   - clippy
 collections:
   - rust
-  - backend
-  - testing
-  - code-quality
 packs:
   - rust-backend-pack
-  - quality-gates-pack
 targets:
   codex: true
   cursor: true

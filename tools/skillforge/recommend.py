@@ -328,24 +328,21 @@ def recommend_for_project(
     if profile.has_stack("vue"):
         pack_candidates.append(("frontend-vue-pack", "recommended", "Vue dependency or config detected."))
 
-    if profile.has_feature("tailwind") and (
-        profile.has_stack("react") or profile.has_stack("angular") or profile.has_stack("vue")
-    ):
-        pack_candidates.append(
-            (
-                "frontend-ux-ui-pack",
-                "recommended",
-                "Tailwind CSS detected with a frontend stack — UX/UI review and implementation skills.",
-            )
-        )
-
     if profile.has_feature("ai"):
         pack_candidates.append(
-            ("ai-engineering-pack", "recommended", "AI / LLM / RAG related dependencies or libraries detected.")
+            (
+                "architecture-review-pack",
+                "consider",
+                "AI / LLM / RAG related dependencies detected — planning skills for architecture, eval, and orchestration.",
+            )
         )
-    if profile.has_feature("docker"):
+    if profile.has_feature("docker") and not profile.stacks:
         pack_candidates.append(
-            ("production-readiness-pack", "recommended", "Container or compose files detected.")
+            (
+                "architecture-review-pack",
+                "consider",
+                "Container or compose files detected — production readiness and delivery planning skills.",
+            )
         )
 
     if include_consider:
@@ -360,25 +357,17 @@ def recommend_for_project(
         if profile.has_feature("automated-tests") or profile.has_feature("ci"):
             pack_candidates.append(
                 (
-                    "testing-verification-pack",
+                    "architecture-review-pack",
                     "consider",
-                    "Test tooling or CI configuration detected — adds testing strategy and quality gates.",
-                )
-            )
-        if profile.has_feature("ci"):
-            pack_candidates.append(
-                (
-                    "quality-gates-pack",
-                    "consider",
-                    "CI pipeline detected — focused quality-gate skills for your stack.",
+                    "Test tooling or CI configuration detected — testing strategy and quality-gate planning.",
                 )
             )
         if profile.stacks:
             pack_candidates.append(
                 (
-                    "security-review-pack",
+                    "architecture-review-pack",
                     "consider",
-                    "Stack-specific security hardening plus cross-stack security review.",
+                    "Cross-stack security review complements stack-specific hardening in your technology pack.",
                 )
             )
         if not profile.stacks and not profile.features:

@@ -16,7 +16,6 @@ tags:
   - composer
 collections:
   - php
-  - backend
 packs:
   - php-backend-pack
 targets:

@@ -18,9 +18,6 @@ tags:
   - upgrade
 collections:
   - java
-  - backend
-  - testing
-  - migrations
 packs:
   - java-backend-pack
 targets:
@@ -32,4 +29,3 @@ targets:
 owners:
   - josalero
 stability: stable
-

@@ -3,6 +3,7 @@ display_name: Architecture Review Pack
 description: Architecture, API design, readiness, and migration planning skills.
 skills:
   - agent-orchestration-design
+  - ai-assisted-engineering
   - ai-evaluation-architecture
   - api-design-review
   - cloud-native-delivery
@@ -12,8 +13,8 @@ skills:
   - production-readiness-review
   - rag-architecture-review
   - security-review
-  - system-architecture-review
   - software-design-analysis
+  - system-architecture-review
   - technical-documentation-authoring
   - testing-strategy
   - tool-calling-design-review

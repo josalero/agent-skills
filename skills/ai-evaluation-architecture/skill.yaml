@@ -18,12 +18,8 @@ tags:
   - quality
 collections:
   - architecture
-  - backend
-  - frontend
 packs:
-  - ai-engineering-pack
   - architecture-review-pack
-  - testing-verification-pack
 targets:
   codex: true
   cursor: true

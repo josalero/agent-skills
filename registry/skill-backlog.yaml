@@ -1,27 +1,5 @@
 version: 1
 skills:
-  - id: ai-assisted-engineering
-    display_name: AI Assisted Engineering
-    domain: cross-stack
-    kind: ai-engineering
-    priority: P2
-    status: active
-    areas:
-      - ai-engineering
-      - developer-experience
-      - code-quality
-    packs:
-      - ai-engineering-pack
-    collections:
-      - architecture
-      - backend
-      - frontend
-    rationale: Safe and effective use of AI coding agents in engineering workflows.
-    promotion_criteria:
-      - Has a distinct workflow in SKILL.md.
-      - Has at least one realistic eval prompt.
-      - Has references when code samples or version tables are needed.
-      - Validates and renders for Codex, Cursor, and Copilot.
   - id: agent-orchestration-design
     display_name: Agent Orchestration Design
     domain: cross-stack
@@ -40,6 +18,28 @@ skills:
       - backend
       - frontend
     rationale: Multi-step agent workflows, routing, state, limits, and human-in-the-loop design.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
+  - id: ai-assisted-engineering
+    display_name: AI Assisted Engineering
+    domain: cross-stack
+    kind: ai-engineering
+    priority: P2
+    status: active
+    areas:
+      - ai-engineering
+      - developer-experience
+      - code-quality
+    packs:
+      - ai-engineering-pack
+    collections:
+      - architecture
+      - backend
+      - frontend
+    rationale: Safe and effective use of AI coding agents in engineering workflows.
     promotion_criteria:
       - Has a distinct workflow in SKILL.md.
       - Has at least one realistic eval prompt.
@@ -1193,6 +1193,27 @@ skills:
       - Has at least one realistic eval prompt.
       - Has references when code samples or version tables are needed.
       - Validates and renders for Codex, Cursor, and Copilot.
+  - id: technical-article-authoring
+    display_name: Technical Article Authoring
+    domain: cross-stack
+    kind: general
+    priority: P2
+    status: active
+    areas:
+      - developer-experience
+      - architecture
+      - code-quality
+    packs:
+      - technical-writing-pack
+    collections:
+      - technical-writing
+      - architecture
+    rationale: Plan, draft, and revise public technical articles for LinkedIn, blogs, and dev publications.
+    promotion_criteria:
+      - Has a distinct workflow in SKILL.md.
+      - Has at least one realistic eval prompt.
+      - Has references when code samples or version tables are needed.
+      - Validates and renders for Codex, Cursor, and Copilot.
   - id: testing-strategy
     display_name: Testing Strategy
     domain: cross-stack
@@ -1256,27 +1277,6 @@ skills:
       - architecture
       - frontend
     rationale: Design tokens, spacing, typography, and component consistency audits.
-    promotion_criteria:
-      - Has a distinct workflow in SKILL.md.
-      - Has at least one realistic eval prompt.
-      - Has references when code samples or version tables are needed.
-      - Validates and renders for Codex, Cursor, and Copilot.
-  - id: technical-article-authoring
-    display_name: Technical Article Authoring
-    domain: cross-stack
-    kind: general
-    priority: P2
-    status: active
-    areas:
-      - developer-experience
-      - architecture
-      - code-quality
-    packs:
-      - technical-writing-pack
-    collections:
-      - technical-writing
-      - architecture
-    rationale: Plan, draft, and revise public technical articles for LinkedIn, blogs, and dev publications.
     promotion_criteria:
       - Has a distinct workflow in SKILL.md.
       - Has at least one realistic eval prompt.
